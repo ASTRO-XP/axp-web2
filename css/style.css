@@ -160,7 +160,6 @@ p,
 .auto-container {
     position: static;
     max-width: 1200px;
-    padding: 0px 15px;
     margin: 0 auto;
 }
 
@@ -542,20 +541,14 @@ figure {
     color: #3786ff;
 }
 
-.pull-right {
-    float: right;
-}
-
 .pull-left {
-    float: left;
+    margin-right: auto;
 }
 
 .pull-left img {
     position: relative;
     height: 72px;
-    padding-top: 10px;
     padding-bottom: 10px;
-    padding-left: 25px;
     width: auto;
 }
 
@@ -659,7 +652,6 @@ img {
     margin-top: 3px;
     width: 355px;
     height: auto;
-    filter: drop-shadow(2px 2px 3px #575e61be);
 }
 
 .dropdown-toggle::after {
@@ -678,6 +670,15 @@ img {
 ====================================================================
 
 ***/
+
+.banner-bg{
+    position: relative;
+    background-image: url(../images/background/LONG_BG1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-image: url(../gif/ASTRO-XP-ANIMATION_COLORED.gif);
+    background-size: 250px auto;
+}
 
 .main-header {
     position: relative;
@@ -763,7 +764,7 @@ img {
 
 .main-header .header-upper {
     position: relative;
-    background-color: #1c1e2a;
+    background-color: #000000;
 }
 
 .main-header .header-upper .logo-outer {
@@ -837,7 +838,6 @@ img {
     background-position: center center;
 }
 
-
 /*===  Header Lower ===*/
 
 .main-header .header-lower {
@@ -854,13 +854,16 @@ img {
 }
 
 .main-menu .navbar-collapse {
-    padding: 0px;
-    display: block !important;
+    display: flex !important;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
 }
 
 .main-menu .navigation {
     position: relative;
-    margin: 0px;
 }
 
 .main-menu .navigation>li {
@@ -1396,6 +1399,10 @@ img {
 
 ***/
 
+.pull-right{
+    margin-left: auto;
+}
+
 .sticky-header {
     position: fixed;
     visibility: hidden;
@@ -1405,7 +1412,7 @@ img {
     width: 100%;
     padding: 0px 0px;
     z-index: -1;
-    background: #1C1E2A;
+    background: #000000;
     -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
     -moz-box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
     -ms-box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
@@ -1446,10 +1453,9 @@ img {
 }
 
 .sticky-header .main-menu .navigation>li>a {
-    padding: 20px 0px !important;
-    line-height: 30px;
-    font-size: 17px;
-    font-weight: 500;
+    line-height: 5px;
+    font-size: 12px;
+    font-weight: 700;
     color: #BFBFBF;
     text-transform: capitalize;
     -webkit-transition: all 300ms ease;
@@ -2289,7 +2295,6 @@ footer p {
     padding-top: 82px;
     border-bottom: 13px solid #1c1e2a;
     background: url(../gif/axp-emoji.gif) center no-repeat;
-    filter: drop-shadow(3px 3px 4px #181a1bda);
     background-size: auto 72px;
     z-index: 2;
 }
@@ -6020,7 +6025,6 @@ Community Icons
     display: inline-block;
     width: 290px;
     height: auto;
-    filter: drop-shadow(2px 2px 3px #575e61be);
     padding-top: 10px;
     padding-bottom: 10px;
 }
