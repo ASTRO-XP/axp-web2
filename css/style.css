@@ -2035,12 +2035,45 @@ footer p {
 
 .holov-container {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     height: 100vh;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    align-content: center;
+    width: 532px;
+    flex-wrap: wrap;
     align-items: center;
+    flex-direction: row;
+    align-content: center;
+}
+
+.holov-image1 img {
+    position: relative;
+    height: 329px;
+    width: 250px;
+    top: -79px;
+    left: -94px;
+}
+
+.holov-image2 img {
+    position: relative;
+    height: 329px;
+    width: 250px;
+    top: -30px;
+    left: 106px;
+}
+
+.holov-image3 img {
+    position: relative;
+    height: 329px;
+    width: 250px;
+    top: -82px;
+    left: -40px;
+}
+
+.holov-image4 img {
+    position: relative;
+    height: 329px;
+    width: 250px;
+    top: -24px;
+    left: 57px;
 }
 
 
