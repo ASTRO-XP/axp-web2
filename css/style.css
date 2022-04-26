@@ -156,6 +156,7 @@ p,
     z-index: 9;
     overflow: hidden;
     background-image: url("/images/background/LONG_BG1.jpg");
+    background-position-x: center;
 }
 
 .auto-container {
@@ -916,6 +917,68 @@ img {
     transition: all 300ms ease;
 }
 
+.arrow-d {
+    display: inline-block;
+    position: relative;
+    bottom: -5px;
+    left: -30px;
+    transition: 0.4s ease;
+    text-align: center;
+    transform: rotate(45deg);
+}
+
+.arrow-d#spancom {
+    display: inline-block;
+    position: relative;
+    bottom: -5px;
+    left: -60px;
+    transition: 0.4s ease;
+    text-align: center;
+    transform: rotate(45deg);
+}
+
+.arrow-d:before,
+.arrow-d:after {
+    position: absolute;
+    content: '';
+    display: inline-block;
+    width: 12px;
+    height: 3px;
+    background-color: #a5a5a5;
+    transition: 0.4s ease;
+}
+
+.arrow-d:after {
+    position: absolute;
+    transform: rotate(90deg);
+    top: -5px;
+    left: 5px;
+}
+
+.dropdown.active .arrow-d {
+    transform: rotate(45deg) translate(-5px, -5px);
+}
+
+.dropdown.active .arrow-d#spancom {
+    transform: rotate(45deg) translate(-5px, -5px);
+}
+
+.dropdown.active .arrow-d:before {
+    transform: translate(10px, 0);
+}
+
+.dropdown.active .arrow-d#spancom:before {
+    transform: translate(10px, 0);
+}
+
+.dropdown.active .arrow-d:after {
+    transform: rotate(90deg) translate(10px, 0);
+}
+
+.dropdown.active .arrow-d#spancom:after {
+    transform: rotate(90deg) translate(10px, 0);
+}
+
 .sticky-header .main-menu .navigation>li>a:before {
     display: none;
 }
@@ -934,12 +997,12 @@ img {
     position: absolute;
     left: 0px;
     top: 100%;
-    width: 230px;
+    width: 220px;
     z-index: 100;
     display: none;
     opacity: 0;
     visibility: hidden;
-    padding: 15px 0px;
+    padding: 5px 0px;
     background-color: #1C1E2A;
     border-top: 2px solid #20324e;
     box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.05), -2px 0px 5px 1px rgba(0, 0, 0, 0.05);
@@ -1023,9 +1086,9 @@ img {
     right: 5px;
     top: 12px;
     display: block;
-    line-height: 24px;
-    font-size: 16px;
-    font-weight: 800;
+    line-height: 5px;
+    font-size: 12px;
+    font-weight: 700;
     text-align: center;
     z-index: 5;
 }
@@ -1096,7 +1159,7 @@ img {
     display: block;
     line-height: 24px;
     font-size: 10px;
-    font-weight: 900;
+    font-weight: 700;
     z-index: 5;
 }
 
@@ -1484,6 +1547,7 @@ img {
     float: right;
     font-size: 40px;
     line-height: 50px;
+    right: 15px;
     cursor: pointer;
     color: #3786ff;
     display: none;
@@ -1754,7 +1818,7 @@ img {
 .sec-title {
     position: relative;
     z-index: 1;
-    margin-bottom: 60px;
+    margin-bottom: 30px;
 }
 
 .sec-title .title {
@@ -2125,11 +2189,15 @@ footer p {
     display: block;
 }
 
+.default-portfolio-item .image-box.intro img {
+    height: 128px;
+    float: right;
+}
+
 .tokenomics-img {
     position: relative;
     display: block;
     width: 100%;
-    height: 750px;
 }
 
 .default-portfolio-item .overlay-box {
@@ -5764,9 +5832,10 @@ Community Icons
 
 .auto-container .img-logo-sticky {
     display: inline-block;
-    width: 290px;
+    width: 68px;
     height: auto;
     padding-top: 10px;
+    left: 15px;
     padding-bottom: 10px;
 }
 
