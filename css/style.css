@@ -2109,7 +2109,6 @@ footer p {
 
 .default-portfolio-item .inner-box {
     position: relative;
-    width: 100%;
     overflow: hidden;
 }
 
@@ -2122,7 +2121,6 @@ footer p {
 .default-portfolio-item .image-box img {
     position: relative;
     display: block;
-    width: 100%;
 }
 
 .tokenomics-img {
