@@ -2086,6 +2086,8 @@ footer p {
 ***/
 
 .features-section {
+    background-color: #0101028c;
+    box-shadow: 0 0 10px 10px #02001478;
     position: relative;
     padding: 115px 0px 60px;
 }
@@ -2232,8 +2234,11 @@ footer p {
 .gamemode-section {
     position: relative;
     padding: 40px 0px 150px;
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-color: #0101028c;
+    /* box-shadow: 0px -2px 2px rgb(34 34 34 / 60%); */
+    box-shadow: 0 0 10px 10px #02001478;
+    position: relative;
+    padding: 115px 0px 60px;
 }
 
 .gamemode-section:before {
@@ -3173,7 +3178,10 @@ footer p {
 
 .main-footer {
     position: relative;
-    background-color: #000000;
+    background-color: #010102c2;
+    /* box-shadow: 0px -2px 2px rgb(34 34 34 / 60%); */
+    box-shadow: 0 0 10px 10px #02001478;
+    position: relative;
 }
 
 .main-footer:before {
@@ -3183,7 +3191,6 @@ footer p {
     top: 0px;
     right: 0px;
     height: 213px;
-    background: url(../images/background/6.png) no-repeat;
 }
 
 .main-footer .widgets-section {
