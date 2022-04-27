@@ -132,7 +132,7 @@ p,
     line-height: 30px;
     font-family: 'Oxanium';
     font-weight: 400;
-    color: #A6A6A6;
+    color: #FFF;
     margin: 0;
 }
 
@@ -209,7 +209,7 @@ figure {
     display: inline-block;
     font-size: 18px;
     line-height: 30px;
-    color: #BFBFBF;
+    color: #FFF;
     font-weight: 700;
     letter-spacing: 1px;
     text-transform: uppercase;
@@ -249,7 +249,7 @@ figure {
     height: 100%;
     width: 100%;
     content: "";
-    background-color: #BFBFBF;
+    background-color: #FFF;
     -webkit-transform: scale(0, 1);
     -ms-transform: scale(0, 1);
     transform: scale(0, 1);
@@ -298,7 +298,7 @@ figure {
     display: block;
     z-index: 1;
     padding: 8px 28px;
-    background-color: #BFBFBF;
+    background-color: #FFF;
     transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
     -webkit-transition: all 0.3s ease;
@@ -307,7 +307,7 @@ figure {
 }
 
 .btn-style-two:hover .btn-title {
-    color: #BFBFBF;
+    color: #FFF;
     -webkit-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
     -moz-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
     -ms-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
@@ -385,7 +385,7 @@ figure {
     height: 100%;
     width: 100%;
     content: "";
-    background-color: #BFBFBF;
+    background-color: #FFF;
     -webkit-transform: scale(0, 1);
     -ms-transform: scale(0, 1);
     transform: scale(0, 1);
@@ -421,7 +421,7 @@ figure {
     display: inline-block;
     font-size: 16px;
     line-height: 28px;
-    color: #BFBFBF;
+    color: #FFF;
     padding: 10px 30px;
     font-weight: 500;
     overflow: hidden;
@@ -431,7 +431,7 @@ figure {
 
 .btn-style-four:hover {
     color: #333333;
-    border: 1px solid #BFBFBF;
+    border: 1px solid #FFF;
     -webkit-box-shadow: rgba(255, 255, 255, 1) 0 0px 0px 40px inset;
     -moz-box-shadow: rgba(255, 255, 255, 1) 0 0px 0px 40px inset;
     -ms-box-shadow: rgba(255, 255, 255, 1) 0 0px 0px 40px inset;
@@ -492,7 +492,7 @@ figure {
     display: block;
     font-size: 19px;
     line-height: 30px;
-    color: #BFBFBF;
+    color: #FFF;
     font-weight: 400;
     -webkit-transition: all 300ms ease;
     -moz-transition: all 300ms ease;
@@ -749,7 +749,7 @@ img {
 
 .main-header .header-top .top-right .social-icons li a {
     position: relative;
-    color: #BFBFBF;
+    color: #FFF;
     font-size: 16px;
     -webkit-transition: all 300ms ease;
     -moz-transition: all 300ms ease;
@@ -895,7 +895,7 @@ img {
     line-height: 5px;
     font-weight: 700;
     opacity: 1;
-    color: #BFBFBF;
+    color: #FFF;
     padding: 0px;
     z-index: 1;
     -webkit-transition: all 300ms ease;
@@ -1021,7 +1021,7 @@ img {
 .main-menu .navigation>li>ul>li {
     position: relative;
     width: 100%;
-    color: #BFBFBF;
+    color: #FFF;
     padding: 5px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
@@ -1063,7 +1063,7 @@ img {
     font-weight: 700;
     font-size: 12px;
     text-transform: capitalize;
-    color: #BFBFBF;
+    color: #FFF;
     text-align: left;
     transition: all 500ms ease;
     -moz-transition: all 500ms ease;
@@ -1081,7 +1081,7 @@ img {
 }
 
 .main-menu .navigation>li>ul>li:hover>a {
-    color: #BFBFBF;
+    color: #FFF;
 }
 
 .main-menu .navigation>li>ul>li.dropdown>a:after {
@@ -1152,7 +1152,7 @@ img {
 }
 
 .main-menu .navigation>li>ul>li>ul>li:hover>a {
-    color: #BFBFBF;
+    color: #FFF;
 }
 
 .main-menu .navigation>li>ul>li>ul>li.dropdown>a:after {
@@ -1204,11 +1204,11 @@ img {
     top: 8px;
     width: 34px;
     height: 30px;
-    border: 1px solid #BFBFBF;
+    border: 1px solid #FFF;
     text-align: center;
     font-size: 16px;
     line-height: 26px;
-    color: #BFBFBF;
+    color: #FFF;
     cursor: pointer;
     z-index: 5;
     display: none;
@@ -1311,7 +1311,7 @@ img {
     height: 40px;
     font-size: 14px;
     border: 1px solid #e0e0e0;
-    background: #BFBFBF;
+    background: #FFF;
 }
 
 .main-header .search-panel input:focus,
@@ -1423,7 +1423,7 @@ img {
 }
 
 .header-style-two .header-upper .logo:before{
-	background-color: #BFBFBF;
+	background-color: #FFF;
 }
 
 .header-style-two .header-top .top-left{
@@ -1522,7 +1522,7 @@ img {
     line-height: 5px;
     font-size: 12px;
     font-weight: 700;
-    color: #BFBFBF;
+    color: #FFF;
     text-transform: capitalize;
     -webkit-transition: all 300ms ease;
     -moz-transition: all 300ms ease;
@@ -1661,7 +1661,7 @@ img {
     width: 24px;
     text-align: center;
     font-size: 16px;
-    color: #BFBFBF;
+    color: #FFF;
     cursor: pointer;
     z-index: 10;
     -webkit-transition: all 0.9s ease;
@@ -1712,7 +1712,7 @@ img {
     padding: 10px 25px;
     font-size: 15px;
     font-weight: 500;
-    color: #BFBFBF;
+    color: #FFF;
     text-transform: uppercase;
     -webkit-transition: all 500ms ease;
     -moz-transition: all 500ms ease;
@@ -1759,7 +1759,7 @@ img {
     text-align: center;
     font-size: 16px;
     line-height: 32px;
-    color: #BFBFBF;
+    color: #FFF;
     background: rgba(255, 255, 255, 0.1);
     cursor: pointer;
     border-radius: 2px;
@@ -1799,7 +1799,7 @@ img {
     position: relative;
     line-height: 32px;
     font-size: 16px;
-    color: #BFBFBF;
+    color: #FFF;
     -webkit-transition: all 500ms ease;
     -moz-transition: all 500ms ease;
     -ms-transition: all 500ms ease;
@@ -1831,7 +1831,7 @@ img {
     display: block;
     font-family: 'Oxanium';
     font-size: 20px;
-    color: #BFBFBF;
+    color: #FFF;
     font-weight: 400;
     margin-bottom: 10px;
     letter-spacing: 1px;
@@ -1843,7 +1843,7 @@ img {
     display: block;
     font-size: 60px;
     line-height: 1.1em;
-    color: #BFBFBF;
+    color: #FFF;
     font-weight: bold;
     text-transform: uppercase;
 }
@@ -1853,7 +1853,7 @@ img {
 }
 
 .sec-title.light h2 {
-    color: #BFBFBF;
+    color: #FFF;
 }
 
 
@@ -1884,7 +1884,7 @@ Main components
     letter-spacing: 1px;
     top: 0;
     right: 0;
-    color: #BFBFBF;
+    color: #FFF;
     padding: 1em;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -2225,7 +2225,7 @@ footer p {
     right: 1px;
     bottom: 1px;
     padding: 0px;
-    color: #BFBFBF;
+    color: #FFF;
     opacity: 0;
     text-align: center;
     transition: all 500ms ease;
@@ -2270,7 +2270,7 @@ footer p {
 
 .default-portfolio-item .overlay-inner h3 {
     position: relative;
-    color: #BFBFBF;
+    color: #FFF;
     font-size: 40px;
     line-height: 1.2em;
     font-weight: 700;
@@ -2279,7 +2279,7 @@ footer p {
 
 .default-portfolio-item .overlay-inner h3 a {
     position: relative;
-    color: #BFBFBF;
+    color: #FFF;
     transition: all 500ms ease;
     -webkit-transition: all 500ms ease;
     -ms-transition: all 500ms ease;
@@ -2300,7 +2300,7 @@ footer p {
 .features-section .lower-box .text {
     position: relative;
     font-family: 'Oxanium';
-    color: #A6A6A6;
+    color: #FFF;
     font-size: 20px;
     max-width: 780px;
     margin: 0 auto;
@@ -2414,7 +2414,7 @@ footer p {
 
 .blogs-section .matches-tabs .tab-btns .tab-btn:hover,
 .blogs-section .matches-tabs .tab-btns .tab-btn.active-btn {
-    color: #BFBFBF;
+    color: #FFF;
 }
 
 .blogs-section .matches-tabs .tabs-content {
@@ -2497,12 +2497,12 @@ footer p {
     position: relative;
     letter-spacing: 2px;
     margin-left: 10px;
-    color: #BFBFBF;
+    color: #FFF;
 }
 
 .matches-block .inner-block .content-column h2 {
     position: relative;
-    color: #BFBFBF;
+    color: #FFF;
     font-size: 30px;
     margin-top: 15px;
     font-weight: 700;
@@ -2511,7 +2511,7 @@ footer p {
 
 .matches-block .inner-block .content-column h2 a {
     position: relative;
-    color: #BFBFBF;
+    color: #FFF;
     transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
     -webkit-transition: all 0.3s ease;
@@ -2556,7 +2556,7 @@ footer p {
     content: "vs";
     width: 40px;
     height: 40px;
-    color: #BFBFBF;
+    color: #FFF;
     font-size: 14px;
     line-height: 38px;
     text-align: center;
@@ -2572,7 +2572,7 @@ footer p {
 
 .matches-block:hover .match-column .match-item::before,
 .matches-block .match-column:hover .match-item::before {
-    color: #BFBFBF;
+    color: #FFF;
     border-color: #3786ff;
     background-color: #3786ff;
 }
@@ -2596,7 +2596,7 @@ footer p {
     position: relative;
     text-align: center;
     font-size: 70px;
-    color: #BFBFBF;
+    color: #FFF;
     line-height: 1em;
     padding: 30px 0px;
     background: url(../images/background/4.jpg) no-repeat;
@@ -2625,7 +2625,7 @@ footer p {
 }
 
 .match-item .inner-item .product:hover {
-    color: #BFBFBF;
+    color: #FFF;
     border-color: #3786ff;
     background-color: #3786ff;
 }
@@ -2668,7 +2668,7 @@ footer p {
     right: 1px;
     bottom: 1px;
     opacity: 0;
-    color: #BFBFBF;
+    color: #FFF;
     text-align: center;
     transition: all 500ms ease;
     -moz-transition: all 500ms ease;
@@ -2732,7 +2732,7 @@ footer p {
     width: 50px;
     height: 50px;
     font-size: 18px;
-    color: #BFBFBF;
+    color: #FFF;
     line-height: 50px;
     font-weight: 400;
     text-align: center;
@@ -2773,7 +2773,7 @@ footer p {
 
 .gallery-item .overlay-inner .link:hover .icon {
     color: #3786ff;
-    background-color: #BFBFBF;
+    background-color: #FFF;
 }
 
 
@@ -2846,7 +2846,7 @@ footer p {
     top: 0px;
     width: 94px;
     height: 94px;
-    color: #BFBFBF;
+    color: #FFF;
     font-size: 40px;
     line-height: 92px;
     text-align: center;
@@ -2871,13 +2871,13 @@ footer p {
 .question-block .inner-box h3 {
     position: relative;
     font-size: 20px;
-    color: #BFBFBF;
+    color: #FFF;
     text-transform: uppercase;
 }
 
 .question-block .inner-box h3 a {
     position: relative;
-    color: #BFBFBF;
+    color: #FFF;
     transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
     -webkit-transition: all 0.3s ease;
@@ -2940,7 +2940,7 @@ footer p {
 
 .facts-section .content h2 {
     position: relative;
-    color: #BFBFBF;
+    color: #FFF;
     font-size: 60px;
     font-weight: 700;
     line-height: 1.1em;
@@ -2990,7 +2990,7 @@ footer p {
 
 .featured-block .inner-box h3 {
     position: relative;
-    color: #BFBFBF;
+    color: #FFF;
     font-size: 50px;
     font-weight: 400;
     letter-spacing: 1px;
@@ -3080,7 +3080,7 @@ footer p {
 
 .testimonial-block .inner-box .text {
     position: relative;
-    color: #BFBFBF;
+    color: #FFF;
     font-size: 30px;
     line-height: 1.5em;
     margin-top: 35px;
@@ -3159,7 +3159,7 @@ footer p {
     line-height: 24px;
     letter-spacing: 1px;
     display: inline-block;
-    background-color: #BFBFBF;
+    background-color: #FFF;
     text-transform: uppercase;
     transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
@@ -3170,13 +3170,13 @@ footer p {
 
 .blog-block .inner-box:hover .lower-content .post-date {
     background-color: #3786ff;
-    color: #BFBFBF;
+    color: #FFF;
 }
 
 .blog-block .inner-box .lower-content h3 {
     position: relative;
     font-size: 24px;
-    color: #BFBFBF;
+    color: #FFF;
     font-weight: 700;
     line-height: 1.4em;
     letter-spacing: 2px;
@@ -3186,7 +3186,7 @@ footer p {
 
 .blog-block .inner-box .lower-content h3 a {
     position: relative;
-    color: #BFBFBF;
+    color: #FFF;
     transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
     -webkit-transition: all 0.3s ease;
@@ -3298,7 +3298,7 @@ footer p {
     position: relative;
     font-size: 16px;
     font-weight: 700;
-    color: #BFBFBF;
+    color: #FFF;
     letter-spacing: 1px;
     text-transform: uppercase;
 }
@@ -3376,7 +3376,7 @@ footer p {
     font-size: 16px;
     background: none;
     font-weight: 400;
-    color: #BFBFBF;
+    color: #FFF;
     border: 1px solid rgba(0, 0, 0, 0);
     -webkit-transition: all 300ms ease;
     -ms-transition: all 300ms ease;
@@ -3403,7 +3403,7 @@ footer p {
     top: 0px;
     right: 0px;
     float: right;
-    color: #BFBFBF;
+    color: #FFF;
     font-size: 18px;
     font-weight: 400;
     text-align: center;
@@ -3435,7 +3435,7 @@ footer p {
 
 .main-footer .footer-bottom .social-icons li a {
     position: relative;
-    color: #BFBFBF;
+    color: #FFF;
     font-size: 16px;
     -webkit-transition: all 300ms ease;
     -moz-transition: all 300ms ease;
@@ -3463,7 +3463,7 @@ footer p {
     top: -5px;
     width: 40px;
     height: 40px;
-    color: #BFBFBF;
+    color: #FFF;
     font-size: 15px;
     line-height: 40px;
     text-align: center;
@@ -3481,7 +3481,7 @@ footer p {
 }
 
 .main-footer .footer-bottom .scroll-to-top:hover {
-    background: #BFBFBF;
+    background: #FFF;
     color: #3786ff;
 }
 
@@ -3519,11 +3519,11 @@ footer p {
 }
 
 .games-block .inner-box:hover .btn-style-two .btn-title {
-    color: #BFBFBF;
+    color: #FFF;
 }
 
 .games-block .inner-box:hover .btn-style-two:before {
-    background: #BFBFBF;
+    background: #FFF;
 }
 
 .games-block .inner-box .image {
@@ -3547,7 +3547,7 @@ footer p {
 .games-block .inner-box .lower-content h3 {
     position: relative;
     font-size: 24px;
-    color: #BFBFBF;
+    color: #FFF;
     font-weight: 700;
     line-height: 1.4em;
     letter-spacing: 2px;
@@ -3557,7 +3557,7 @@ footer p {
 
 .games-block .inner-box .lower-content h3 a {
     position: relative;
-    color: #BFBFBF;
+    color: #FFF;
     -webkit-transition: all 300ms ease;
     -moz-transition: all 300ms ease;
     -ms-transition: all 300ms ease;
@@ -3713,7 +3713,7 @@ footer p {
 
 .player-block .inner-box .lower-content h3 a {
     position: relative;
-    color: #BFBFBF;
+    color: #FFF;
     -webkit-transition: all 300ms ease;
     -moz-transition: all 300ms ease;
     -ms-transition: all 300ms ease;
@@ -3749,7 +3749,7 @@ footer p {
 
 .player-block .inner-box .lower-content .social-icons li a {
     position: relative;
-    color: #BFBFBF;
+    color: #FFF;
     font-size: 16px;
     -webkit-transition: all 300ms ease;
     -moz-transition: all 300ms ease;
@@ -3814,7 +3814,7 @@ footer p {
     width: 72px;
     height: 72px;
     z-index: 99;
-    color: #BFBFBF;
+    color: #FFF;
     font-weight: 400;
     font-size: 20px;
     text-align: center;
@@ -3893,7 +3893,7 @@ footer p {
 
 .call-to-action-section .content h2 {
     position: relative;
-    color: #BFBFBF;
+    color: #FFF;
     font-size: 60px;
     letter-spacing: 1px;
     line-height: 1.1em;
@@ -3957,7 +3957,7 @@ footer p {
 
 .contact-form-section .title-column .social-icons li a {
     position: relative;
-    color: #BFBFBF;
+    color: #FFF;
     font-size: 17px;
     -webkit-transition: all 300ms ease;
     -moz-transition: all 300ms ease;
@@ -3997,7 +3997,7 @@ footer p {
     font-size: 15px;
     padding: 10px 30px;
     background: #1b1a1a;
-    color: #BFBFBF;
+    color: #FFF;
     font-weight: 400;
     border: 1px solid rgba(255, 255, 255, 0);
     transition: all 500ms ease;
@@ -4040,7 +4040,7 @@ footer p {
     line-height: 20px;
     font-size: 15px;
     font-weight: 500;
-    color: #BFBFBF;
+    color: #FFF;
 }
 
 
@@ -4070,7 +4070,7 @@ footer p {
 .page-banner h1 {
     position: relative;
     font-size: 70px;
-    color: #BFBFBF;
+    color: #FFF;
     line-height: 1.2em;
     font-weight: 700;
     text-transform: uppercase;
@@ -4086,7 +4086,7 @@ footer p {
     float: left;
     font-size: 16px;
     line-height: 30px;
-    color: #BFBFBF;
+    color: #FFF;
     font-weight: 400;
     text-transform: uppercase;
     cursor: default;
@@ -4099,7 +4099,7 @@ footer p {
     right: -3px;
     font-size: 18px;
     line-height: 30px;
-    color: #BFBFBF;
+    color: #FFF;
     font-weight: 400;
     content: ".";
 }
@@ -4114,7 +4114,7 @@ footer p {
 }
 
 .page-banner .bread-crumb li a {
-    color: #BFBFBF;
+    color: #FFF;
     font-weight: 400;
     -webkit-transition: all 300ms ease;
     -moz-transition: all 300ms ease;
@@ -4169,7 +4169,7 @@ footer p {
 
 .about-section .lower-content h3 {
     position: relative;
-    color: #BFBFBF;
+    color: #FFF;
     font-size: 40px;
     font-weight: 700;
     text-transform: uppercase;
@@ -4244,7 +4244,7 @@ footer p {
     top: 0px;
     width: 94px;
     height: 94px;
-    color: #BFBFBF;
+    color: #FFF;
     font-size: 40px;
     line-height: 92px;
     text-align: center;
@@ -4269,13 +4269,13 @@ footer p {
 .question-block-two .inner-box h3 {
     position: relative;
     font-size: 20px;
-    color: #BFBFBF;
+    color: #FFF;
     text-transform: uppercase;
 }
 
 .question-block-two .inner-box h3 a {
     position: relative;
-    color: #BFBFBF;
+    color: #FFF;
     transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
     -webkit-transition: all 0.3s ease;
@@ -4336,7 +4336,7 @@ footer p {
 }
 
 .match-single .title-box .recent-result span {
-    color: #BFBFBF;
+    color: #FFF;
     margin-left: 10px;
 }
 
@@ -4345,7 +4345,7 @@ footer p {
     display: block;
     font-size: 30px;
     line-height: 1.2em;
-    color: #BFBFBF;
+    color: #FFF;
     font-weight: 700;
     letter-spacing: 0.05em;
     margin-bottom: 18px;
@@ -4375,7 +4375,7 @@ footer p {
     content: "vs";
     width: 70px;
     height: 70px;
-    color: #BFBFBF;
+    color: #FFF;
     font-size: 24px;
     line-height: 68px;
     text-align: center;
@@ -4494,7 +4494,7 @@ footer p {
 
 .blog-detail .lower-content .post-date {
     position: relative;
-    color: #BFBFBF;
+    color: #FFF;
     font-size: 14px;
     z-index: 1;
     padding: 9px 30px 7px;
@@ -4514,7 +4514,7 @@ footer p {
     position: relative;
     font-size: 24px;
     line-height: 1.2em;
-    color: #BFBFBF;
+    color: #FFF;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -4570,7 +4570,7 @@ footer p {
 }
 
 .blog-detail .post-info li a:hover {
-    color: #BFBFBF;
+    color: #FFF;
 }
 
 .blog-detail .lower-content p {
@@ -4638,7 +4638,7 @@ footer p {
 }
 
 .post-share-options .tags li a:hover {
-    color: #BFBFBF;
+    color: #FFF;
 }
 
 .post-share-options .social-links {
@@ -4656,7 +4656,7 @@ footer p {
     display: block;
     font-size: 18px;
     line-height: 30px;
-    color: #BFBFBF;
+    color: #FFF;
     font-weight: 400;
     -webkit-transition: all 300ms ease;
     -moz-transition: all 300ms ease;
@@ -4707,7 +4707,7 @@ footer p {
     display: block;
     font-size: 20px;
     line-height: 1em;
-    color: #BFBFBF;
+    color: #FFF;
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -4755,7 +4755,7 @@ footer p {
     position: relative;
     font-size: 20px;
     line-height: 1.2em;
-    color: #BFBFBF;
+    color: #FFF;
     font-weight: 400;
     text-transform: uppercase;
     letter-spacing: 0.05em;
@@ -4802,7 +4802,7 @@ footer p {
     line-height: 30px;
     width: 100%;
     height: 50px;
-    color: #BFBFBF;
+    color: #FFF;
     font-weight: 500;
     background: transparent;
     padding: 10px 50px 10px 0px;
@@ -4833,7 +4833,7 @@ footer p {
 
 .sidebar .search-box .form-group button:hover {
     text-shadow: 0px 2px 0px #3786ff;
-    color: #BFBFBF;
+    color: #FFF;
 }
 
 
@@ -4959,9 +4959,9 @@ footer p {
     padding: 3px 20px;
     color: #3786ff;
     text-align: center;
-    background: #BFBFBF;
+    background: #FFF;
     font-weight: 400;
-    background-color: #BFBFBF;
+    background-color: #FFF;
     text-transform: uppercase;
     letter-spacing: 0.04em;
     margin: 0 10px 15px 0;
@@ -4974,7 +4974,7 @@ footer p {
 
 .sidebar .popular-tags a:hover {
     background-color: #3786ff;
-    color: #BFBFBF;
+    color: #FFF;
 }
 
 
@@ -4995,7 +4995,7 @@ footer p {
     content: "vs";
     width: 40px;
     height: 40px;
-    color: #BFBFBF;
+    color: #FFF;
     font-size: 18px;
     line-height: 38px;
     text-align: center;
@@ -5022,7 +5022,7 @@ footer p {
     display: block;
     font-size: 18px;
     line-height: 1.2em;
-    color: #BFBFBF;
+    color: #FFF;
     font-weight: 700;
     letter-spacing: 0.05em;
     text-transform: uppercase;
@@ -5030,7 +5030,7 @@ footer p {
 }
 
 .next-match-widget .title-box h4 a {
-    color: #BFBFBF;
+    color: #FFF;
     display: inline-block;
     -webkit-transition: all 300ms ease;
     -moz-transition: all 300ms ease;
@@ -5093,14 +5093,14 @@ footer p {
     text-align: right;
     font-size: 40px;
     line-height: 1.2em;
-    color: #BFBFBF;
+    color: #FFF;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.05em;
 }
 
 .studio-widget .widget-content .title a {
-    color: #BFBFBF;
+    color: #FFF;
     display: inline-block;
     -webkit-transition: all 300ms ease;
     -moz-transition: all 300ms ease;
@@ -5153,7 +5153,7 @@ footer p {
     content: "vs";
     width: 20px;
     height: 20px;
-    color: #BFBFBF;
+    color: #FFF;
     font-size: 10px;
     line-height: 18px;
     text-align: center;
@@ -5168,7 +5168,7 @@ footer p {
 }
 
 .upcoming-widget .upcoming-match:hover .team-box:before {
-    color: #BFBFBF;
+    color: #FFF;
     border-color: #3786ff;
     background-color: #3786ff;
 }
@@ -5181,7 +5181,7 @@ footer p {
     position: relative;
     text-align: center;
     font-size: 26px;
-    color: #BFBFBF;
+    color: #FFF;
     width: 52px;
     height: 57px;
     line-height: 55px;
@@ -5232,7 +5232,7 @@ footer p {
     display: inline-block;
     font-size: 30px;
     line-height: 1.2em;
-    color: #BFBFBF;
+    color: #FFF;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -5280,7 +5280,7 @@ footer p {
     font-size: 20px;
     line-height: 1em;
     font-weight: 400;
-    color: #BFBFBF;
+    color: #FFF;
     text-transform: uppercase;
     letter-spacing: 1px;
     margin-bottom: 40px;
@@ -5300,7 +5300,7 @@ footer p {
     top: 0px;
     font-size: 12px;
     line-height: 25px;
-    color: #BFBFBF;
+    color: #FFF;
     font-weight: 700;
     padding: 5px 20px;
     text-transform: uppercase;
@@ -5314,7 +5314,7 @@ footer p {
 }
 
 .comments-area .comment-box .reply-btn:hover {
-    background-color: #BFBFBF;
+    background-color: #FFF;
     color: #3786ff;
 }
 
@@ -5349,7 +5349,7 @@ footer p {
     height: 80px;
     width: 100%;
     font-size: 16px;
-    color: #BFBFBF;
+    color: #FFF;
     line-height: 28px;
     font-weight: 500;
     padding: 25px 30px;
@@ -5436,7 +5436,7 @@ footer p {
     position: relative;
     font-size: 24px;
     font-weight: 700;
-    color: #BFBFBF;
+    color: #FFF;
     text-transform: uppercase;
     margin-bottom: 15px;
 }
@@ -5468,7 +5468,7 @@ footer p {
 
 .player-info-section .social-icons li a {
     position: relative;
-    color: #BFBFBF;
+    color: #FFF;
     font-size: 16px;
     -webkit-transition: all 300ms ease;
     -moz-transition: all 300ms ease;
@@ -5643,7 +5643,7 @@ Community Icons
     font-size: 15px;
     padding-top: 5px;
     text-align: center;
-    color: #BFBFBF;
+    color: #FFF;
 }
 
 #link-wrapper {
@@ -5890,14 +5890,14 @@ Community Icons
     text-align: center;
     font-family: Expansiva;
     font-weight: 700;
-    color: #BFBFBF;
+    color: #FFF;
     padding-top: 50px;
     font-size: 4em;
 }
 
 .paragraph {
     font-family: Oxanium;
-    color: #BFBFBF;
+    color: #FFF;
     margin-left: 50px;
     margin-right: 25px;
     padding-top: 50px;
