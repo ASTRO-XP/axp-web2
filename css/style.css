@@ -556,6 +556,7 @@ figure {
 .pull-left img {
     position: relative;
     height: 72px;
+    margin-top: 10px;
     padding-bottom: 10px;
     width: auto;
 }
@@ -1553,7 +1554,7 @@ img {
     float: right;
     font-size: 40px;
     line-height: 50px;
-    right: 15px;
+    right: -180px;
     cursor: pointer;
     color: #544f81bd;
     display: none;
@@ -2196,8 +2197,8 @@ footer p {
     position: relative;
     height: 329px;
     width: 250px;
-    top: -30px;
-    left: 106px;
+    top: -11px;
+    left: 132px;
 }
 
 .holov-image3 img {

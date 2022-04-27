@@ -491,6 +491,46 @@
 }
 
 @media only screen and (max-width: 599px) {
+    .stickynav {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .tognav {
+        display: flex;
+        justify-content: flex-end;
+        align-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .button {
+        top: -226px;
+    }
+    .holov-container {
+        display: flex;
+        height: 100vh;
+        width: auto;
+        flex-wrap: wrap;
+        align-items: center;
+        flex-direction: row;
+        align-content: center;
+        justify-content: center;
+    }
+    .sec-title.landing h2 {
+        position: relative;
+        display: block;
+        font-size: 45px;
+        -webkit-text-stroke-width: 0.05px;
+        -webkit-text-stroke-color: rgba(0, 0, 0, 0.445);
+        line-height: 1.1em;
+        color: #FFF;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
     .row {
         text-align: center;
     }
@@ -507,84 +547,93 @@
         align-items: center;
     }
     .holov-image1 img {
-        position: relative;
         height: auto;
         width: 176px;
-        top: -106px;
-        left: 28px;
+        top: -2px;
+        left: -12px;
     }
     .holov-image2 img {
-        position: relative;
         height: auto;
         width: 176px;
-        top: -40px;
-        left: 39px;
+        top: -27px;
+        left: 18px;
     }
     .holov-image3 img {
-        position: relative;
         height: auto;
         width: 176px;
-        top: 302px;
-        left: -344px;
+        top: 29px;
+        left: -16px;
     }
     .holov-image4 img {
-        position: relative;
         height: auto;
         width: 176px;
-        top: 49px;
-        left: 89px;
-    }
-    .main-header .header-top .top-left {
-        display: none;
-    }
-    .main-header .header-top .top-right {
-        width: 100%;
-        text-align: center
-    }
-    .blog-block .inner-box .lower-content h3 {
-        font-size: 20px;
-    }
-    .match-single .team-box .match-item {
-        width: 100%;
-        max-width: none;
-    }
-    .tokenomics-img {
-        height: 615px;
-    }
-    .match-single .team-box:before {
-        display: none;
-    }
-    .match-single .team-box .match-item:first-child {
-        margin-bottom: 80px;
-    }
-    .match-single .team-box .match-item:first-child:before {
-        position: absolute;
-        bottom: -65px;
-        left: 50%;
-        content: 'vs';
-        width: 50px;
-        height: 50px;
-        color: #ffffff;
-        font-size: 20px;
-        line-height: 48px;
-        text-align: center;
-        background-color: #3786ff;
-        border: 1px solid #3786ff;
-        margin-left: -25px;
+        top: 75px;
+        left: -7px;
     }
 }
 
+.main-header .header-top .top-left {
+    display: none;
+}
+
+.main-header .header-top .top-right {
+    width: 100%;
+    text-align: center
+}
+
+.blog-block .inner-box .lower-content h3 {
+    font-size: 20px;
+}
+
+.match-single .team-box .match-item {
+    width: 100%;
+    max-width: none;
+}
+
+.tokenomics-img {
+    height: 615px;
+}
+
+.match-single .team-box:before {
+    display: none;
+}
+
+.match-single .team-box .match-item:first-child {
+    margin-bottom: 80px;
+}
+
+.match-single .team-box .match-item:first-child:before {
+    position: absolute;
+    bottom: -65px;
+    left: 50%;
+    content: 'vs';
+    width: 50px;
+    height: 50px;
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 48px;
+    text-align: center;
+    background-color: #3786ff;
+    border: 1px solid #3786ff;
+    margin-left: -25px;
+}
+
+
+}
 @media only screen and (max-width: 479px) {
     .game-gallery-area .slider-nav {
         bottom: 326px !important;
         position: inherit;
     }
+    
     .tokenomics-img {
         height: 415px;
     }
+    
     .sidebar .search-box {
         padding: 20px 20px;
     }
+    
     .sidebar-widget {
         padding: 30px 20px;
     }
