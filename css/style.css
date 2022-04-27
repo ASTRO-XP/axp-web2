@@ -5884,7 +5884,6 @@ Community Icons
     .social-icon {
         position: relative;
         font-size: 36px;
-        padding-top: 12px;
         transition: transform 0.3s ease-in-out 0.24s;
     }
     .social-icon:hover {
