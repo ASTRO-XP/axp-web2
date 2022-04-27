@@ -164,6 +164,11 @@ p,
     max-width: 1200px;
     margin: 0 auto;
 }
+.auto-container-rm {
+    position: static;
+    max-width: 100vw;
+    margin: 0 auto;
+}
 
 ul,
 li {
@@ -2093,8 +2098,21 @@ footer p {
 
 ***/
 
+.content.holovs.right{
+    text-align: right;
+}
+
 .banner-section {
     position: relative;
+}
+
+.eon-centered{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    align-items: center;
+    justify-content: center;
 }
 
 .holov-container {
@@ -2190,7 +2208,7 @@ footer p {
 }
 
 .default-portfolio-item .image-box.intro img {
-    height: 128px;
+    height: 290px;
     float: right;
 }
 
@@ -2306,7 +2324,7 @@ footer p {
     /* box-shadow: 0px -2px 2px rgb(34 34 34 / 60%); */
     box-shadow: 0 0 10px 10px #02001478;
     position: relative;
-    padding: 115px 0px 60px;
+    padding: 25px 0px 60px;
 }
 
 .gamemode-section:before {
