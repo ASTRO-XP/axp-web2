@@ -148,6 +148,7 @@
     }
     .hide img {
         visibility: visible;
+        margin-left: 10px;
     }
     .main-header {
         position: fixed;
@@ -168,7 +169,8 @@
     .nav-outer .mobile-nav-toggler {
         display: block;
         margin: 0;
-        padding: 10px 0;
+        padding: 14px 0;
+        right: 15px;
     }
     .main-header .header-upper .nav-outer:before {
         display: none;
@@ -499,6 +501,9 @@
 }
 
 @media only screen and (max-width: 599px) {
+    .nav-outer .mobile-nav-toggler {
+        right: -220px;
+    }
     .img-logo-1 {
         display: none;
     }
@@ -519,7 +524,8 @@
         align-items: center;
     }
     .button {
-        top: -226px;
+        top: -95px;
+        left: -180px;
     }
     .holov-container {
         display: flex;
@@ -629,22 +635,34 @@
     margin-left: -25px;
 }
 
-
-}
-@media only screen and (max-width: 479px) {
+@media only screen and (max-width: 546px) {
+    .nav-outer .mobile-nav-toggler {
+        right: -220px;
+    }
     .game-gallery-area .slider-nav {
         bottom: 326px !important;
         position: inherit;
     }
-    
+    .button {
+        top: -95px;
+        left: -180px;
+    }
+}
+
+@media only screen and (max-width: 426px) {
+    .nav-outer .mobile-nav-toggler {
+        right: -220px;
+    }
+    .game-gallery-area .slider-nav {
+        bottom: 326px !important;
+        position: inherit;
+    }
     .tokenomics-img {
         height: 415px;
     }
-    
     .sidebar .search-box {
         padding: 20px 20px;
     }
-    
     .sidebar-widget {
         padding: 30px 20px;
     }
