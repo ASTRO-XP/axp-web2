@@ -362,6 +362,16 @@
             wrapper.append(hvimg2).append(hvc2);
             wrapper.append(hvimg3).append(hvc3);
             wrapper.append(hvimg4).append(hvc4);
+        } else {
+            wrapper.prepend(hvimg1).append(hvc1);
+            wrapper.append(hvc2).append(hvimg2);
+            wrapper.append(hvimg3).append(hvc3);
+            wrapper.append(hvc4).append(hvimg4);
+        }
+        if ($(window).width() < 1023) {
+            $("#rm-img").attr("src", "images/roadmap/ROADMAP-PORTRAIT-2.png");
+        } else {
+            $("#rm-img").attr("src", "images/roadmap/ROADMAP-LANDSCAPE-2.png");
         }
     });
 

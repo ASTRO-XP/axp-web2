@@ -117,6 +117,9 @@
 }
 
 @media only screen and (max-width: 1023px) {
+    .default-portfolio-item .image-box.intro img {
+        height: 150px;
+    }
     .mobile-menu .navigation li ul li>a {
         display: flex;
         flex-direction: row;
@@ -162,9 +165,6 @@
     }
     .slide-item div.three {
         background-image: url(../images/main-slider/Vertical_Placeholder_Slider.png) !important;
-    }
-    .tokenomics-img {
-        height: 715px;
     }
     .nav-outer .mobile-nav-toggler {
         display: block;
@@ -460,8 +460,13 @@
 }
 
 @media only screen and (max-width: 760px) {
-    .tokenomics-img {
-        height: 650px;
+    .intro {
+        display: flex !important;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
     }
     .main-header .header-top .top-left {
         display: none;
@@ -501,6 +506,13 @@
 }
 
 @media only screen and (max-width: 599px) {
+    .content.holovs.right {
+        text-align: center;
+    }
+    .default-portfolio-item .image-box.intro img {
+        height: 190px;
+        float: right;
+    }
     .nav-outer .mobile-nav-toggler {
         right: -220px;
     }
@@ -523,13 +535,9 @@
         flex-wrap: wrap;
         align-items: center;
     }
-    .button {
-        top: -95px;
-        left: -180px;
-    }
     .holov-container {
         display: flex;
-        height: 100vh;
+        height: 66vh;
         width: auto;
         flex-wrap: wrap;
         align-items: center;
@@ -540,10 +548,10 @@
     .sec-title.landing h2 {
         position: relative;
         display: block;
-        font-size: 45px;
-        -webkit-text-stroke-width: 0.05px;
-        -webkit-text-stroke-color: rgba(0, 0, 0, 0.445);
+        font-size: 35px;
         line-height: 1.1em;
+        backdrop-filter: blur(5px);
+        border-radius: 25px;
         color: #FFF;
         font-weight: bold;
         text-transform: uppercase;
@@ -566,26 +574,18 @@
     .holov-image1 img {
         height: auto;
         width: 176px;
-        top: -2px;
-        left: -12px;
     }
     .holov-image2 img {
         height: auto;
         width: 176px;
-        top: -27px;
-        left: 18px;
     }
     .holov-image3 img {
         height: auto;
         width: 176px;
-        top: 29px;
-        left: -16px;
     }
     .holov-image4 img {
         height: auto;
         width: 176px;
-        top: 75px;
-        left: -7px;
     }
 }
 
@@ -605,10 +605,6 @@
 .match-single .team-box .match-item {
     width: 100%;
     max-width: none;
-}
-
-.tokenomics-img {
-    height: 615px;
 }
 
 .match-single .team-box:before {
@@ -637,33 +633,45 @@
 
 @media only screen and (max-width: 546px) {
     .nav-outer .mobile-nav-toggler {
-        right: -220px;
+        right: -180px;
     }
     .game-gallery-area .slider-nav {
         bottom: 326px !important;
         position: inherit;
-    }
-    .button {
-        top: -95px;
-        left: -180px;
     }
 }
 
-@media only screen and (max-width: 426px) {
+@media only screen and (max-width: 412px) {
     .nav-outer .mobile-nav-toggler {
-        right: -220px;
+        right: -171px;
     }
     .game-gallery-area .slider-nav {
         bottom: 326px !important;
         position: inherit;
-    }
-    .tokenomics-img {
-        height: 415px;
     }
     .sidebar .search-box {
         padding: 20px 20px;
     }
     .sidebar-widget {
         padding: 30px 20px;
+    }
+}
+
+@media only screen and (max-width: 390px) {
+    .nav-outer .mobile-nav-toggler {
+        right: -161px;
+    }
+}
+
+@media only screen and (max-width: 280px) {
+    .gif img {
+        height: auto;
+        width: 108px;
+    }
+    .nav-outer .mobile-nav-toggler {
+        right: -103px;
+    }
+    .sec-title.landing h2 {
+        font-size: 25px;
     }
 }
