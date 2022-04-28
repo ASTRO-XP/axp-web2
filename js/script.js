@@ -357,7 +357,7 @@
         var hvc4 = $('#hvc4');
         var wrapper = $('#hvwrap');
 
-        if ($(window).width() < 600) {
+        if ($(window).width() < 770) {
             wrapper.prepend(hvimg1).append(hvc1);
             wrapper.append(hvimg2).append(hvc2);
             wrapper.append(hvimg3).append(hvc3);
@@ -372,6 +372,12 @@
             $("#rm-img").attr("src", "images/roadmap/ROADMAP-PORTRAIT-2.png");
         } else {
             $("#rm-img").attr("src", "images/roadmap/ROADMAP-LANDSCAPE-2.png");
+        }
+
+        if ($(window).width() < 770) {
+            $("#tk-img").attr("src", "images/tokenomics/AXPVLX-PORTRAIT.png");
+        } else {
+            $("#tk-img").attr("src", "images/tokenomics/AXPVLX.png");
         }
     });
 

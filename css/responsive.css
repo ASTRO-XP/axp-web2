@@ -460,6 +460,9 @@
 }
 
 @media only screen and (max-width: 760px) {
+    .row {
+        text-align: center;
+    }
     .intro {
         display: flex !important;
         flex-direction: row;
@@ -555,9 +558,6 @@
         color: #FFF;
         font-weight: bold;
         text-transform: uppercase;
-    }
-    .row {
-        text-align: center;
     }
     .holovs {
         padding-left: 20px;
