@@ -609,6 +609,9 @@
         top: -690px;
         margin-bottom: 695px;
     }
+    .features-section {
+        top: -22px;
+    }
     .features-section p {
         border-radius: 25px;
         padding: 5px 10px;
@@ -623,7 +626,7 @@
         top: -360px;
     }
     .features-section#eon-center {
-        top: 36px;
+        top: 60px;
     }
     .features-section#coreteam {
         top: -415px;
