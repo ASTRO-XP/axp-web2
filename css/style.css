@@ -2237,14 +2237,14 @@ footer p {
     position: relative;
     height: auto;
     width: 650px;
-    top: -70px
+    top: -100px
 }
 
 .holov-image4 img {
     position: relative;
     height: auto;
     width: 650px;
-    top: -70px
+    top: -100px
 }
 
 .sec-title.centered.landing {
@@ -2267,16 +2267,16 @@ footer p {
 }
 
 .features-section#tokenomics {
-    top: -108px;
+    top: -270px;
 }
 
 .features-section#coreteam {
-    top: -516px;
+    top: -866px;
 }
 
 .features-section#roadmap {
-    top: -320px;
-    margin-bottom: 165px;
+    top: -590px;
+    margin-bottom: -75px;
 }
 
 .button {
@@ -2384,6 +2384,7 @@ footer p {
 
 .roadmap-img {
     max-width: 1920px;
+    top: -80px;
     width: 100%;
     height: auto;
 }
