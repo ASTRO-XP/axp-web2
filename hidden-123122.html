@@ -4,18 +4,14 @@
 <head>
     <meta charset="utf-8">
     <title>Astro XP</title>
-    <!-- Stylesheets -->
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <link href="css/core-style.css" rel="stylesheet">
     <link href="css/responsive.css" rel="stylesheet">
     <link href="css/slick.css" rel="stylesheet">
     <link href="css/gamemode.css" rel="stylesheet">
-
     <link rel="shortcut icon" href="images/logos/AstroXP_Logo_Only.png" type="image/x-icon">
     <link rel="icon" href="images/logos/AstroXP_Logo_Only.png" type="image/x-icon">
-
-    <!-- Responsive -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
     <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
@@ -23,139 +19,74 @@
 </head>
 
 <body>
-
     <div class="page-wrapper">
-        <!-- Preloader -->
         <div class="preloader">
             <div class="icon"></div>
         </div>
-
-        <!-- Main Header -->
         <header class="main-header" id="header">
-            <!-- Header Top -->
             <div class="header-top">
-                <div class="auto-container clearfix">
-
-                    <div class="top-left clearfix">
-                        <!--Logo-->
-                        <div class="logo-outer">
-                            <div class="logo">
-                                <a href="index.html"><img class="img-logo" src="images/logos/Astro_XP_Horizontal_Combined.png" alt="" title="AstroXP"></a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="top-right">
-                        <ul class="community-centered">
-                            <li><a href="#trailer"><button class="btn third">Watch Trailer</button></a></li>
-                            <li><a href="#"><button class="btn third disabled">Play Now!</button></a></li>
-                            <li>
-                                <div class="social-container">
-                                    <!-- <h3 class="social-title">FOLLOW US</h3> -->
-
-                                    <!-- <a href="https://github.com/Afante-Studios-AGC" class="social-item github-color" id="1"
-									target="_blank">
-									<i class="fab fa-github social-icon"></i>
-								</a> -->
-
-                                    <a href="https://www.facebook.com/astroxpofficial" class="social-item facebook-color" id="3" target="_blank">
-                                        <i class="fab fa-facebook-f social-icon"></i>
-                                    </a>
-
-                                    <a href="https://twitter.com/AstroXPOfficial" class="social-item twitter-color" id="5" target="_blank">
-                                        <i class="fab fa-twitter social-icon"></i>
-                                    </a>
-
-                                    <a href="https://discord.gg/astroxpofficial" class="social-item discord-color" id="6" target="_blank">
-                                        <i class="fab fa-discord social-icon"></i>
-                                    </a>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
             </div>
-
-            <!-- Header Upper -->
             <div class="header-upper">
-                <div class="inner-container">
+                <div class="inner-container stickynav">
+                    <div class="pull-left hide">
+                        <a href="index.html" title=""><img src="gif/axp-logo-white.gif" alt="" title="" class="img-logo-sticky"></a>
+                    </div>
                     <div class="auto-container clearfix">
-                        <div class="pull-left hide">
-                            <a href="index.html" title=""><img src="images/logos/Astro_XP_Horizontal_Combined.png" alt="" title="" class="img-logo-sticky"></a>
-
-                        </div>
-                        <!--Nav Box-->
                         <div class="nav-outer clearfix">
-
-                            <!--Mobile Navigation Toggler-->
                             <div class="mobile-nav-toggler"><span class="icon flaticon-menu-1"></span></div>
-
-                            <!-- Main Menu -->
                             <nav class="main-menu navbar-expand-md navbar-light">
                                 <div class="collapse navbar-collapse show clearfix nav-menu" id="navbarSupportedContent">
                                     <ul class="navigation clearfix pull-left">
-                                        <li class="current"><a href="#banner">HOME</a>
-                                        </li>
-                                        <li><a href="#features">FEATURES</a>
-                                        </li>
-                                        <li><a href="#tokenomics">TOKENOMICS</a></li>
-                                        </li>
+                                        <div class="top-left clearfix">
+                                            <a href="index.html"><img class="img-logo-1 " src="gif/axp-logo-white.gif" alt="" title="AstroXP"></a>
+                                        </div>
                                     </ul>
-
                                     <ul class="navigation pull-right clearfix">
-                                        <li><a href="#coreteam">TEAM</a>
-                                            <li><a href="#roadmap">ROADMAP</a></li>
-                                            <!-- <li><a href="https://drive.google.com/file/d/1ExUh8dFlhZHDh1BamLKqw91l1tm4QhJF/view?fbclid=IwAR08XjFWq-v23vR3_RHoO-jCim3RbXz7Xe8zmtYeDThyNDvy86kRSD-Z-6Y" target="_blank">WHITEPAPER</a></li> -->
-                                            <li><a href="#blogs">BLOG</a></li>
+                                        <li><a href="#banner">HOME</a></li>
+                                        <li><a href="#features">ABOUT</a></li>
+                                        <li><a href="#eon-center">SPOTLIGHT</a></li>
+                                        <li><a href="#tokenomics">TOKENOMICS</a></li>
+                                        <li class="dropdown" id="teamdrop"><a href="#coreteam">TEAM<span class="arrow-d"></span></a>
+                                            <ul>
+                                                <li><a href="#coreteam">MEET THE CORE</a></li>
+                                                <li><a href="contact.html">CONTACT US</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#roadmap">ROADMAP</a></li>
+                                        <li><a href="https://drive.google.com/uc?id=1ExUh8dFlhZHDh1BamLKqw91l1tm4QhJF&export=download">WHITEPAPER</a>
+                                        </li>
+                                        <li class="dropdown" id="comdrop"><a href="#community">COMMUNITY<span class="arrow-d" id="spancom"></span></a>
+                                            <ul>
+                                                <li><a href="https://discord.gg/astroxpofficial">DISCORD<i class="fab fa-discord social-icon"></i></a></li>
+                                                <li><a href="https://www.facebook.com/astroxpofficial">FACEBOOK<i class="fab fa-facebook-f social-icon"></i></a></li>
+                                                <li><a href="https://twitter.com/AstroXPOfficial">TWITTER<i class="fab fa-twitter social-icon"></i></a></li>
+                                                <li><a href="https://t.me/AstroXP_Official">TELEGRAM<i class="fab fa-telegram social-icon"></i></a></li>
+                                            </ul>
+                                        </li>
                                     </ul>
                                 </div>
                             </nav>
-                            <!-- Main Menu End-->
                         </div>
                     </div>
                 </div>
             </div>
-            <!--End Header Upper-->
-
-            <!-- Sticky Header  -->
             <div class="sticky-header">
                 <div class="auto-container clearfix">
-                    <!--Logo-->
-                    <div class="logo pull-left community-centered">
-                        <a href="index.html" title=""><img src="images/logos/AstroXP_Logo_Only.png" alt="" title=""></a>
-                        <ul class="logo-social-icons community-centered">
-                            <li><a href="https://www.facebook.com/astroxpofficial" target="_blank"><span
-										class="fab fa-twitter"></span></a></li>
-                            <li><a href="https://twitter.com/AstroXPOfficial" target="_blank"><span
-										class="fab fa-facebook-square"></span></a></li>
-                            <li><a href="https://discord.gg/astroxpofficial" target="_blank"><span class="fab fa-discord"></span></a>
-                            </li>
-                        </ul>
-                    </div>
-                    <!--Right Col-->
                     <div class="pull-right">
-                        <!-- Main Menu -->
                         <nav class="main-menu clearfix">
-                            <!--Keep This Empty / Menu will come through Javascript-->
                         </nav>
-                        <!-- Main Menu End-->
                     </div>
                 </div>
             </div>
-            <!-- End Sticky Menu -->
-            <!-- Mobile Menu  -->
             <div class="mobile-menu">
                 <div class="menu-backdrop"></div>
                 <div class="close-btn"><span class="icon flaticon-close"></span></div>
-
                 <nav class="menu-box">
                     <div class="nav-logo">
                         <a href="index.html"><img src="images/logos/Astro_XP_Horizontal_Combined.png" alt="" title="" class="img-logo"></a>
                     </div>
                     <div class="menu-outer">
-                        <!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header-->
                     </div>
-                    <!--Social Links-->
                     <div class="social-links">
                         <ul class="clearfix">
                             <li><a href="https://www.facebook.com/astroxpofficial" target="_blank"><span
@@ -164,223 +95,148 @@
 										class="fab fa-facebook-square"></span></a></li>
                             <li><a href="https://discord.gg/astroxpofficial" target="_blank"><span class="fab fa-discord"></span></a>
                             </li>
+                            <li><a href="https://t.me/AstroXP_Official" target="_blank"><span class="fab fa-telegram"></span></a>
+                            </li>
                         </ul>
                     </div>
                 </nav>
             </div>
-            <!-- End Mobile Menu -->
         </header>
-        <!-- End Main Header -->
-
-        <!-- Banner Section -->
         <section class="banner-section" id="banner">
-            <div class="banner-carousel owl-theme owl-carousel">
-                <!-- Slide Item -->
-                <div class="slide-item">
-                    <div class="image-layer one" style="background-image:url(images/main-slider/Horizontal_Placeholder_Slider.png)"></div>
-
-                    <!-- <div class="auto-container">
-                    <div class="content-box">
-                        <h2>the Premier <br> Matches</h2>
-                        </div>  
-                </div> -->
+            <div class="holov-container auto-container">
+                <div class="holov-image1 gif">
+                    <img src="gif/Sagitta.gif">
                 </div>
-
-                <!-- Slide Item -->
-                <div class="slide-item">
-                    <div class="image-layer two" style="background-image:url(images/main-slider/Horizontal_Placeholder_Slider.png)"></div>
-                    <!-- <div class="auto-container">
-                    <div class="content-box">
-                        <h2>the Premier <br> Matches</h2></div>  
-                </div> -->
+                <div class="holov-image2 gif">
+                    <img src="gif/Xerpent.gif">
                 </div>
-
-                <!-- Slide Item -->
-                <div class="slide-item">
-                    <div class="image-layer three" style="background-image:url(images/main-slider/Horizontal_Placeholder_Slider.png)"></div>
-                    <!-- <div class="auto-container">
-                    <div class="content-box">
-                        <h2>the Premier <br> Matches</h2>
-					</div>  
-                </div> -->
+                <div class="holov-image3 gif">
+                    <img src="gif/valko.gif"></div>
+                <div class="holov-image4 gif">
+                    <img src="gif/Saber.gif"></div>
+            </div>
+            <div class="auto-container fl">
+                <div class="sec-title centered landing">
+                    <h2>Enter the gates of <span>Astro XP</span></h2>
+                    <a href="https://drive.google.com/uc?id=1ExUh8dFlhZHDh1BamLKqw91l1tm4QhJF&export=download" class="button">WHITEPAPER</a>
                 </div>
             </div>
-            <!-- <div class="logo-animate-scroll"><a href="#"><img src="./images/logos/AstroXP_Logo_Only.png"></img></a></div> -->
         </section>
-        <!--End Banner Section -->
-
-        <!-- Features Section -->
-        <section class="features-section" id="features">
+        <section class="features-section rellax" data-rellax-speed="-2" id="features">
             <div class="auto-container">
-                <!-- Sec Title -->
-                <div class="sec-title centered">
-                    <!-- <div class="title">FEATURES</div> -->
-                    <h2>HOLO-V <span>Classes</span></h2>
-                </div>
-
                 <div class="row clearfix">
-
-                    <!--Default Portfolio Item-->
-                    <div class="default-portfolio-item col-lg-6 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
-                        <div class="inner-box hvr-bob">
-                            <figure class="image-box"><img src="images/gallery/1.jpg" alt=""></figure>
-                            <!--Overlay Box-->
-                            <div class="overlay-box">
-                                <div class="overlay-inner">
-                                    <div class="content">
-                                        <h3><a href="#">Holo-v <br> Class 1</a></h3>
-                                        <p>Some description about the class -- test test 123 hehehehehehehe</p>
-                                    </div>
-                                </div>
+                    <img src="/images/background/divider_whole.png">
+                    <div class="default-portfolio-item col-lg-4 col-md-4 col-sm-12 wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
+                        <div class="inner-box">
+                            <figure class="image-box intro"><img src="gif/logo-only.gif" alt=""></figure>
+                        </div>
+                    </div>
+                    <div class="default-portfolio-item col-lg-8 col-md-8 col-sm-12 wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms">
+                        <div class="inner-box">
+                            <div class="content">
+                                <h2>What is Astro XP?</h2>
+                                <br>
+                                <p>ASTRO XP is an open-world RPG where players can fulfill their fantasies as space settlers and create immersive gaming experiences together through the creation of worlds within worlds.</p>
                             </div>
                         </div>
                     </div>
-
-                    <!--Default Portfolio Item-->
-                    <div class="default-portfolio-item col-lg-6 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms">
-                        <div class="inner-box hvr-bob">
-                            <figure class="image-box"><img src="images/gallery/2.jpg" alt=""></figure>
-                            <!--Overlay Box-->
-                            <div class="overlay-box">
-                                <div class="overlay-inner">
-                                    <div class="content">
-                                        <h3><a href="#">Holo-v <br> Class 2</a></h3>
-                                        <p>Some description about the class -- test test 123 hehehehehehehe</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!--Default Portfolio Item-->
-                    <div class="default-portfolio-item col-lg-6 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
-                        <div class="inner-box hvr-bob">
-                            <figure class="image-box"><img src="images/gallery/3.jpg" alt=""></figure>
-                            <!--Overlay Box-->
-                            <div class="overlay-box">
-                                <div class="overlay-inner">
-                                    <div class="content">
-                                        <h3><a href="#">Holo-v <br> Class 3</a></h3>
-                                        <p>Some description about the class -- test test 123 hehehehehehehe</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!--Default Portfolio Item-->
-                    <div class="default-portfolio-item col-lg-6 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
-                        <div class="inner-box hvr-bob">
-                            <figure class="image-box"><img src="images/gallery/3.jpg" alt=""></figure>
-                            <!--Overlay Box-->
-                            <div class="overlay-box">
-                                <div class="overlay-inner">
-                                    <div class="content">
-                                        <h3><a href="#">Holo-v <br> Class 4</a></h3>
-                                        <p>Some description about the class -- test test 123 hehehehehehehe</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
                 </div>
-
-                <!-- Lower Box -->
-                <div class="lower-box">
-                    <div class="text">More classes will be available in our future release! so staytuned! or add other text here? or should I remvove this nalangszxc? hehez</div>
-                </div>
-
             </div>
         </section>
-        <!-- End Features Section -->
-
-        <!-- Trailer Section -->
-        <section class="features-section" id="trailer">
+        <section class="features-section rellax" data-rellax-speed="-2" id="eon-center">
             <div class="auto-container">
-                <!-- Sec Title -->
                 <div class="sec-title centered">
-                    <h2>Trailer</h2>
+                    <img src="/images/background/divider_whole.png">
+                    <h2>Eon Center</h2>
+                    <h3><span>HOLO-V </span>Classes</h3>
                 </div>
-                <div style="position:relative;padding-top:56.25%;"><iframe width="100%" height="100%" src="//www.youtube.com/embed/iXQqAFGQ_3E?autoplay=1&controls=1&color=white&theme=light&disablekb=1&enablejsapi=1&loop=1&modestbranding=1&rel=0&showinfo=0&iv_load_policy=3&" frameborder="0" allowfullscreen=""
-                        style="width:100%;height:100%;top:0;left:0;position: absolute;"></iframe></div>
-            </div>
-        </section>
-        <!-- End Trailer Section -->
-
-        <!-- Game Modes Section -->
-        <section class="gamemode-section" style="background-image:url(images/background/2.jpg)" id="gamemodes">
-            <div class="auto-container">
-                <!-- Sec Title -->
-                <div class="sec-title centered">
-                    <h2>Game Modes</h2>
-                </div>
-
-            </div>
-            <!-- game-gallery-area -->
-            <div class="game-gallery-area position-relative">
-                <div class="game-gallery-bg"></div>
-                <div class="container-fluid p-0 fix">
-                    <div class="row game-gallery-active">
-                        <div class="col-12">
-                            <div class="game-gallery-item">
-                                <img src="/images/gallery/game_gallery_01.png" alt="">
-                            </div>
+                <div class="row clearfix eon-centered" id="hvwrap">
+                    <div class="default-portfolio-item col-lg-4 col-md-4 col-sm-12 wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms" id="hvimg1">
+                        <div class="inner-box">
+                            <figure class="image-box holovs"><img src="images/holovs/xerpent.png" alt=""></figure>
                         </div>
-                        <div class="col-12">
-                            <div class="game-gallery-item">
-                                <img src="images/gallery/game_gallery_02.png" alt="">
-                            </div>
-                        </div>
-                        <div class="col-12">
-                            <div class="game-gallery-item">
-                                <img src="images/gallery/game_gallery_03.png" alt="">
-                            </div>
-                        </div>
-                        <div class="col-12">
-                            <div class="game-gallery-item">
-                                <img src="images/gallery/game_gallery_04.png" alt="">
+                    </div>
+                    <div class="default-portfolio-item col-lg-8 col-md-8 col-sm-12 wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms" id="hvc1">
+                        <div class="inner-box">
+                            <div class="content holovs">
+                                <h3><a href="#">XERPENT</a></h3>
+                                <p>When it comes to a HOLO-V with enduring engine power through higher speeds, Xerpent remains incomparable--like riding and leading a dragon--but this time, around the HOLOTRAXX.</p>
                             </div>
                         </div>
                     </div>
+                    <div class="default-portfolio-item col-lg-8 col-md-8 col-sm-12 wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms" id="hvc2">
+                        <div class="inner-box">
+                            <div class="content holovs right">
+                                <h3><a href="#">XERPENT</a></h3>
+                                <p>HOLOTRAXX is filled with obstacles that take sharp, neckbreaking turns to surpass. With Sagitta's responsiveness to user input, get an experience of driving a HOLO-V that understands your move.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="default-portfolio-item col-lg-4 col-md-4 col-sm-12 wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms" id="hvimg2">
+                        <div class="inner-box">
+                            <figure class="image-box"><img src="images/holovs/sagitta.png" alt=""></figure>
+                        </div>
+                    </div>
+                    <div class="default-portfolio-item col-lg-4 col-md-4 col-sm-12 wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms" id="hvimg3">
+                        <div class="inner-box">
+                            <figure class="image-box"><img src="images/holovs/valko.png" alt=""></figure>
+                        </div>
+                    </div>
+                    <div class="default-portfolio-item col-lg-8 col-md-8 col-sm-12 wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms" id="hvc3">
+                        <div class="inner-box">
+                            <div class="content holovs">
+                                <h3><a href="#">VALKO</a></h3>
+                                <p>If there is a splitting soul version of a mythical bird Phoenix, it is Valko and it has revived with vengeance in its eyes at HOLOTRAXX. Warning: Not for the faintest of hearts and are strictly for natural drifters of the
+                                    human-kind ONLY.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="default-portfolio-item col-lg-8 col-md-8 col-sm-12 wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms" id="hvc4">
+                        <div class="inner-box">
+                            <div class="content holovs right">
+                                <h3><a href="#">SABER</a></h3>
+                                <p>Riding Saber--the tankiest HOLO-V--reduces your opponents' approach in the game into two: whether it is by beating you through the finish line or you beat them before they even get a glimpse of the finish line. The good
+                                    thing about that is both situations are ideal for you. </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="default-portfolio-item col-lg-4 col-md-4 col-sm-12 wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms" id="hvimg4">
+                        <div class="inner-box">
+                            <figure class="image-box"><img src="images/holovs/saber.png" alt=""></figure>
+                        </div>
+                    </div>
                 </div>
-                <div class="slider-nav"></div>
-            </div>
-            <!-- game-gallery-area-end -->
         </section>
-        <!-- End Game Modes Section -->
-
-        <!-- Tokenomics Section -->
-        <section class="features-section" id="tokenomics">
+        <section class="features-section rellax" data-rellax-speed="-2" id="tokenomics">
             <div class="auto-container">
+                <div class="sec-div">
+                    <img src="/images/background/divider_whole.png">
+                </div>
                 <!-- Sec Title -->
                 <div class="sec-title centered">
                     <h2>TOKENOMICS</h2>
-                    <!-- <h2>Gaming & Esports</h2> -->
                 </div>
-                <div class="row clearfix">
-                    <!--Default Portfolio Item-->
+                <div class="row clearfix centered">
                     <div class="default-portfolio-item col-lg-12 col-md-12 col-sm-12 wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
-                        <div class="inner-box hvr-bob">
-                            <figure class="image-box"><img src="images/gallery/1.jpg" class="tokenomics-img" alt="">
+                        <div class="inner-box">
+                            <figure class="image-box"><img src="images/tokenomics/AXPVLX.png" class="tokenomics-img" alt="" id="tk-img">
                             </figure>
-                            <!--Overlay Box-->
-                            <div class="overlay-box">
-                                <div class="overlay-inner">
-                                    <div class="content">
-                                        <h3><a href="#">Tokenomics Details <br> Hover (we can remove this too)</a></h3>
-                                    </div>
-                                </div>
-                            </div>
+                        </div>
+                    </div>
+                    <div class="default-portfolio-item col-lg-12 col-md-12 col-sm-12 wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
+                        <div class="inner-box">
+                            <figure class="image-box"><img src="images/tokenomics/TOKENOMICS.png" class="tokenomics-img" alt="">
+                            </figure>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <!-- End Tokenomics Section -->
-        <!-- Core Team Section -->
-        <section class="features-section" id="coreteam">
+        <section class="features-section rellax" data-rellax-speed="-2" id="coreteam">
             <div class="auto-container">
+                <div class="sec-div">
+                    <img src="/images/background/divider_whole.png">
+                </div>
                 <!-- Sec Title -->
                 <div class="sec-title centered">
                     <h2>The Core Team</h2>
@@ -390,11 +246,13 @@
                     <div class="arrow"></div>
                     <div class="arrow"></div>
                     <div class="arrow"></div>
+                    <p>swipe</p>
                 </div>
                 <div class="container-ar-r">
                     <div class="arrow"></div>
                     <div class="arrow"></div>
                     <div class="arrow"></div>
+                    <p>swipe</p>
                 </div>
                 <div class="testimonial-box">
                     <div class="container-core">
@@ -402,7 +260,7 @@
                             <div class="col-lg-12">
                                 <div class="team-slider owl-carousel">
                                     <div class="single-box text-center">
-                                        <div class="img-area"><img alt="" class="img-fluid" src="/images/coreteam/james.jpg"></div>
+                                        <div class="img-area"><img alt="" class="img-fluid" src="/images/coreteam/CORE-1.png"></div>
                                         <div class="info-area">
                                             <h4><span>James</span> Afante
                                             </h4>
@@ -410,7 +268,7 @@
                                         </div>
                                     </div>
                                     <div class="single-box text-center">
-                                        <div class="img-area"><img alt="" class="img-fluid" src="images/coreteam/ayman.jpg"></div>
+                                        <div class="img-area"><img alt="" class="img-fluid" src="images/coreteam/CORE-2.png"></div>
                                         <div class="info-area">
                                             <h4> <span>Ayman</span> Alih
                                             </h4>
@@ -418,18 +276,26 @@
                                         </div>
                                     </div>
                                     <div class="single-box text-center">
-                                        <div class="img-area"><img alt="" class="img-fluid" src="images/coreteam/lixi.jpg"></div>
+                                        <div class="img-area"><img alt="" class="img-fluid" src="images/coreteam/CORE-3.png"></div>
                                         <div class="info-area">
                                             <h4>Ruxie "<span>Lixi</span>" Alibo</h4>
                                             <p>Game Director</p>
                                         </div>
                                     </div>
                                     <div class="single-box text-center">
-                                        <div class="img-area"><img alt="" class="img-fluid" src="images/coreteam/nio.jpg"></div>
+                                        <div class="img-area"><img alt="" class="img-fluid" src="images/coreteam/CORE-5.png"></div>
                                         <div class="info-area">
                                             <h4><span>Nio</span> Martinez
                                             </h4>
                                             <p>Lead Developer</p>
+                                        </div>
+                                    </div>
+                                    <div class="single-box text-center">
+                                        <div class="img-area"><img alt="" class="img-fluid" src="images/coreteam/CORE-4.png"></div>
+                                        <div class="info-area">
+                                            <h4><span>Jaymon</span> Gutierrez
+                                            </h4>
+                                            <p>Business Development Officer</p>
                                         </div>
                                     </div>
                                 </div>
@@ -439,111 +305,30 @@
                 </div>
             </div>
         </section>
-        <!-- End Core Team Section -->
-
-        <!-- Roadmap Section -->
-        <section class="features-section" id="roadmap">
+        <section class="features-section rellax" data-rellax-speed="-2" id="roadmap">
             <div class="auto-container">
-                <!-- Sec Title -->
+                <div class="sec-div">
+                    <img src="/images/background/divider_whole.png">
+                </div>
+            </div>
+            <div class="auto-container-rm">
                 <div class="sec-title centered">
                     <h2>Roadmap</h2>
                 </div>
-                <div class="row clearfix">
-                    <!--Default Portfolio Item-->
+                <div class="row clearfix centered">
                     <div class="default-portfolio-item col-lg-12 col-md-12 col-sm-12 wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
-                        <div class="inner-box hvr-bob">
-                            <figure class="image-box"><img src="images/gallery/1.jpg" class="tokenomics-img" alt="">
+                        <div class="inner-box">
+                            <figure class="image-box"><img src="images/roadmap/ROADMAP-LANDSCAPE-2.png" class="roadmap-img" alt="" id="rm-img">
                             </figure>
-                            <!--Overlay Box-->
-                            <div class="overlay-box">
-                                <div class="overlay-inner">
-                                    <div class="content">
-                                        <h3><a href="#">Roadmap image here</a></h3>
-                                    </div>
-                                </div>
-                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <!-- End Roadmap Section -->
-
-        <!-- blog Section -->
-        <section class="blogs-section" id="blogs">
-            <div class="auto-container">
-                <!-- Sec Title -->
-                <div class="sec-title centered">
-                    <h2>Recent Blogs</h2>
-                </div>
-                <div class="row clearfix">
-                    <!-- blog Block -->
-                    <div class="blog-block col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
-                        <div class="inner-box hvr-bob">
-                            <div class="image">
-                                <a href="blog-single.html"><img src="images/resource/news-1.jpg" alt="" /></a>
-                            </div>
-                            <div class="lower-content">
-                                <div class="post-date">20 may 2019</div>
-                                <h3><a href="blog-single.html">important brands have given us their trust</a></h3>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- blog Block -->
-                    <div class="blog-block col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms">
-                        <div class="inner-box hvr-bob">
-                            <div class="image">
-                                <a href="blog-single.html"><img src="images/resource/news-2.jpg" alt="" /></a>
-                            </div>
-                            <div class="lower-content">
-                                <div class="post-date">18 may 2019</div>
-                                <h3><a href="blog-single.html">What happened to esports games this weekend</a></h3>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- blog Block -->
-                    <div class="blog-block col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
-                        <div class="inner-box hvr-bob">
-                            <div class="image">
-                                <a href="blog-single.html"><img src="images/resource/news-3.jpg" alt="" /></a>
-                            </div>
-                            <div class="lower-content">
-                                <div class="post-date">16 may 2019</div>
-                                <h3><a href="blog-single.html">Lion king vs wolf smart upcoming matches</a></h3>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-
-            </div>
-        </section>
-        <!-- End blog Section -->
-
-        <!-- community Section -->
-        <!-- <section class="community-section" id="community">
-			<div class="auto-container">
-				<div class="sec-title centered">
-					<div class="title">Join our Community</div>
-				</div>
-				<div class="row clearfix">
-					
-				</div>
-
-			</div>
-		</section> -->
-        <!-- End community Section -->
-
-        <!-- Main Footer -->
         <footer class="main-footer">
             <div class="auto-container">
-                <!--Widgets Section-->
                 <div class="widgets-section">
                     <div class="footer-row clearfix">
-
-                        <!--Column-->
                         <div class="column col-lg-4 col-md-6 col-sm-12">
                             <div class="footer-widget logo-widget">
                                 <div class="logo">
@@ -551,8 +336,6 @@
                                 </div>
                             </div>
                         </div>
-
-                        <!--Column-->
                         <div class="column col-lg-4 col-md-6 col-sm-12">
                             <div class="footer-widget links-widget">
                                 <div class="widget-content">
@@ -577,27 +360,16 @@
                                 </div>
                             </div>
                         </div>
-
-                        <!--Column-->
-
-
                     </div>
                 </div>
             </div>
-
-            <!-- Footer Bottom -->
             <div class="footer-bottom">
                 <div class="auto-container">
-                    <!--Scroll to top-->
                     <div class="scroll-to-top scroll-to-target" data-target="html"><span class="flaticon-up-arrow"></span></div>
-                    <!--Scroll to top-->
                     <div class="footer-row-bottom clearfix">
-                        <!-- Column -->
                         <div class="column col-lg-6 col-md-12 col-sm-12">
                             <div class="copyright">Astro XP &copy; 2022, All Rights Reserved.</div>
-
                         </div>
-                        <!-- Column -->
                         <div class="column col-lg-6 col-md-12 col-sm-12 ">
                             <ul class="social-icons">
                                 <li><a href="https://www.facebook.com/astroxpofficial" target="_blank"><span
@@ -606,30 +378,31 @@
 											class="fab fa-facebook-square"></span></a></li>
                                 <li><a href="https://discord.gg/astroxpofficial" target="_blank"><span
 											class="fab fa-discord"></span></a></li>
+                                <li><a href="https://t.me/AstroXP_Official" target="_blank"><span
+                                            class="fab fa-telegram"></span></a></li>
                             </ul>
                         </div>
                     </div>
                 </div>
             </div>
         </footer>
-    </div>
-    <!--End pagewrapper-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js" integrity="sha512-uto9mlQzrs59VwILcLiRYeLKPPbS/bT71da/OEBYEwcdNUk8jYIy+D176RYoop1Da+f9mvkYrmj5MCLZWEtQuA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/owl.js"></script>
-    <script src="js/appear.js"></script>
-    <script src="js/wow.js"></script>
-    <script src="js/scrollbar.js"></script>
-    <script src="js/slick.min.js"></script>
-    <script src="js/script.js"></script>
-    <script src="js/game-modes.js"></script>
-    <script src="js/coreteam.js"></script>
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/js/swiper.min.js'></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js">
-    </script>
-    <script src="js/socmed.js"></script>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js" integrity="sha512-uto9mlQzrs59VwILcLiRYeLKPPbS/bT71da/OEBYEwcdNUk8jYIy+D176RYoop1Da+f9mvkYrmj5MCLZWEtQuA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/owl.js"></script>
+        <script src="js/appear.js"></script>
+        <script src="js/wow.js"></script>
+        <script src="js/scrollbar.js"></script>
+        <script src="js/slick.min.js"></script>
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.12.1/rellax.min.js"></script>
+        <script src="js/script.js"></script>
+        <script src="js/game-modes.js"></script>
+        <script src="js/coreteam.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+        <script src="js/nav.js"></script>
 </body>
 
 </html>
