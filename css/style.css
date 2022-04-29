@@ -907,7 +907,7 @@ img {
     position: relative;
     display: block;
     text-align: center;
-    font-size: 12px;
+    font-size: 14px;
     opacity: 1;
     color: #FFF;
     z-index: 1;
@@ -1935,7 +1935,7 @@ img {
 .content h2 {
     position: relative;
     display: block;
-    font-size: 65px;
+    font-size: 45px;
     line-height: 1.1em;
     color: #FFF;
     font-weight: bold;
@@ -2263,19 +2263,19 @@ footer p {
 .features-section {
     position: relative;
     /* padding: 0px 0px 60px; */
-    top: -60px;
+    top: -155px;
 }
 
 .features-section#tokenomics {
-    top: -188px;
+    top: -108px;
 }
 
 .features-section#coreteam {
-    top: -318px;
+    top: -516px;
 }
 
 .features-section#roadmap {
-    top: -150px;
+    top: -320px;
     margin-bottom: 165px;
 }
 
