@@ -205,6 +205,14 @@
 }
 
 @media only screen and (max-width: 1023px) {
+    .navigation .img-logo-1 {
+        visibility: hidden;
+        display: none;
+    }
+    .arrow-d {
+        display: none;
+        visibility: hidden;
+    }
     .default-portfolio-item .image-box.intro img {
         height: 150px;
     }
@@ -598,13 +606,13 @@
 
 @media only screen and (max-width: 599px) {
     .features-section#roadmap {
-        top: -582px;
-        margin-bottom: 788px;
+        top: -690px;
+        margin-bottom: 695px;
     }
     .features-section p {
         border-radius: 25px;
-        padding: 0px 0px;
-        background-color: #00000000;
+        padding: 5px 10px;
+        background-color: #1b174482;
         margin: 0;
     }
     .tokenomics-img {
@@ -612,10 +620,13 @@
         border-radius: 35px;
     }
     .features-section#tokenomics {
-        top: -425px;
+        top: -360px;
     }
     .features-section#eon-center {
-        top: 5px;
+        top: 36px;
+    }
+    .features-section#coreteam {
+        top: -415px;
     }
     .content h2 {
         position: relative;
