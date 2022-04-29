@@ -59,6 +59,94 @@
     }
 }
 
+@media only screen and (max-width: 1300px) {
+    .holov-image1 img {
+        width: 600px;
+    }
+    .holov-image2 img {
+        width: 600px;
+    }
+    .holov-image3 img {
+        width: 600px;
+    }
+    .holov-image4 img {
+        width: 600px;
+    }
+}
+
+@media only screen and (max-width: 1206px) {
+    .holov-image1 img {
+        width: 400px;
+    }
+    .holov-image2 img {
+        width: 400px;
+    }
+    .holov-image3 img {
+        width: 400px;
+    }
+    .holov-image4 img {
+        width: 400px;
+    }
+}
+
+@media only screen and (max-width: 1008px) {
+    .holov-image1 img {
+        width: 400px;
+    }
+    .holov-image2 img {
+        width: 400px;
+    }
+    .holov-image3 img {
+        width: 400px;
+    }
+    .holov-image4 img {
+        width: 400px;
+    }
+}
+
+@media only screen and (max-width: 808px) {
+    .holov-container {
+        display: flex;
+        justify-content: center;
+        height: 75vh;
+        flex-wrap: wrap;
+        max-width: 1500px;
+        align-items: center;
+        flex-direction: row;
+        align-content: center;
+    }
+    .holov-image1 img {
+        width: 350px;
+    }
+    .holov-image2 img {
+        width: 350px;
+    }
+    .holov-image3 img {
+        width: 380px;
+    }
+    .holov-image4 img {
+        width: 350px;
+    }
+    .sec-title.centered.landing {
+        top: 0px;
+    }
+}
+
+@media only screen and (max-width: 608px) {
+    .holov-image1 img {
+        width: 250=0px;
+    }
+    .holov-image2 img {
+        width: 250px;
+    }
+    .holov-image3 img {
+        width: 250px;
+    }
+    .holov-image4 img {
+        width: 250px;
+    }
+}
+
 @media only screen and (max-width: 1139px) {
     .facts-section .lower-boxed .testimonial-column .inner-column {
         padding-left: 50px;
@@ -572,49 +660,51 @@
         align-items: center;
     }
     .holov-image1 img {
-        height: auto;
-        width: 176px;
+        width: 350px;
+        bottom: -317px;
+        left: -100px;
     }
     .holov-image2 img {
-        height: auto;
-        width: 176px;
+        width: 350px;
+        bottom: -13px;
+        left: 90px;
     }
     .holov-image3 img {
-        height: auto;
-        width: 176px;
+        width: 350px;
+        bottom: 25px;
+        left: -127px;
+        top: 0;
     }
     .holov-image4 img {
-        height: auto;
-        width: 176px;
+        width: 350px;
+        bottom: 187px;
+        left: 103px;
+        top: -155px;
     }
 }
 
+
+}
 .main-header .header-top .top-left {
     display: none;
 }
-
 .main-header .header-top .top-right {
     width: 100%;
     text-align: center
 }
-
 .blog-block .inner-box .lower-content h3 {
     font-size: 20px;
 }
-
 .match-single .team-box .match-item {
     width: 100%;
     max-width: none;
 }
-
 .match-single .team-box:before {
     display: none;
 }
-
 .match-single .team-box .match-item:first-child {
     margin-bottom: 80px;
 }
-
 .match-single .team-box .match-item:first-child:before {
     position: absolute;
     bottom: -65px;
@@ -630,47 +720,49 @@
     border: 1px solid #3786ff;
     margin-left: -25px;
 }
-
 @media only screen and (max-width: 546px) {
     .nav-outer .mobile-nav-toggler {
         right: -180px;
     }
+    
     .game-gallery-area .slider-nav {
         bottom: 326px !important;
         position: inherit;
     }
 }
-
 @media only screen and (max-width: 412px) {
     .nav-outer .mobile-nav-toggler {
         right: -171px;
     }
+    
     .game-gallery-area .slider-nav {
         bottom: 326px !important;
         position: inherit;
     }
+    
     .sidebar .search-box {
         padding: 20px 20px;
     }
+    
     .sidebar-widget {
         padding: 30px 20px;
     }
 }
-
 @media only screen and (max-width: 390px) {
     .nav-outer .mobile-nav-toggler {
         right: -161px;
     }
 }
-
 @media only screen and (max-width: 280px) {
     .gif img {
         height: auto;
         width: 108px;
     }
+    
     .nav-outer .mobile-nav-toggler {
         right: -103px;
     }
+    
     .sec-title.landing h2 {
         font-size: 25px;
     }

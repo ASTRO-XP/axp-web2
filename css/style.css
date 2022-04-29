@@ -1557,9 +1557,9 @@ img {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    align-content: flex-start;
+    align-content: space-around;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
 }
 
 
@@ -1926,7 +1926,20 @@ img {
     font-family: 'Oxanium';
     font-weight: 400;
     color: #FFF;
+    border-radius: 25px;
+    padding: 14px 8px;
+    background-color: #0e0a348c;
     margin: 0;
+}
+
+.content h2 {
+    position: relative;
+    display: block;
+    font-size: 65px;
+    line-height: 1.1em;
+    color: #FFF;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
 .holovs a {
@@ -2199,37 +2212,43 @@ footer p {
 
 .holov-container {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     height: 75vh;
-    width: 532px;
     flex-wrap: wrap;
+    max-width: 1500px;
     align-items: center;
     flex-direction: row;
-    align-content: center;
+    align-content: flex-start;
 }
 
 .holov-image1 img {
     position: relative;
-    height: 329px;
-    width: 250px;
+    height: auto;
+    width: 650px;
 }
 
 .holov-image2 img {
     position: relative;
-    height: 329px;
-    width: 250px;
+    height: auto;
+    width: 650px;
 }
 
 .holov-image3 img {
     position: relative;
-    height: 329px;
-    width: 250px;
+    height: auto;
+    width: 650px;
+    top: -70px
 }
 
 .holov-image4 img {
     position: relative;
-    height: 329px;
-    width: 250px;
+    height: auto;
+    width: 650px;
+    top: -70px
+}
+
+.sec-title.centered.landing {
+    top: -20px;
 }
 
 
@@ -2257,6 +2276,7 @@ footer p {
 
 .features-section#roadmap {
     top: -440px;
+    margin-bottom: 657px;
 }
 
 .button {
@@ -3716,199 +3736,6 @@ footer p {
 }
 
 .games-block .inner-box .lower-content h3 a:hover {
-    color: #544f81bd;
-}
-
-
-/*** 
-
-====================================================================
-	Features Section Two
-====================================================================
-
-***/
-
-.features-section-two {
-    position: relative;
-    padding: 0px 0px 0px;
-}
-
-.features-section-two .auto-container {
-    position: relative;
-    padding-top: 110px;
-}
-
-.features-section-two .auto-container:before {
-    position: absolute;
-    content: "";
-    right: 0px;
-    top: 0px;
-    width: 200000px;
-    height: 100%;
-    background-color: #000000;
-}
-
-.features-section-two .title-column {
-    position: relative;
-    margin-bottom: 40px;
-}
-
-.features-section-two .title-column .inner-column {
-    position: relative;
-    z-index: 1;
-    padding-right: 70px;
-}
-
-.features-section-two .title-column .sec-title {
-    margin-bottom: 30px;
-}
-
-.features-section-two .title-column .text {
-    position: relative;
-    color: #848484;
-    font-size: 20px;
-    line-height: 1.7em;
-    margin-bottom: 45px;
-}
-
-.features-section-two .image-column {
-    position: relative;
-}
-
-.features-section-two .image-column .inner-column {
-    position: relative;
-}
-
-.features-section-two .image-column .image {
-    position: relative;
-}
-
-.features-section-two .image-column .image img {
-    max-width: inherit;
-}
-
-
-/*** 
-
-====================================================================
-	Players Section
-====================================================================
-
-***/
-
-.players-section {
-    position: relative;
-    padding-bottom: 90px;
-}
-
-.players-section.style-two {
-    padding-top: 90px;
-}
-
-.players-page-section {
-    padding: 115px 0px 60px;
-}
-
-.players-page-section .player-block {
-    margin-bottom: 60px;
-}
-
-
-/* Player Block */
-
-.player-block {
-    position: relative;
-    margin-bottom: 30px;
-}
-
-.player-block .inner-box {
-    position: relative;
-    display: block;
-}
-
-.player-block .inner-box .image {
-    position: relative;
-}
-
-.player-block .inner-box:hover .image {
-    border-color: #544f81bd;
-}
-
-.player-block .inner-box .image img {
-    position: relative;
-    width: 100%;
-    display: block;
-}
-
-.player-block .inner-box .lower-content {
-    position: relative;
-    margin-top: 10px;
-    padding: 30px 50px 45px;
-    background-color: #000000;
-    -webkit-transition: all 300ms ease;
-    -moz-transition: all 300ms ease;
-    -ms-transition: all 300ms ease;
-    -o-transition: all 300ms ease;
-    transition: all 300ms ease;
-}
-
-.player-block .inner-box .lower-content h3 {
-    position: relative;
-    font-size: 24px;
-    font-weight: 700;
-    line-height: 1.3em;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-}
-
-.player-block .inner-box .lower-content h3 a {
-    position: relative;
-    color: #FFF;
-    -webkit-transition: all 300ms ease;
-    -moz-transition: all 300ms ease;
-    -ms-transition: all 300ms ease;
-    -o-transition: all 300ms ease;
-    transition: all 300ms ease;
-}
-
-.player-block .inner-box .lower-content h3 a:hover {
-    color: #544f81bd;
-}
-
-.player-block .inner-box .lower-content .level {
-    position: relative;
-    color: #848484;
-    font-size: 14px;
-    letter-spacing: 1px;
-    margin-top: 10px;
-    text-transform: uppercase;
-}
-
-.player-block .inner-box .lower-content .social-icons {
-    position: relative;
-    padding-top: 30px;
-    margin-top: 30px;
-    border-top: 1px solid #302f2f;
-}
-
-.player-block .inner-box .lower-content .social-icons li {
-    position: relative;
-    margin-right: 30px;
-    display: inline-block;
-}
-
-.player-block .inner-box .lower-content .social-icons li a {
-    position: relative;
-    color: #FFF;
-    font-size: 16px;
-    -webkit-transition: all 300ms ease;
-    -moz-transition: all 300ms ease;
-    -ms-transition: all 300ms ease;
-    -o-transition: all 300ms ease;
-    transition: all 300ms ease;
-}
-
-.player-block .inner-box .lower-content .social-icons li a:hover {
     color: #544f81bd;
 }
 
