@@ -597,6 +597,36 @@
 }
 
 @media only screen and (max-width: 599px) {
+    .features-section#roadmap {
+        top: -582px;
+        margin-bottom: 788px;
+    }
+    .features-section p {
+        border-radius: 25px;
+        padding: 0px 0px;
+        background-color: #00000000;
+        margin: 0;
+    }
+    .tokenomics-img {
+        background-color: #14101063;
+        border-radius: 35px;
+    }
+    .features-section#tokenomics {
+        top: -425px;
+    }
+    .features-section#eon-center {
+        top: 5px;
+    }
+    .content h2 {
+        position: relative;
+        display: block;
+        font-size: 35px;
+        line-height: 1.1em;
+        color: #FFF;
+        font-weight: bold;
+        padding: 0px 10px;
+        text-transform: uppercase;
+    }
     .content.holovs.right {
         text-align: center;
     }
