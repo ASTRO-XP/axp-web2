@@ -18,9 +18,13 @@
             var siteHeader = $('.main-header');
             var scrollLink = $('.scroll-to-top');
             var sticky_header = $('.main-header .sticky-header');
+            var stickyTeamDrop = $('#teamdrop');
+            var stickyComDrop = $('#comdrop');
             if (windowpos > 100) {
                 siteHeader.addClass('fixed-header');
                 sticky_header.addClass("animated slideInDown");
+                stickyTeamDrop.addClass("team-stk-drop");
+                stickyComDrop.addClass("com-stk-drop");
                 scrollLink.fadeIn(300);
             } else {
                 siteHeader.removeClass('fixed-header');
@@ -29,6 +33,8 @@
             }
         }
     }
+    var rellax = new Rellax('.rellax');
+
 
     headerStyle();
 

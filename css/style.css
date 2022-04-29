@@ -2242,10 +2242,21 @@ footer p {
 ***/
 
 .features-section {
-    background-color: #0101028c;
-    box-shadow: 0 0 10px 10px #02001478;
     position: relative;
-    padding: 0px 0px 60px;
+    /* padding: 0px 0px 60px; */
+    top: -60px;
+}
+
+.features-section#tokenomics {
+    top: -318px;
+}
+
+.features-section#coreteam {
+    top: -318px;
+}
+
+.features-section#roadmap {
+    top: -440px;
 }
 
 .button {
@@ -4053,6 +4064,8 @@ footer p {
 .contact-form-section {
     position: relative;
     padding-top: 110px;
+    background-color: #0101028c;
+    box-shadow: 0 0 10px 10px #02001478;
 }
 
 .contact-form-section.style-two {
@@ -4333,20 +4346,12 @@ footer p {
 .faq-section {
     position: relative;
     padding: 100px 0px 100px;
+    background-color: #0101028c;
+    box-shadow: 0 0 10px 10px #02001478;
 }
 
 .faq-section .inner-container {
     position: relative;
-}
-
-.faq-section .inner-container:before {
-    position: absolute;
-    content: "";
-    left: 50%;
-    top: 0px;
-    width: 1px;
-    bottom: 0px;
-    background-color: #302f2f;
 }
 
 .faq-section .column {
@@ -4367,8 +4372,7 @@ footer p {
 .question-block-two {
     position: relative;
     margin-bottom: 90px;
-    padding-bottom: 90px;
-    border-bottom: 1px solid #302f2f;
+    padding-bottom: 15px;
 }
 
 .question-block-two .inner-box {
@@ -4387,9 +4391,6 @@ footer p {
     font-size: 40px;
     line-height: 92px;
     text-align: center;
-    border: 1px solid #302f2f;
-    background: url(../images/background/4.jpg) no-repeat;
-    background-size: cover;
     transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
     -webkit-transition: all 0.3s ease;
@@ -4428,7 +4429,7 @@ footer p {
 
 .question-block-two .inner-box .text {
     position: relative;
-    color: #848484;
+    color: #c7c7c7;
     font-size: 16px;
     line-height: 1.9em;
     margin-top: 30px;
@@ -5455,264 +5456,6 @@ footer p {
 .comments-area .comment-box .reply-btn:hover {
     background-color: #FFF;
     color: #544f81bd;
-}
-
-
-/*** 
-
-====================================================================
-		Comment Form
-====================================================================
-
- ***/
-
-.comment-form {
-    position: relative;
-}
-
-.comment-form .form-group {
-    position: relative;
-    margin-bottom: 30px;
-}
-
-.comment-form .form-group:last-child {
-    margin-bottom: 0;
-}
-
-.comment-form .form-group input[type="text"],
-.comment-form .form-group input[type="email"],
-.comment-form .form-group textarea,
-.comment-form .form-group select {
-    position: relative;
-    display: block;
-    height: 80px;
-    width: 100%;
-    font-size: 16px;
-    color: #FFF;
-    line-height: 28px;
-    font-weight: 500;
-    padding: 25px 30px;
-    border: 1px solid rgba(0, 0, 0, 0);
-    background: #1b1a1a;
-    -webkit-transition: all 300ms ease;
-    -ms-transition: all 300ms ease;
-    -o-transition: all 300ms ease;
-    -moz-transition: all 300ms ease;
-    transition: all 300ms ease;
-}
-
-.comment-form .form-group input:focus,
-.comment-form .form-group select:focus,
-.comment-form .form-group textarea:focus {
-    border-color: #544f81bd;
-}
-
-.comment-form .form-group textarea {
-    height: 260px;
-    resize: none;
-}
-
-.comment-form .form-group .btn-title {
-    padding: 25px 63px;
-    letter-spacing: 0.1em;
-}
-
-.comment-form ::-webkit-input-placeholder {
-    color: #6c6d70;
-}
-
-.comment-form ::-moz-input-placeholder {
-    color: #6c6d70;
-}
-
-.comment-form ::-ms-input-placeholder {
-    color: #6c6d70;
-}
-
-
-/*** 
-
-====================================================================
-		Player Info Section
-====================================================================
-
- ***/
-
-.player-info-section {
-    position: relative;
-    padding: 120px 0px 90px;
-}
-
-.player-info-section .image-column {
-    position: relative;
-    margin-bottom: 30px;
-}
-
-.player-info-section .image-column .inner {
-    position: relative;
-    display: block;
-}
-
-.player-info-section .text-column {
-    position: relative;
-    margin-bottom: 30px;
-    order: 12;
-}
-
-.player-info-section .text-column .inner {
-    position: relative;
-    display: block;
-    padding-left: 30px;
-    padding-top: 70px;
-}
-
-.player-info-section .text-column .title-box {
-    position: relative;
-    margin-bottom: 40px;
-}
-
-.player-info-section .text-column .title-box .user-title {
-    position: relative;
-    font-size: 24px;
-    font-weight: 700;
-    color: #FFF;
-    text-transform: uppercase;
-    margin-bottom: 15px;
-}
-
-.player-info-section .text-column .title-box .user-info {
-    position: relative;
-    font-size: 20px;
-    text-transform: uppercase;
-    color: #544f81bd;
-}
-
-.player-info-section .text-column .text {
-    position: relative;
-    color: #848484;
-    margin-bottom: 50px;
-}
-
-.player-info-section .social-icons {
-    position: relative;
-    padding-top: 50px;
-    border-top: 1px solid rgba(255, 255, 255, 0.2);
-}
-
-.player-info-section .social-icons li {
-    position: relative;
-    margin-right: 28px;
-    display: inline-block;
-}
-
-.player-info-section .social-icons li a {
-    position: relative;
-    color: #FFF;
-    font-size: 16px;
-    -webkit-transition: all 300ms ease;
-    -moz-transition: all 300ms ease;
-    -ms-transition: all 300ms ease;
-    -o-transition: all 300ms ease;
-    transition: all 300ms ease;
-}
-
-.player-info-section .social-icons li a:hover {
-    color: #544f81bd;
-}
-
-
-/*** 
-
-====================================================================
-	Awards Section
-====================================================================
-
-***/
-
-.awards-section {
-    position: relative;
-    padding: 120px 0px;
-    border-top: 1px solid rgba(255, 255, 255, 0.2);
-}
-
-.awards-section .awards-outer {
-    position: relative;
-    max-width: 870px;
-    margin: 0 auto;
-}
-
-.awards-section .awards-outer .owl-dots,
-.awards-section .awards-outer .owl-nav {
-    position: relative;
-    display: none;
-}
-
-.awards-section .awards-outer .image-box {
-    position: relative;
-    text-align: center;
-}
-
-.awards-section .awards-outer .image-box img {
-    max-width: 100%;
-    width: auto;
-    display: inline-block;
-    transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    -webkit-transition: all 0.3s ease;
-    -ms-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;
-    opacity: 1;
-}
-
-.awards-section .awards-outer .image-box img:hover {
-    opacity: 0.8;
-}
-
-
-/*** 
-
-====================================================================
-	Game Modes Section Three
-====================================================================
-
-***/
-
-.gamemode-section-three {
-    position: relative;
-    padding: 120px 0px 90px;
-}
-
-
-/*** 
-
-====================================================================
-	Map Section Style
-====================================================================
-
-***/
-
-.map-section {
-    position: relative;
-    padding: 0px 0px 110px;
-}
-
-.map-data {
-    text-align: center;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 1.8em;
-}
-
-.map-data h6 {
-    font-size: 16px;
-    font-weight: 700;
-    text-align: center;
-    margin-bottom: 5px;
-    color: #121212;
-}
-
-.map-canvas {
-    height: 450px;
 }
 
 
