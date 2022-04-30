@@ -606,11 +606,11 @@
 
 @media only screen and (max-width: 599px) {
     .features-section#roadmap {
-        top: -690px;
-        margin-bottom: 695px;
+        top: -1082px;
+    margin-bottom: 1970px;
     }
     .features-section {
-        top: -22px;
+        top: 65px;
     }
     .features-section p {
         border-radius: 25px;
@@ -623,13 +623,13 @@
         border-radius: 35px;
     }
     .features-section#tokenomics {
-        top: -360px;
+        top: -490px;
     }
     .features-section#eon-center {
-        top: 60px;
+        top: 365px;
     }
     .features-section#coreteam {
-        top: -415px;
+        top: -565px;
     }
     .content h2 {
         position: relative;
