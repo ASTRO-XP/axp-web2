@@ -54,6 +54,7 @@
                 stickyTeamDrop.addClass("team-stk-drop");
                 stickyComDrop.addClass("com-stk-drop");
                 scrollLink.fadeIn(300);
+                console.log("Stikyyy Boiiiii");
             } else {
                 siteHeader.removeClass('fixed-header');
                 sticky_header.removeClass("animated slideInDown");
