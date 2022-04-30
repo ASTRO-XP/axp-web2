@@ -2237,14 +2237,14 @@ footer p {
     position: relative;
     height: auto;
     width: 650px;
-    top: -100px
+    top: -145px
 }
 
 .holov-image4 img {
     position: relative;
     height: auto;
     width: 650px;
-    top: -100px
+    top: -145px
 }
 
 .sec-title.centered.landing {
@@ -2263,20 +2263,24 @@ footer p {
 .features-section {
     position: relative;
     /* padding: 0px 0px 60px; */
-    top: -155px;
+    top: -130px;
 }
 
 .features-section#tokenomics {
-    top: -270px;
+    top: -215px;
 }
 
 .features-section#coreteam {
-    top: -610px;
+    top: -1248px;
+}
+
+.features-section#eon-center {
+    top: -20px;
 }
 
 .features-section#roadmap {
-    top: -590px;
-    margin-bottom: -75px;
+    top: -1370px;
+    margin-bottom: 976px;
 }
 
 .button {
