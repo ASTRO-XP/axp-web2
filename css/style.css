@@ -2267,11 +2267,11 @@ footer p {
 }
 
 .features-section#tokenomics {
-    top: -630px;
+    top: -200px;
 }
 
 .features-section#coreteam {
-    top: -815px;
+    top: -1220px;
 }
 
 .features-section#eon-center {
@@ -2279,8 +2279,8 @@ footer p {
 }
 
 .features-section#roadmap {
-    top: -850px;
-    margin-bottom: 1725px;
+    top: -1270px;
+    margin-bottom: 1250px;
 }
 
 .button {
