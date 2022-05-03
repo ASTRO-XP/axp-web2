@@ -18,20 +18,16 @@ $(document).ready(function() {
     });
 
     $(".team-stk-drop").mouseenter(function() {
-        console.log('test hover');
         this.className += ' active';
     });
     $(".team-stk-drop").mouseleave(function() {
-        console.log('test out');
         this.className = this.className.replace(' active', '');
     });
 
     $(".com-stk-drop").mouseenter(function() {
-        console.log('test hover');
         this.className += ' active';
     });
     $(".com-stk-drop").mouseleave(function() {
-        console.log('test out');
         this.className = this.className.replace(' active', '');
     });
 });

@@ -10,17 +10,13 @@
 .single-box {
     border-radius: 20px;
     overflow: hidden;
-    background-color: rgb(105 0 255 / 6%);
-    height: 428px;
-}
-
-.info-area {
-    padding: 0 20px 45px;
+    background-color: rgb(25 23 56 / 33%);
+    height: auto;
+    margin: 10px;
 }
 
 .img-area {
     overflow: hidden;
-    padding: 0 0 15px;
 }
 
 .container-ar-l p {
@@ -43,7 +39,6 @@
     margin: 0 auto;
     -webkit-transition: all 0.5s ease;
     transition: all 0.5s ease;
-    max-width: 230px;
     border-radius: 20px;
     filter: drop-shadow(3px 3px 3px #000203);
 }
@@ -60,6 +55,7 @@
 }
 
 .info-area h4 {
+    font-size: 18px;
     font-weight: 600;
     color: #BFBFBF;
 }

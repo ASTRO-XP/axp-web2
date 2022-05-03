@@ -276,19 +276,11 @@ figure {
     transform-origin: bottom left;
 }
 
-
-/* 
 .sec-div {
     position: absolute;
-    top: -67px;
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-content: center;
-    width: 100%;
-    align-items: center;
-} */
+    top: -140px;
+    width: 1000px;
+}
 
 
 /* Btn Style Two */
@@ -1926,9 +1918,18 @@ img {
     font-family: 'Oxanium';
     font-weight: 400;
     color: #FFF;
-    border-radius: 25px;
-    padding: 14px 8px;
-    background-color: #0e0a348c;
+    scroll-margin-top: 0px;
+    margin: 0;
+}
+
+.info-area p {
+    font-size: 14px;
+    font-family: 'Oxanium';
+    line-height: 1.2;
+    font-weight: 400;
+    color: #FFF;
+    padding: 8px 0px !important;
+    background-color: #00000000;
     margin: 0;
 }
 
@@ -2199,6 +2200,7 @@ footer p {
 
 .banner-section {
     position: relative;
+    scroll-margin-top: -10px;
 }
 
 .eon-centered {
@@ -2251,6 +2253,16 @@ footer p {
     top: -20px;
 }
 
+.sec-title.centered img {
+    position: relative;
+    top: 24px;
+}
+
+.content-wrap {
+    background-color: rgb(18 13 34 / 57%);
+    box-shadow: 0 0 50px 100px rgb(18 13 34 / 52%);
+}
+
 
 /*** 
 
@@ -2260,27 +2272,25 @@ footer p {
 
 ***/
 
-.features-section {
-    position: relative;
-    /* padding: 0px 0px 60px; */
-    top: -130px;
-}
-
 .features-section#tokenomics {
-    top: -200px;
+    position: relative;
+    top: -290px;
 }
 
 .features-section#coreteam {
-    top: -1220px;
+    position: relative;
+    top: -400px;
 }
 
 .features-section#eon-center {
-    top: -20px;
+    position: relative;
+    top: -120px;
 }
 
 .features-section#roadmap {
-    top: -1270px;
-    margin-bottom: 1250px;
+    position: relative;
+    top: -360px;
+    margin-bottom: 745px;
 }
 
 .button {
@@ -4273,141 +4283,6 @@ footer p {
 
 .question-block-two.alternate .inner-box {
     padding-right: 0px;
-}
-
-
-/*** 
-
-====================================================================
-		Match Single
-====================================================================
-
-***/
-
-.match-single {
-    position: relative;
-}
-
-.match-single .title-box {
-    position: relative;
-    margin-bottom: 60px;
-    padding-bottom: 55px;
-    border-bottom: 1px solid #302f2f;
-}
-
-.match-single .title-box .recent-result {
-    position: relative;
-    display: block;
-    font-size: 20px;
-    line-height: 1.2em;
-    color: #544f81bd;
-    font-weight: 400;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-    margin-bottom: 15px;
-}
-
-.match-single .title-box .recent-result span {
-    color: #FFF;
-    margin-left: 10px;
-}
-
-.match-single .title-box h3 {
-    position: relative;
-    display: block;
-    font-size: 30px;
-    line-height: 1.2em;
-    color: #FFF;
-    font-weight: 700;
-    letter-spacing: 0.05em;
-    margin-bottom: 18px;
-}
-
-.match-single .title-box .date {
-    display: block;
-    font-size: 16px;
-    line-height: 1.2em;
-    color: #848484;
-    letter-spacing: 0.05em;
-    text-transform: uppercase;
-    font-weight: 400;
-}
-
-.match-single .team-box {
-    position: relative;
-    padding-bottom: 30px;
-    border-bottom: 1px solid #302f2f;
-    margin-bottom: 55px;
-}
-
-.match-single .team-box:before {
-    position: absolute;
-    top: 95px;
-    left: 50%;
-    content: "vs";
-    width: 70px;
-    height: 70px;
-    color: #FFF;
-    font-size: 24px;
-    line-height: 68px;
-    text-align: center;
-    background-color: #544f81bd;
-    border: 1px solid #544f81bd;
-    margin-left: -35px;
-    -webkit-transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    -ms-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;
-    transition: all 0.3s ease;
-}
-
-.match-single .team-box .match-item {
-    position: relative;
-    max-width: 225px;
-    width: 100%;
-    margin-bottom: 30px;
-}
-
-.match-single .team-box .match-item .inner-item .icon-box {
-    font-size: 90px;
-    padding: 70px 0px;
-}
-
-.match-single .team-box .match-item .inner-item .product {
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 28px;
-    padding: 15px 0px;
-}
-
-.match-single .text-box {
-    position: relative;
-    border-bottom: 1px solid #302f2f;
-    margin-bottom: 50px;
-}
-
-.match-single .text-box p {
-    position: relative;
-    font-size: 16px;
-    line-height: 2em;
-    color: #848484;
-    font-weight: 400;
-    margin-bottom: 50px;
-}
-
-.match-single .text-box .column {
-    position: relative;
-    margin-bottom: 50px;
-}
-
-.match-single .text-box .image {
-    position: relative;
-    margin-bottom: 0;
-}
-
-.match-single .text-box .image img {
-    width: 100%;
-    height: auto;
 }
 
 

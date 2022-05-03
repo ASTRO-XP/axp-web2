@@ -9,7 +9,6 @@
         font-size: 100px;
         line-height: 1.1em;
     }
-
     .game-gallery-area .slider-nav {
         max-width: 1080px;
         position: unset;
@@ -20,51 +19,41 @@
     .banner-carousel .content-box h2 {
         font-size: 84px;
     }
-
     .game-gallery-area .slider-nav {
         max-width: 900px;
         position: unset;
     }
-
     .banner-carousel .slide-item,
     .banner-section.style-two .slide-item {
         padding: 150px 0px 180px;
     }
-
     .sec-title h2,
     .facts-section .content h2 {
         font-size: 56px;
     }
-
     .sec-title .title {
         font-size: 18px;
     }
-
     .default-portfolio-item .overlay-inner h3,
     .gallery-block .inner-box .image .overlay-box h2 {
         font-size: 36px;
         line-height: 1.2em;
     }
-
     .gallery-block .inner-box .image .overlay-box {
         left: 30px;
         top: 30px;
         bottom: 24px;
         right: 30px;
     }
-
     .gallery-block-two .inner-box .image .overlay-box h3 {
         padding: 24px 30px;
     }
-
     .features-section-two .title-column .inner-column {
         padding-right: 0;
     }
-
     .page-banner {
         padding: 120px 0px 70px;
     }
-
     .page-banner h1 {
         font-size: 56px;
     }
@@ -74,15 +63,12 @@
     .holov-image1 img {
         width: 600px;
     }
-
     .holov-image2 img {
         width: 600px;
     }
-
     .holov-image3 img {
         width: 600px;
     }
-
     .holov-image4 img {
         width: 600px;
     }
@@ -92,15 +78,12 @@
     .holov-image1 img {
         width: 400px;
     }
-
     .holov-image2 img {
         width: 400px;
     }
-
     .holov-image3 img {
         width: 400px;
     }
-
     .holov-image4 img {
         width: 400px;
     }
@@ -110,15 +93,12 @@
     .holov-image1 img {
         width: 400px;
     }
-
     .holov-image2 img {
         width: 400px;
     }
-
     .holov-image3 img {
         width: 400px;
     }
-
     .holov-image4 img {
         width: 400px;
     }
@@ -135,23 +115,18 @@
         flex-direction: row;
         align-content: center;
     }
-
     .holov-image1 img {
         width: 350px;
     }
-
     .holov-image2 img {
         width: 350px;
     }
-
     .holov-image3 img {
         width: 380px;
     }
-
     .holov-image4 img {
         width: 350px;
     }
-
     .sec-title.centered.landing {
         top: 0px;
     }
@@ -161,15 +136,12 @@
     .holov-image1 img {
         width: 250=0px;
     }
-
     .holov-image2 img {
         width: 250px;
     }
-
     .holov-image3 img {
         width: 250px;
     }
-
     .holov-image4 img {
         width: 250px;
     }
@@ -179,57 +151,44 @@
     .facts-section .lower-boxed .testimonial-column .inner-column {
         padding-left: 50px;
     }
-
     .sec-title h2 {
         font-size: 48px;
     }
-
     .facts-section .content h2 {
         font-size: 42px;
         line-height: 1.2em;
     }
-
     .blog-block .inner-box .lower-content {
         padding: 40px 20px;
     }
-
     .games-block .inner-box .lower-content h3 {
         font-size: 20px;
     }
-
     .call-to-action-section .content h2 {
         font-size: 48px;
     }
-
     .contact-form-section .title-column .inner-column {
         padding-right: 0;
     }
-
     .player-block .inner-box .lower-content {
         padding: 30px 30px;
     }
-
     .player-info-section .text-column .inner {
         padding-left: 0;
         padding-top: 0;
     }
-
     .sidebar .search-box {
         padding: 22px 30px;
     }
-
     .sidebar-widget {
         padding: 30px 30px;
     }
-
     .blog-detail .post-info {
         margin-bottom: 20px;
     }
-
     .blog-detail .lower-content p {
         line-height: 1.7em;
     }
-
     .studio-widget .widget-content .title {
         font-size: 30px;
         line-height: 1.3em;
@@ -237,7 +196,6 @@
 }
 
 @media only screen and (min-width: 768px) {
-
     .main-menu .navigation>li>ul,
     .main-menu .navigation>li>ul>li>ul {
         display: block !important;
@@ -251,16 +209,13 @@
         visibility: hidden;
         display: none;
     }
-
     .arrow-d {
         display: none;
         visibility: hidden;
     }
-
     .default-portfolio-item .image-box.intro img {
         height: 150px;
     }
-
     .mobile-menu .navigation li ul li>a {
         display: flex;
         flex-direction: row;
@@ -269,16 +224,13 @@
         align-items: center;
         align-content: center;
     }
-
     .main-header .nav-outer .main-menu,
     .sticky-header {
         display: none !important;
     }
-
     .banner-section {
         padding-top: 70px;
     }
-
     .main-footer .footer-bottom .social-icons {
         padding-top: 20px;
         display: flex;
@@ -289,45 +241,36 @@
         justify-content: space-evenly;
         align-items: center;
     }
-
     .main-footer .footer-bottom .social-icons li {
         position: relative;
         display: inline-block;
     }
-
     .hide img {
         visibility: visible;
         margin-left: 10px;
     }
-
     .main-header {
         position: fixed;
         top: 0;
     }
-
     .slide-item div.two {
         background-image: url(../images/main-slider/Vertical_Placeholder_Slider.png) !important;
     }
-
     .slide-item div.one {
         background-image: url(../images/main-slider/Vertical_Placeholder_Slider.png) !important;
     }
-
     .slide-item div.three {
         background-image: url(../images/main-slider/Vertical_Placeholder_Slider.png) !important;
     }
-
     .nav-outer .mobile-nav-toggler {
         display: block;
         margin: 0;
         padding: 14px 0;
         right: 15px;
     }
-
     .main-header .header-upper .nav-outer:before {
         display: none;
     }
-
     .main-header .header-upper .logo-outer {
         position: relative;
         left: 0;
@@ -341,171 +284,134 @@
         -ms-transform: translateX(0);
         transform: translateX(0);
     }
-
     .main-header .nav-outer {
         width: auto;
         float: right;
     }
-
     .banner-carousel .slide-item,
     .banner-section.style-two .slide-item {
         padding: 100px 0px 130px;
     }
-
     .banner-carousel .content-box h2 {
         font-size: 64px;
     }
-
     .banner-carousel .content-box .text {
         font-size: 20px;
         line-height: 1.5em;
     }
-
     .banner-section .owl-nav {
         display: none;
     }
-
     .blogs-section .matches-tabs .tab-btns .tab-btn {
         padding: 15px 30px;
     }
-
     .matches-block .inner-block .content-column {
         margin-bottom: 30px;
     }
-
     .matches-block .match-column .inner-column {
         padding-left: 0;
     }
-
     .questions-section .inner-container:before,
     .questions-section .inner-container:after {
         display: none;
     }
-
     .questions-section .inner-container .row {
         margin: 0px -15px;
     }
-
     .questions-section .inner-container .question-block {
         padding: 0px 15px;
         margin-bottom: 50px !important;
     }
-
     .questions-section .question-block .inner-box {
         padding-bottom: 50px;
         border-bottom: 1px solid #302f2f;
     }
-
     .facts-section .lower-boxed .counter-column .inner-column {
         padding-right: 0;
     }
-
     .facts-section .lower-boxed .testimonial-column .inner-column {
         margin: 0;
         padding: 50px 20px;
     }
-
     .sec-title h2 {
         font-size: 36px;
     }
-
     .sec-title .title {
         font-size: 16px;
     }
-
     .facts-section .title-boxed .content {
         max-width: none;
         text-align: center;
     }
-
     .facts-section .content h2 {
         font-size: 36px;
         margin-bottom: 30px;
     }
-
     .btn-style-one .btn-title,
     .comment-form .form-group .btn-title {
         padding: 12px 45px;
         font-size: 15px;
     }
-
     .default-portfolio-item .overlay-inner h3,
     .gallery-block .inner-box .image .overlay-box h2 {
         font-size: 30px;
     }
-
     .testimonial-block .inner-box .text {
         font-size: 24px;
     }
-
     .blog-block .inner-box .lower-content {
         padding: 30px 20px;
     }
-
     .main-footer .footer-bottom {
         text-align: center;
         padding-top: 60px;
     }
-
     .main-footer .footer-bottom .column {
         width: 100%;
     }
-
     .main-footer .footer-bottom .social-icons {
         padding-top: 20px;
         text-align: center;
     }
-
     .call-to-action-section .content h2,
     .about-section .lower-content h3 {
         font-size: 36px;
     }
-
     .features-section-one .image-column .image img,
     .features-section-two .image-column .image img {
         max-width: 100%;
     }
-
     .facts-section .lower-boxed .testimonial-column .inner-column:before {
         width: 100%;
     }
-
     .facts-section .lower-boxed .counter-column .inner-column {
         padding-top: 50px;
     }
-
     .featured-block .inner-box {
         padding-left: 0;
         text-align: center;
     }
-
     .featured-block .inner-box .icon-box {
         position: relative;
         left: 0;
         top: 0;
         margin: 0 auto 30px;
     }
-
     .about-section .lower-content {
         margin-top: 10px;
     }
-
     .page-banner {
         padding: 50px 0px;
     }
-
     .page-banner h1 {
         font-size: 48px;
     }
-
     .player-block .inner-box .lower-content {
         padding: 30px 20px;
     }
-
     .faq-section .inner-container:before {
         display: none;
     }
-
     .question-block-two,
     .question-block-two.alternate {
         margin-bottom: 50px !important;
@@ -513,13 +419,11 @@
         padding-bottom: 50px !important;
         border-bottom: 1px solid #302f2f !important;
     }
-
     .faq-section .inner-container .question-block-two:last-child {
         border: none !important;
         padding-bottom: 0 !important;
         margin-bottom: 0 !important;
     }
-
     .question-block-two .inner-box {
         padding-right: 0;
     }
@@ -529,52 +433,42 @@
     .banner-carousel .content-box h2 {
         font-size: 48px;
     }
-
     .banner-carousel .content-box .text,
     .features-section .lower-box .text {
         font-size: 18px;
         line-height: 1.6em;
     }
-
     .matches-block .inner-block {
         padding: 30px 20px;
     }
-
     .facts-section .content h2 {
         font-size: 30px;
     }
-
     .matches-block .match-column .match-item:first-child {
         margin-bottom: 70px;
     }
-
     .matches-block .match-column .match-item:first-child::before {
         top: auto;
         bottom: -55px;
         left: 50%;
         margin-left: -20px;
     }
-
     .matches-block .inner-block .content-column h2 {
         font-size: 24px;
     }
-
     .blogs-section .matches-tabs .tab-btns .tab-btn {
         width: 100%;
         text-align: center;
         border-bottom: 1px solid #2e2d2d;
     }
-
     .blogs-section .matches-tabs .tab-btns .tab-btn:last-child {
         border: none;
     }
-
     .question-block .inner-box,
     .main-footer .links-widget .widget-content,
     .question-block-two .inner-box {
         padding-left: 0;
     }
-
     .question-block .inner-box .icon-box,
     .question-block-two .inner-box .icon-box {
         position: relative;
@@ -582,52 +476,41 @@
         top: 0px;
         margin: 0 0 30px;
     }
-
     .sec-title h2 {
         font-size: 30px;
     }
-
     .gallery-block .inner-box .image .overlay-box h2 {
         font-size: 26px;
     }
-
     .testimonial-block .inner-box .text {
         font-size: 20px;
     }
-
     .facts-section .lower-boxed .testimonial-column .owl-dots {
         bottom: -40px;
         right: auto;
         left: 0;
     }
-
     .facts-section .lower-boxed .testimonial-column .inner-column {
         padding-bottom: 80px;
     }
-
     .call-to-action-section .content h2,
     .about-section .lower-content h3 {
         font-size: 30px;
     }
-
     .page-banner h1 {
         font-size: 40px;
     }
-
     .post-share-options .pull-left,
     .post-share-options .pull-right {
         width: 100%;
         text-align: left;
     }
-
     .author-box {
         padding: 30px 20px;
     }
-
     .author-box .inner-box {
         padding-left: 0;
     }
-
     .author-box .thumb,
     .comments-area .comment-box .author-thumb {
         position: relative;
@@ -635,22 +518,18 @@
         top: 0;
         margin: 0 0 30px;
     }
-
     .author-box .name,
     .comments-area .comment-box .name {
         margin-bottom: 20px;
     }
-
     .comments-area .comment {
         padding-left: 0;
     }
-
     .comments-area .comment-box .text {
         line-height: 1.7em;
         padding-right: 0;
         margin-bottom: 30px;
     }
-
     .comments-area .comment-box .reply-btn {
         position: relative;
         display: inline-block;
@@ -659,21 +538,17 @@
         right: 0;
         bottom: 0;
     }
-
     .group-title {
         margin-bottom: 30px;
     }
-
     .group-title h3 {
         font-size: 26px;
     }
-
     .studio-widget .widget-content .title {
         right: 20px;
         bottom: 20px;
         padding: 0;
     }
-
     .banner-carousel .slide-item,
     .banner-section.style-two .slide-item {
         padding: 80px 0px 110px;
@@ -684,7 +559,6 @@
     .row {
         text-align: center;
     }
-
     .intro {
         display: flex !important;
         flex-direction: row;
@@ -693,33 +567,26 @@
         justify-content: center;
         align-items: center;
     }
-
     .main-header .header-top .top-left {
         display: none;
     }
-
     .main-header .header-top .top-right {
         width: 100%;
         text-align: center
     }
-
     .blog-block .inner-box .lower-content h3 {
         font-size: 20px;
     }
-
     .match-single .team-box .match-item {
         width: 100%;
         max-width: none;
     }
-
     .match-single .team-box:before {
         display: none;
     }
-
     .match-single .team-box .match-item:first-child {
         margin-bottom: 80px;
     }
-
     .match-single .team-box .match-item:first-child:before {
         position: absolute;
         bottom: -65px;
@@ -738,39 +605,35 @@
 }
 
 @media only screen and (max-width: 599px) {
-    .features-section#roadmap {
-        top: -1082px;
-        margin-bottom: 1970px;
+    .auto-container-rm {
+        max-width: 100vw;
     }
-
+    .single-box {
+        height: auto;
+    }
+    .features-section#roadmap {
+        top: 2px;
+        margin-bottom: -20px;
+    }
     .features-section {
         top: 65px;
     }
-
-    .features-section p {
-        border-radius: 25px;
-        padding: 5px 10px;
-        background-color: #1b174482;
-        margin: 0;
+    .sec-title h3 {
+        font-size: 20px;
     }
-
     .tokenomics-img {
-        background-color: #14101063;
+        background-color: #00000021;
         border-radius: 35px;
     }
-
     .features-section#tokenomics {
-        top: -490px;
+        top: -20px;
     }
-
     .features-section#eon-center {
-        top: 365px;
+        top: 2px;
     }
-
     .features-section#coreteam {
-        top: -565px;
+        top: -20px;
     }
-
     .content h2 {
         position: relative;
         display: block;
@@ -781,24 +644,19 @@
         padding: 0px 10px;
         text-transform: uppercase;
     }
-
     .content.holovs.right {
         text-align: center;
     }
-
     .default-portfolio-item .image-box.intro img {
         height: 190px;
         float: right;
     }
-
     .nav-outer .mobile-nav-toggler {
         right: -220px;
     }
-
     .img-logo-1 {
         display: none;
     }
-
     .stickynav {
         display: flex;
         justify-content: center;
@@ -807,7 +665,6 @@
         flex-wrap: wrap;
         align-items: center;
     }
-
     .tognav {
         display: flex;
         justify-content: flex-end;
@@ -816,7 +673,6 @@
         flex-wrap: wrap;
         align-items: center;
     }
-
     .holov-container {
         display: flex;
         height: 66vh;
@@ -827,24 +683,23 @@
         align-content: center;
         justify-content: center;
     }
-
     .sec-title.landing h2 {
         position: relative;
         display: block;
-        font-size: 35px;
+        font-size: 25px;
         line-height: 1.1em;
         backdrop-filter: blur(5px);
         border-radius: 25px;
         color: #FFF;
+        margin-top: 60px;
+        padding: 0px 5px;
         font-weight: bold;
         text-transform: uppercase;
     }
-
     .holovs {
         padding-left: 20px;
         padding-right: 20px;
     }
-
     .intro {
         display: flex !important;
         flex-direction: row;
@@ -853,65 +708,53 @@
         justify-content: center;
         align-items: center;
     }
-
     .holov-image1 img {
         width: 350px;
-        bottom: -317px;
+        bottom: -275px;
         left: -100px;
     }
-
     .holov-image2 img {
-
         width: 350px;
-        bottom: -154px;
-        left: 93px;
-
+        bottom: -139px;
+        left: 133px;
     }
-
     .holov-image3 img {
         width: 350px;
-        bottom: 25px;
-        left: -125px;
-        top: 103px;
+        bottom: 22px;
+        left: -96px;
+        top: 96px;
+        ;
     }
-
     .holov-image4 img {
         width: 350px;
         bottom: 25px;
-        left: 61px;
-        top: -180px;
+        left: 105px;
+        top: -201px;
     }
 }
 
 
 }
-
 .main-header .header-top .top-left {
     display: none;
 }
-
 .main-header .header-top .top-right {
     width: 100%;
     text-align: center
 }
-
 .blog-block .inner-box .lower-content h3 {
     font-size: 20px;
 }
-
 .match-single .team-box .match-item {
     width: 100%;
     max-width: none;
 }
-
 .match-single .team-box:before {
     display: none;
 }
-
 .match-single .team-box .match-item:first-child {
     margin-bottom: 80px;
 }
-
 .match-single .team-box .match-item:first-child:before {
     position: absolute;
     bottom: -65px;
@@ -927,53 +770,49 @@
     border: 1px solid #3786ff;
     margin-left: -25px;
 }
-
 @media only screen and (max-width: 546px) {
     .nav-outer .mobile-nav-toggler {
         right: -180px;
     }
-
+    
     .game-gallery-area .slider-nav {
         bottom: 326px !important;
         position: inherit;
     }
 }
-
 @media only screen and (max-width: 412px) {
     .nav-outer .mobile-nav-toggler {
         right: -171px;
     }
-
+    
     .game-gallery-area .slider-nav {
         bottom: 326px !important;
         position: inherit;
     }
-
+    
     .sidebar .search-box {
         padding: 20px 20px;
     }
-
+    
     .sidebar-widget {
         padding: 30px 20px;
     }
 }
-
 @media only screen and (max-width: 390px) {
     .nav-outer .mobile-nav-toggler {
         right: -161px;
     }
 }
-
 @media only screen and (max-width: 280px) {
     .gif img {
         height: auto;
         width: 108px;
     }
-
+    
     .nav-outer .mobile-nav-toggler {
         right: -103px;
     }
-
+    
     .sec-title.landing h2 {
         font-size: 25px;
     }

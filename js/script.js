@@ -2,7 +2,6 @@
 
     "use strict";
 
-    //Hide Loading Box (Preloader)
     function handlePreloader() {
         if ($('.preloader').length) {
             $('body').addClass('page-loaded');
@@ -11,35 +10,6 @@
         }
     }
 
-
-    var rect = $('#banner')[0].getBoundingClientRect();
-    var mouse = { x: 0, y: 0, moved: false };
-
-    $("#banner").mousemove(function(e) {
-        mouse.moved = true;
-        mouse.x = e.clientX - rect.left;
-        mouse.y = e.clientY - rect.top;
-    });
-
-    // Ticker event will be called on every frame
-    TweenLite.ticker.addEventListener('tick', function() {
-        if (mouse.moved) {
-            parallaxIt(".gif", -50);
-        }
-        mouse.moved = false;
-    });
-
-    function parallaxIt(target, movement) {
-        TweenMax.to(target, 0.5, {
-            x: (mouse.x - rect.width / 2) / rect.width * movement,
-            y: (mouse.y - rect.height / 2) / rect.height * movement
-        });
-    }
-
-    $(window).on('resize scroll', function() {
-            rect = $('#banner')[0].getBoundingClientRect();
-        })
-        //Update Header Style and Scroll to Top
     function headerStyle() {
         if ($('.main-header').length) {
             var windowpos = $(window).scrollTop();
@@ -62,7 +32,7 @@
             }
         }
     }
-    var rellax = new Rellax('.rellax');
+    // var rellax = new Rellax('.rellax');
 
 
     headerStyle();
@@ -151,102 +121,6 @@
     }
 
 
-    // Sponsors Carousel
-    if ($('.sponsors-carousel').length) {
-        $('.sponsors-carousel').owlCarousel({
-            loop: true,
-            margin: 40,
-            nav: true,
-            smartSpeed: 500,
-            autoplay: 4000,
-            navText: ['<span class="fa fa-angle-left"></span>', '<span class="fa fa-angle-right"></span>'],
-            responsive: {
-                0: {
-                    items: 1
-                },
-                480: {
-                    items: 2
-                },
-                600: {
-                    items: 3
-                },
-                800: {
-                    items: 4
-                },
-                1024: {
-                    items: 5
-                }
-            }
-        });
-    }
-
-    // Awards Carousel
-    if ($('.awards-carousel').length) {
-        $('.awards-carousel').owlCarousel({
-            loop: true,
-            margin: 40,
-            nav: true,
-            smartSpeed: 500,
-            autoplay: 4000,
-            navText: ['<span class="fa fa-angle-left"></span>', '<span class="fa fa-angle-right"></span>'],
-            responsive: {
-                0: {
-                    items: 2
-                },
-                480: {
-                    items: 2
-                },
-                600: {
-                    items: 3
-                },
-                800: {
-                    items: 4
-                },
-                1024: {
-                    items: 5
-                }
-            }
-        });
-    }
-
-
-    //Tabs Box
-    if ($('.tabs-box').length) {
-        $('.tabs-box .tab-buttons .tab-btn').on('click', function(e) {
-            e.preventDefault();
-            var target = $($(this).attr('data-tab'));
-
-            if ($(target).is(':visible')) {
-                return false;
-            } else {
-                target.parents('.tabs-box').find('.tab-buttons').find('.tab-btn').removeClass('active-btn');
-                $(this).addClass('active-btn');
-                target.parents('.tabs-box').find('.tabs-content').find('.tab').fadeOut(0);
-                target.parents('.tabs-box').find('.tabs-content').find('.tab').removeClass('active-tab');
-                $(target).fadeIn(300);
-                $(target).addClass('active-tab');
-            }
-        });
-    }
-
-
-    //Gallery Filters
-    if ($('.filter-list').length) {
-        $('.filter-list').mixItUp({});
-    }
-
-    //LightBox / Fancybox
-    if ($('.lightbox-image').length) {
-        $('.lightbox-image').fancybox({
-            openEffect: 'fade',
-            closeEffect: 'fade',
-            helpers: {
-                media: {}
-            }
-        });
-    }
-
-    //Contact Form Validation
     if ($('#contact-form').length) {
         $('#contact-form').validate({
             rules: {
@@ -263,12 +137,9 @@
             }
         });
     }
-
-    // Scroll to a Specific Div
     if ($('.scroll-to-target').length) {
         $(".scroll-to-target").on('click', function() {
             var target = $(this).attr('data-target');
-            // animate
             $('html, body').animate({
                 scrollTop: $(target).offset().top
             }, 1500);
@@ -276,7 +147,6 @@
         });
     }
 
-    // Elements Animation
     if ($('.wow').length) {
         var wow = new WOW({
             boxClass: 'wow', // animated element css class (default is wow)
@@ -289,58 +159,31 @@
     }
 
 
-    /* ==========================================================================
-       When document is Scrollig, do
-       ========================================================================== */
-
     $(window).on('scroll', function() {
         headerStyle();
     });
-
-    /* ==========================================================================
-       When document is loading, do
-       ========================================================================== */
 
     $(window).on('load', function() {
         handlePreloader();
     });
 
-    $(document).on('click', 'a[href^="#"]', function(event) {
-        event.preventDefault();
 
-        $('html, body').animate({
-            scrollTop: $($.attr(this, 'href')).offset().top
-        }, 1200);
+    $('a[href^="#"]').on('click', function(event) {
+        var target = $($(this).attr('href'));
+
+        if (target.length) {
+            event.preventDefault();
+            $('html, body').animate({
+                scrollTop: target.offset().top
+            }, 1200);
+        }
+
     });
 
-    // var resizeCover = function() {
-    //     var banner = document.querySelector('#banner')
-    //     console.log(banner);
-    //     var owlSlider = banner.querySelector(".owl-stage-outer");
-    //     console.log(owlSlider);
-    //     var newHeight = window.innerHeight - document.getElementById('header').clientHeight;
-    //     if ($(window).width() < 1023) {
-    //         console.log("resized to low reso");
-    //         owlSlider.style.height = newHeight + 131 + "px";
-    //         owlSlider.style.minHeight = newHeight + 131 + "px";
-    //     } else {
-    //         owlSlider.style.height = newHeight + "px";
-    //         owlSlider.style.minHeight = newHeight + "px";
-    //     }
-
-    // }
-
-    // $(document).ready(resizeCover);
-    // window.onresize = resizeCover;
-
-
-    // Cache selectors
     var lastId,
         topMenu = $(".nav-menu"),
         topMenuHeight = topMenu.outerHeight() + 1,
-        // All list items
         menuItems = topMenu.find("a"),
-        // Anchors corresponding to menu items
         scrollItems = menuItems.map(function() {
             if (this.getAttribute("href").charAt(0) == "#") {
                 var item = $($(this).attr("href"));
@@ -348,35 +191,19 @@
             }
         });
 
-    // Bind click handler to menu items
-    // so we can get a fancy scroll animation
-    // menuItems.click(function(e){
-    //   var href = $(this).attr("href"),
-    //       offsetTop = href === "#" ? 0 : $(href).offset().top-topMenuHeight+1;
-    //   $('html, body').stop().animate({ 
-    //       scrollTop: offsetTop
-    //   }, 850);
-    //   e.preventDefault();
-    // });
-
-    // Bind to scroll
     $(window).scroll(function() {
-        // Get container scroll position
-        var fromTop = $(this).scrollTop() + topMenuHeight;
-        // Get id of current scroll item
+        var fromTop = $(this).scrollTop() + topMenuHeight + 100;
         var cur = scrollItems.map(function() {
             if ($(this).offset().top < fromTop)
                 return this;
         });
-        // Get the id of the current element
         cur = cur[cur.length - 1];
         var id = cur && cur.length ? cur[0].id : "";
 
         if (lastId !== id) {
             lastId = id;
-            // Set/remove active class
             menuItems
-                .parent().removeClass("current") // check here
+                .parent().removeClass("current")
                 .end().filter('[href="#' + id + '"]').parent().addClass("current");
         }
     });
