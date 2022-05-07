@@ -24,7 +24,7 @@
                 stickyTeamDrop.addClass("team-stk-drop");
                 stickyComDrop.addClass("com-stk-drop");
                 scrollLink.fadeIn(300);
-                console.log("Stikyyy Boiiiii");
+                console.log("<--- What's This?");
             } else {
                 siteHeader.removeClass('fixed-header');
                 sticky_header.removeClass("animated slideInDown");
@@ -32,7 +32,7 @@
             }
         }
     }
-    // var rellax = new Rellax('.rellax');
+    var rellax = new Rellax('.rellax');
 
 
     headerStyle();
@@ -168,17 +168,17 @@
     });
 
 
-    $('a[href^="#"]').on('click', function(event) {
-        var target = $($(this).attr('href'));
+    // $('a[href^="#"]').on('click', function(event) {
+    //     var target = $($(this).attr('href'));
 
-        if (target.length) {
-            event.preventDefault();
-            $('html, body').animate({
-                scrollTop: target.offset().top
-            }, 1200);
-        }
+    //     if (target.length) {
+    //         event.preventDefault();
+    //         $('html, body').animate({
+    //             scrollTop: target.offset().top
+    //         }, 1200);
+    //     }
 
-    });
+    // });
 
     var lastId,
         topMenu = $(".nav-menu"),
@@ -209,27 +209,6 @@
     });
 
     $(window).on('load resize', function() {
-        var hvimg1 = $('#hvimg1');
-        var hvimg2 = $('#hvimg2');
-        var hvimg3 = $('#hvimg3');
-        var hvimg4 = $('#hvimg4');
-        var hvc1 = $('#hvc1');
-        var hvc2 = $('#hvc2');
-        var hvc3 = $('#hvc3');
-        var hvc4 = $('#hvc4');
-        var wrapper = $('#hvwrap');
-
-        if ($(window).width() < 770) {
-            wrapper.prepend(hvimg1).append(hvc1);
-            wrapper.append(hvimg2).append(hvc2);
-            wrapper.append(hvimg3).append(hvc3);
-            wrapper.append(hvimg4).append(hvc4);
-        } else {
-            wrapper.prepend(hvimg1).append(hvc1);
-            wrapper.append(hvc2).append(hvimg2);
-            wrapper.append(hvimg3).append(hvc3);
-            wrapper.append(hvc4).append(hvimg4);
-        }
         if ($(window).width() < 1023) {
             $("#rm-img").attr("src", "images/roadmap/ROADMAP-PORTRAIT-2.png");
         } else {
