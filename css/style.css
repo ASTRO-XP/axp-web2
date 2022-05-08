@@ -169,7 +169,7 @@ p,
     z-index: -1;
     background-image: url(/images/background/LONG_BG1.jpg);
     background-position-x: center;
-    background-size: auto;
+    background-size: contain;
 }
 
 .auto-container {
