@@ -32,7 +32,6 @@
             }
         }
     }
-    var rellax = new Rellax('.rellax');
 
 
     headerStyle();
