@@ -609,6 +609,9 @@
 }
 
 @media only screen and (max-width: 599px) {
+    .bg-parallax {
+        background-image: url(/images/background/LONG_BG2.jpg);
+    }
     .auto-container-rm {
         max-width: 100vw;
     }
