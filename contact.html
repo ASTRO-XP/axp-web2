@@ -26,6 +26,8 @@
         <div class="preloader">
             <div class="icon"></div>
         </div>
+
+        <div class="bg-parallax"></div>
         <header class="main-header" id="header">
             <div class="header-top">
             </div>
@@ -118,7 +120,9 @@
                                 <div class="title">Connect With Us</div>
                                 <h2>we’re here to help you</h2>
                             </div>
-                            <ul class="social-icons">
+                            <ul class="social-icons centered">
+                                <li><a href="m.me/107203358556980" target="_blank"><span
+                                class="fab fa-facebook-messenger"></span></a></li>
                                 <li><a href="https://www.facebook.com/astroxpofficial" target="_blank"><span
                                             class="fab fa-twitter"></span></a></li>
                                 <li><a href="https://twitter.com/AstroXPOfficial" target="_blank"><span
@@ -163,6 +167,37 @@
                     </div>
 
                 </div>
+                <!-- Messenger Chat Plugin Code -->
+                <div id="fb-root"></div>
+
+                <!-- Your Chat Plugin code -->
+                <div id="fb-customer-chat" class="fb-customerchat">
+                </div>
+
+                <script>
+                    var chatbox = document.getElementById('fb-customer-chat');
+                    chatbox.setAttribute("page_id", "107203358556980");
+                    chatbox.setAttribute("attribution", "biz_inbox");
+                </script>
+
+                <!-- Your SDK code -->
+                <script>
+                    window.fbAsyncInit = function() {
+                        FB.init({
+                            xfbml: true,
+                            version: 'v13.0'
+                        });
+                    };
+
+                    (function(d, s, id) {
+                        var js, fjs = d.getElementsByTagName(s)[0];
+                        if (d.getElementById(id)) return;
+                        js = d.createElement(s);
+                        js.id = id;
+                        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+                        fjs.parentNode.insertBefore(js, fjs);
+                    }(document, 'script', 'facebook-jssdk'));
+                </script>
             </div>
         </section>
         <!-- End Contact Form Section -->
@@ -234,6 +269,8 @@
                         <!-- Column -->
                         <div class="column col-lg-6 col-md-12 col-sm-12 ">
                             <ul class="social-icons">
+                                <li><a href="m.me/107203358556980" target="_blank"><span
+                                    class="fab fa-facebook-messenger"></span></a></li>
                                 <li><a href="https://www.facebook.com/astroxpofficial" target="_blank"><span
                                             class="fab fa-twitter"></span></a></li>
                                 <li><a href="https://twitter.com/AstroXPOfficial" target="_blank"><span

@@ -17,6 +17,39 @@
 
 .img-area {
     overflow: hidden;
+    padding: 10px 0px;
+}
+
+.hover-switch {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.hover-switch>img#formal {
+    position: relative;
+}
+
+.hover-switch>img#whacky {
+    position: absolute;
+    top: 10px;
+    left: 0px;
+}
+
+.hover-switch>img:last-of-type {
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+    -moz-transition: opacity 0.5s ease-in-out;
+    -webkit-transition: opacity 0.5s ease-in-out;
+}
+
+
+/* 
+   * Hide the last image on hover
+  */
+
+.hover-switch:hover>img:last-of-type {
+    opacity: 0;
 }
 
 .container-ar-l p {
@@ -43,10 +76,11 @@
     filter: drop-shadow(3px 3px 3px #000203);
 }
 
-.single-box:hover img {
+
+/* .single-box:hover img {
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
-}
+} */
 
 .info-area i {
     display: inline-block;
@@ -55,7 +89,7 @@
 }
 
 .info-area h4 {
-    font-size: 18px;
+    font-size: 17px;
     font-weight: 600;
     color: #BFBFBF;
 }

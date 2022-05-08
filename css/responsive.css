@@ -196,6 +196,10 @@
 }
 
 @media only screen and (min-width: 768px) {
+    .holovs {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
     .main-menu .navigation>li>ul,
     .main-menu .navigation>li>ul>li>ul {
         display: block !important;
@@ -611,13 +615,6 @@
     .single-box {
         height: auto;
     }
-    .features-section#roadmap {
-        top: 2px;
-        margin-bottom: -20px;
-    }
-    .features-section {
-        top: 65px;
-    }
     .sec-title h3 {
         font-size: 20px;
     }
@@ -625,14 +622,8 @@
         background-color: #00000021;
         border-radius: 35px;
     }
-    .features-section#tokenomics {
-        top: -20px;
-    }
-    .features-section#eon-center {
-        top: 2px;
-    }
-    .features-section#coreteam {
-        top: -20px;
+    .features-section#features .content {
+        padding: 20px 20px;
     }
     .content h2 {
         position: relative;
