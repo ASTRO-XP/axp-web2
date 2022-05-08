@@ -1,19 +1,15 @@
 $(document).ready(function() {
-    $("#teamdrop").mouseenter(function() {
-        console.log('test hover');
+    $(".tmdrp").mouseenter(function() {
         this.className += ' active';
     });
-    $("#teamdrop").mouseleave(function() {
-        console.log('test out');
+    $(".tmdrp").mouseleave(function() {
         this.className = this.className.replace(' active', '');
     });
 
-    $("#comdrop").mouseenter(function() {
-        console.log('test hover');
+    $(".cmdrp").mouseenter(function() {
         this.className += ' active';
     });
-    $("#comdrop").mouseleave(function() {
-        console.log('test out');
+    $(".cmdrp").mouseleave(function() {
         this.className = this.className.replace(' active', '');
     });
 
