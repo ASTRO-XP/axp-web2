@@ -609,6 +609,42 @@
 }
 
 @media only screen and (max-width: 599px) {
+    #links-ft {
+        display: none;
+    }
+    .main-footer .widgets-section {
+        padding: 0px;
+    }
+    .main-footer .logo-widget .logo {
+        display: flex;
+        position: relative;
+        margin-bottom: 20px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .main-footer .footer-bottom {
+        padding-top: 15px;
+    }
+    .main-footer .footer-bottom .scroll-to-top {
+        top: -250px;
+    }
+    .main-footer .footer-bottom .copyright {
+        font-size: 12px;
+        line-height: 1.5;
+    }
+    .main-footer .links-widget .list li {
+        margin-bottom: 0px !important;
+        text-align: left;
+    }
+    .main-footer .footer-title {
+        margin-bottom: 5px;
+    }
+    .features-section p {
+        font-size: 16px;
+    }
     .bg-parallax {
         background-image: url(/images/background/LONG_BG2.jpg);
     }
@@ -672,10 +708,10 @@
         height: 66vh;
         width: auto;
         flex-wrap: wrap;
-        align-items: center;
+        align-items: flex-start;
         flex-direction: row;
-        align-content: center;
         justify-content: center;
+        align-content: flex-end;
     }
     .sec-title.landing h2 {
         position: relative;
@@ -703,27 +739,24 @@
         align-items: center;
     }
     .holov-image1 img {
-        width: 350px;
-        bottom: -275px;
-        left: -100px;
+        width: 255px;
+        bottom: -308px;
+        left: -77px;
     }
     .holov-image2 img {
-        width: 350px;
-        bottom: -139px;
-        left: 133px;
+        width: 255px;
+        bottom: -211px;
+        left: 76px;
     }
     .holov-image3 img {
-        width: 350px;
-        bottom: 22px;
-        left: -96px;
-        top: 96px;
-        ;
+        width: 255px;
+        left: -74px;
+        top: 193px;
     }
     .holov-image4 img {
-        width: 350px;
-        bottom: 25px;
-        left: 105px;
-        top: -201px;
+        width: 255px;
+        left: 87px;
+        top: -27px;
     }
     .main-header .header-top .top-left {
         display: none;
@@ -790,7 +823,7 @@
 
 @media only screen and (max-width: 390px) {
     .nav-outer .mobile-nav-toggler {
-        right: -161px;
+        right: -153px;
     }
 }
 
