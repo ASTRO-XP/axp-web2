@@ -88,6 +88,28 @@
         width: 400px;
     }
 }
+@media only screen and (max-height: 1920px){
+    .holov-image1 img {
+        width: 650px;
+    top: 50px;
+    left: -213px;
+    }
+    .holov-image2 img {
+        width: 650px;
+    top: -223px;
+    left: 238px;
+    }
+    .holov-image3 img {
+        width: 650px;
+    top: -446px;
+    left: -212px;
+    }
+    .holov-image4 img {
+        width: 650px;
+    top: -649px;
+    left: 251px;
+    }
+}
 
 @media only screen and (max-width: 1023px) {
     .navigation .img-logo-1 {
