@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i|Special+Elite&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200;300;400;500;600;700;800&display=swap');
-@import url("https://fonts.googleapis.com/css?family=Expansiva:400,500,600,700,800|Orbitron:400,400i,500,500i,600,600i,700&display=swap");
 @import url("fontawesome-all.css");
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100;300;400;500;700;800;900&family=Signika+Negative:wght@300;400;500;600;700&display=swap');
 @import url("animate.css");
 @import url("flaticon.css");
 @import url("owl.css");
@@ -9,11 +9,12 @@
 @import url("jquery.fancybox.min.css");
 @import url("scrollbar.css");
 @import url("hover.css");
+
 @font-face {
-    font-family: "Expansiva";
-    src: url("../fonts/Expansiva.otf") format("opentype"), url("../fonts/Expansiva_bold.otf") format("opentype"), url("../fonts/Expansiva_bold_italic.otf") format("opentype"), url("../fonts/Expansiva_italic.otf") format("opentype");
-    font-weight: normal;
-    font-style: normal;
+    font-family: "Strasua";
+        src: url("../fonts/strasua.ttf") format("truetype");
+        font-weight: normal;
+        font-style: normal;
 }
 
 * {
@@ -46,7 +47,7 @@ body {
     background: #0c0a0a;
     -webkit-font-smoothing: antialiased;
     -moz-font-smoothing: antialiased;
-    font-family: "Expansiva", sans-serif;
+    font-family: "Strasua", sans-serif;
 }
 
 a {
@@ -912,9 +913,11 @@ img {
 
 .main-menu .navigation>li>a {
     position: relative;
+    font-family: 'Oxanium';
     display: block;
     text-align: center;
-    font-size: 14px;
+    font-weight: 500;
+    font-size: 16px;
     opacity: 1;
     color: #FFF;
     z-index: 1;
@@ -923,7 +926,6 @@ img {
     -ms-transition: all 300ms ease;
     -o-transition: all 300ms ease;
     transition: all 300ms ease;
-    text-transform: uppercase;
 }
 
 .main-menu .navigation>li>a:before {
@@ -1548,12 +1550,12 @@ img {
 }
 
 .features-section#eon-center .sec-title h3 {
-    font-family: 'Oxanium';
+    font-family: 'Expansiva';
 }
 
 .sticky-header .main-menu .navigation>li>a {
     line-height: 5px;
-    font-size: 13px;
+    font-size: 16px;
     color: #FFF;
     text-transform: capitalize;
     -webkit-transition: all 300ms ease;
@@ -1886,22 +1888,25 @@ img {
     display: block;
     font-size: 65px;
     line-height: 1.1em;
+    font-family: 'Expansiva';
     color: #FFF;
     font-weight: bold;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
 }
 
 .sec-title.landing h2 {
     position: relative;
     display: block;
     font-size: 45px;
+    font-family: 'Strasua';
     backdrop-filter: blur(5px);
     border-radius: 25px;
-    top: -20px;
+    top: -398px;
     line-height: 1.1em;
+    letter-spacing: 6.5px;
     color: #FFF;
-    font-weight: bold;
-    text-transform: uppercase;
+    font-weight: normal;
+    /* text-transform: uppercase; */
 }
 
 .sec-title h2 span {
@@ -2279,14 +2284,15 @@ footer p {
     position: relative;
     height: auto;
     width: 650px;
-    top: -145px
+    top: -68px;
+    z-index: 10;
 }
 
 .holov-image4 img {
     position: relative;
     height: auto;
     width: 650px;
-    top: -175px
+    top: -80px
 }
 
 .sec-title.centered.landing {
@@ -2302,6 +2308,8 @@ footer p {
     background-color: rgb(18 13 34 / 57%);
     box-shadow: 0 0 50px 100px rgb(18 13 34 / 52%);
 }
+
+
 
 
 /*** 
@@ -2341,15 +2349,15 @@ footer p {
     position: relative;
     padding: 6px 28px;
     font-size: 14px;
-    font-weight: bold;
     text-transform: uppercase;
-    color: #e1c7f6;
-    background: #000000;
-    border: 1px solid #59C9E6;
+    color: #000;
+    background: #fff;
+    border: 1px solid #2a0058;
     border-radius: 25px;
-    box-shadow: 0 0 0 2px #000000;
+    top: -377px;
+    box-shadow: 0 0 0 2px #8f8f8f9e;
     box-sizing: border-box;
-    z-index: auto;
+    z-index: 11;
     cursor: pointer;
 }
 
@@ -3560,6 +3568,7 @@ footer p {
     position: relative;
     color: #848484;
     font-size: 16px;
+    font-family: 'Oxanium';
     transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
     -webkit-transition: all 0.3s ease;
@@ -3646,6 +3655,7 @@ footer p {
 
 .main-footer .footer-bottom .copyright {
     position: relative;
+    font-family: 'Oxanium';
     color: #848484;
     font-size: 15px;
 }
@@ -4041,7 +4051,7 @@ footer p {
     -webkit-transition: all 500ms ease;
     -ms-transition: all 500ms ease;
     -o-transition: all 500ms ease;
-    font-family: "Expansiva", sans-serif;
+    font-family: "Strasua", sans-serif;
 }
 
 .default-form textarea {
@@ -4050,7 +4060,7 @@ footer p {
     font-size: 16px;
     font-weight: 400;
     padding: 20px 30px;
-    font-family: "Expansiva", sans-serif;
+    font-family: "Strasua", sans-serif;
 }
 
 .default-form input[type="text"]:focus,
@@ -5414,7 +5424,7 @@ Community Icons
 
 .card .primary-heading {
     text-align: center;
-    font-family: Expansiva;
+    font-family: Strasua;
     font-weight: 700;
     color: #FFF;
     padding-top: 50px;

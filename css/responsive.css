@@ -126,13 +126,15 @@
     
     .holov-image3 img {
         width: 650px;
-        top: -145px;
+        top: -80px;
         left: 0px;
+        z-index: 2;
     }
     
     .holov-image4 img {
         width: 650px;
-        top: -175px;
+        top: -78px;
+        z-index: 2;
         left: 0px;
     }
 }
@@ -720,7 +722,7 @@
         color: #FFF;
         font-weight: bold;
         padding: 0px 10px;
-        text-transform: uppercase;
+        /* text-transform: uppercase; */
     }
     .content.holovs.right {
         text-align: center;
@@ -771,8 +773,8 @@
         color: #FFF;
         margin-top: 60px;
         padding: 0px 5px;
-        font-weight: bold;
-        text-transform: uppercase;
+        font-weight: normal;
+        /* text-transform: uppercase; */
     }
     .holovs {
         padding-left: 20px;
