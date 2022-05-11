@@ -59,18 +59,25 @@
     }
 }
 
-@media only screen and (max-width: 1300px) {
+@media only screen and (max-width: 1307px) {
+    .auto-container.fl {
+        top: 0px !important;
+    }
     .holov-image1 img {
-        width: 600px;
+        top: 0px !important;
+        left: -358px !important;
     }
     .holov-image2 img {
-        width: 600px;
+        top: -428px !important;
+        left: 330px !important;
     }
     .holov-image3 img {
-        width: 600px;
+        top: -492px !important;
+        left: -330px !important;
     }
     .holov-image4 img {
-        width: 600px;
+        top: -980px !important;
+        left: 333px !important;
     }
 }
 
@@ -88,52 +95,59 @@
         width: 400px;
     }
 }
-@media only screen and (max-height: 1920px){
+
+@media only screen and (max-height: 1920px) {
+    .holov-container {
+        height: 32vh;
+    }
     .holov-image1 img {
         width: 650px;
-    top: 50px;
-    left: -213px;
+        top: 50px;
+        left: -213px;
     }
     .holov-image2 img {
         width: 650px;
-    top: -223px;
-    left: 238px;
+        top: -223px;
+        left: 238px;
     }
     .holov-image3 img {
         width: 650px;
-    top: -446px;
-    left: -212px;
+        top: -446px;
+        left: -212px;
     }
     .holov-image4 img {
         width: 650px;
-    top: -649px;
-    left: 251px;
+        top: -649px;
+        left: 251px;
     }
 }
 
-@media only screen and (max-height: 1000px){
+@media only screen and (max-height: 1000px) {
+    .holov-container {
+        height: 75vh;
+    }
+    .auto-container.fl {
+        top: -375px;
+    }
     .holov-image1 img {
         width: 650px;
         top: 0px;
         left: 0px;
     }
-    
     .holov-image2 img {
         width: 650px;
         top: 0px;
         left: 0px;
     }
-    
     .holov-image3 img {
         width: 650px;
         top: -80px;
         left: 0px;
         z-index: 2;
     }
-    
     .holov-image4 img {
         width: 650px;
-        top: -78px;
+        top: -60px;
         z-index: 2;
         left: 0px;
     }
@@ -414,44 +428,58 @@
 
 @media only screen and (max-width: 1008px) {
     .holov-image1 img {
-        width: 400px;
+        top: 0px !important;
+        left: -358px !important;
     }
     .holov-image2 img {
-        width: 400px;
+        top: -428px !important;
+        left: 330px !important;
     }
     .holov-image3 img {
-        width: 400px;
+        top: -492px !important;
+        left: -330px !important;
     }
     .holov-image4 img {
-        width: 400px;
+        top: -980px !important;
+        left: 333px !important;
     }
 }
 
 @media only screen and (max-width: 808px) {
-    .holov-container {
-        display: flex;
-        justify-content: center;
-        height: 75vh;
-        flex-wrap: wrap;
-        max-width: 1500px;
-        align-items: center;
-        flex-direction: row;
-        align-content: center;
-    }
     .holov-image1 img {
-        width: 350px;
+        top: 0px !important;
+        left: -358px !important;
     }
     .holov-image2 img {
-        width: 350px;
+        top: -428px !important;
+        left: 330px !important;
     }
     .holov-image3 img {
-        width: 380px;
+        top: -492px !important;
+        left: -330px !important;
     }
     .holov-image4 img {
-        width: 350px;
+        top: -980px !important;
+        left: 333px !important;
     }
-    .sec-title.centered.landing {
-        top: 0px;
+}
+
+@media only screen and (max-width: 821px) {
+    .holov-image1 img {
+        top: -13px !important;
+        left: -188px !important;
+    }
+    .holov-image2 img {
+        top: -282px !important;
+        left: 222px !important;
+    }
+    .holov-image3 img {
+        top: -328px !important;
+        left: -212px !important;
+    }
+    .holov-image4 img {
+        top: -891px !important;
+        left: 178px !important;
     }
 }
 
@@ -643,21 +671,6 @@
     }
 }
 
-@media only screen and (max-width: 608px) {
-    .holov-image1 img {
-        width: 250=0px;
-    }
-    .holov-image2 img {
-        width: 250px;
-    }
-    .holov-image3 img {
-        width: 250px;
-    }
-    .holov-image4 img {
-        width: 250px;
-    }
-}
-
 @media only screen and (max-width: 599px) {
     #links-ft {
         display: none;
@@ -679,7 +692,7 @@
         padding-top: 15px;
     }
     .main-footer .footer-bottom .scroll-to-top {
-        top: -250px;
+        top: -205px;
     }
     .main-footer .footer-bottom .copyright {
         font-size: 12px;
@@ -771,6 +784,7 @@
         backdrop-filter: blur(5px);
         border-radius: 25px;
         color: #FFF;
+        top: 0px !important;
         margin-top: 60px;
         padding: 0px 5px;
         font-weight: normal;
@@ -789,24 +803,20 @@
         align-items: center;
     }
     .holov-image1 img {
-        width: 255px;
-        bottom: -308px;
-        left: -77px;
+        top: 601px !important;
+        left: -122px !important;
     }
     .holov-image2 img {
-        width: 255px;
-        bottom: -211px;
-        left: 76px;
+        top: 438px !important;
+        left: 109px !important;
     }
     .holov-image3 img {
-        width: 255px;
-        left: -74px;
-        top: 193px;
+        top: 410px !important;
+        left: -96px !important;
     }
     .holov-image4 img {
-        width: 255px;
-        left: 87px;
-        top: -27px;
+        top: 44px !important;
+        left: 104px !important;
     }
     .main-header .header-top .top-left {
         display: none;
@@ -843,6 +853,9 @@
         border: 1px solid #3786ff;
         margin-left: -25px;
     }
+    .button {
+        top: 14px !important;
+    }
 }
 
 @media only screen and (max-width: 546px) {
@@ -872,6 +885,22 @@
 }
 
 @media only screen and (max-width: 390px) {
+    .holov-image1 img {
+        top: 589px !important;
+        left: -114px !important;
+    }
+    .holov-image2 img {
+        top: 441px !important;
+        left: 72px !important;
+    }
+    .holov-image3 img {
+        top: 347px !important;
+        left: -112px !important;
+    }
+    .holov-image4 img {
+        top: 76px !important;
+        left: 108px !important;
+    }
     .nav-outer .mobile-nav-toggler {
         right: -153px;
     }

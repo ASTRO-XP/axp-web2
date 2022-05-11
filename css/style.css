@@ -9,12 +9,11 @@
 @import url("jquery.fancybox.min.css");
 @import url("scrollbar.css");
 @import url("hover.css");
-
 @font-face {
     font-family: "Strasua";
-        src: url("../fonts/strasua.ttf") format("truetype");
-        font-weight: normal;
-        font-style: normal;
+    src: url("../fonts/strasua.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
 }
 
 * {
@@ -948,7 +947,7 @@ img {
     display: inline-block;
     position: relative;
     bottom: -5px;
-    left: -30px;
+    left: -27px;
     transition: 0.4s ease;
     text-align: center;
     transform: rotate(45deg);
@@ -958,7 +957,7 @@ img {
     display: inline-block;
     position: relative;
     bottom: -5px;
-    left: -65px;
+    left: -58px;
     transition: 0.4s ease;
     text-align: center;
     transform: rotate(45deg);
@@ -1077,6 +1076,7 @@ img {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
+    font-family: 'Oxanium';
     align-content: center;
     justify-content: space-between;
     align-items: center;
@@ -1867,7 +1867,7 @@ img {
 
 .sec-title {
     position: relative;
-    z-index: 1;
+    z-index: 3;
     margin-bottom: 30px;
 }
 
@@ -1894,6 +1894,27 @@ img {
     /* text-transform: uppercase; */
 }
 
+.title {
+    position: relative;
+    font-size: 16px;
+    line-height: 1.1em;
+    margin: 10px 0px;
+    letter-spacing: px;
+    font-family: 'Expansiva';
+    color: #FFF;
+    font-weight: bold;
+}
+
+.sec-title-bld h2 {
+    position: relative;
+    display: block;
+    font-size: 21px;
+    line-height: 1.1em;
+    font-family: 'Oxanium';
+    color: rgb(116, 116, 116);
+    font-weight: bold;
+}
+
 .sec-title.landing h2 {
     position: relative;
     display: block;
@@ -1901,7 +1922,6 @@ img {
     font-family: 'Strasua';
     backdrop-filter: blur(5px);
     border-radius: 25px;
-    top: -398px;
     line-height: 1.1em;
     letter-spacing: 6.5px;
     color: #FFF;
@@ -1970,6 +1990,7 @@ img {
     display: block;
     font-size: 45px;
     line-height: 1.1em;
+    font-family: 'Expansiva';
     color: #FFF;
     font-weight: bold;
     text-transform: uppercase;
@@ -1993,6 +2014,134 @@ img {
 Main components 
 
 -------------------------------- */
+
+body {
+    background: #1D1D1D;
+}
+
+.container-dsc {
+    max-width: 900px;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    float: left;
+    width: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* #btn-wht {
+    background-image: radial-gradient(#000000, #ffffff00);
+} */
+
+#btn-wht:hover {
+    background-image: radial-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0));
+}
+
+.buttonz {
+    margin: 20px;
+    float: left;
+    position: relative;
+    font-family: arial;
+    text-transform: uppercase;
+    color: #fff;
+    cursor: pointer;
+}
+
+.buttonz.v10:hover .label {
+    color: rgb(0, 0, 0) !important;
+    transition: all 0.2s;
+    transition-delay: 0.2s;
+}
+
+.buttonz .label {
+    padding: 10px;
+    display: inline-block;
+}
+
+.buttonz.v10:hover .icon {
+    transform: scale(0.9) skew(0deg, 0deg);
+    background: #ffffff;
+    z-index: -1;
+}
+
+.buttonz.v10:hover .icon:before,
+.buttonz.v10:hover .icon:after {
+    width: 100%;
+}
+
+.buttonz.v10:hover .icon span:before,
+.buttonz.v10:hover .icon span:after {
+    height: 100%;
+}
+
+.buttonz.v10 .label {
+    padding: 10px 22px;
+    font-family: 'Oxanium';
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #fff !important;
+}
+
+.buttonz.v10 .icon {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: skew(-40deg, 0deg);
+    transition: all 0.2s;
+    transition-delay: 0.2s;
+}
+
+.buttonz.v10 .icon:before,
+.buttonz.v10 .icon:after {
+    content: '';
+    height: 5px;
+    width: 46px;
+    position: absolute;
+    display: block;
+    background: #ffffff;
+    transition: width 0.2s;
+}
+
+.buttonz.v10 .icon:before {
+    left: 0;
+    top: 0;
+}
+
+.buttonz.v10 .icon:after {
+    right: 0;
+    bottom: 0;
+}
+
+.buttonz.v10 .icon span:before,
+.buttonz.v10 .icon span:after {
+    content: '';
+    background: #ffffff;
+    position: absolute;
+    display: block;
+    width: 2px;
+    height: 30px;
+    transition: height 0.2s;
+}
+
+.buttonz.v10 .icon span:before {
+    left: 0;
+    top: 0;
+}
+
+.buttonz.v10 .icon span:after {
+    right: 0;
+    bottom: 0;
+}
 
 .cd-image-container {
     position: relative;
@@ -2304,12 +2453,20 @@ footer p {
     top: 24px;
 }
 
+.sec-title.centered#com {
+    top: 0px !important;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
 .content-wrap {
     background-color: rgb(18 13 34 / 57%);
     box-shadow: 0 0 50px 100px rgb(18 13 34 / 52%);
 }
-
-
 
 
 /*** 
@@ -2354,7 +2511,7 @@ footer p {
     background: #fff;
     border: 1px solid #2a0058;
     border-radius: 25px;
-    top: -377px;
+    top: 14px;
     box-shadow: 0 0 0 2px #8f8f8f9e;
     box-sizing: border-box;
     z-index: 11;
@@ -2425,6 +2582,18 @@ footer p {
 .default-portfolio-item .inner-box {
     position: relative;
     overflow: hidden;
+}
+
+.auto-container-rm .default-portfolio-item .image-box {
+    position: relative;
+    display: flex !important;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 0px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
 }
 
 .default-portfolio-item .image-box {
@@ -3539,6 +3708,10 @@ footer p {
     text-transform: uppercase;
 }
 
+.list {
+    margin-top: 20px;
+}
+
 .main-footer .logo-widget {
     position: relative;
 }
@@ -3564,7 +3737,7 @@ footer p {
     margin-bottom: 15px;
 }
 
-.main-footer .links-widget .list li a {
+.main-footer .logo-widget .list li a {
     position: relative;
     color: #848484;
     font-size: 16px;
@@ -3639,7 +3812,6 @@ footer p {
     height: 80px;
     top: 0px;
     right: 0px;
-    float: right;
     color: #FFF;
     font-size: 18px;
     font-weight: 400;
@@ -3658,6 +3830,17 @@ footer p {
     font-family: 'Oxanium';
     color: #848484;
     font-size: 15px;
+}
+
+.footer-widget p {
+    margin-top: 10px;
+    position: relative;
+    font-family: 'Oxanium';
+    color: #848484;
+    text-align: left;
+    line-height: 1.2;
+    letter-spacing: 2px;
+    font-size: 13px;
 }
 
 .main-footer .footer-bottom .social-icons {
@@ -5442,8 +5625,6 @@ Community Icons
     font-weight: 500;
 }
 
-
-}
 @media only screen and (max-width: 1218px) {
     .card {
         margin-top: 100px;
@@ -5457,6 +5638,7 @@ Community Icons
         margin-right: auto;
     }
 }
+
 @media only screen and (max-width: 1012px) {
     .card {
         margin-top: 100px;
@@ -5470,6 +5652,7 @@ Community Icons
         margin-right: auto;
     }
 }
+
 @media only screen and (max-width: 832px) {
     .card {
         margin-top: 100px;
@@ -5482,11 +5665,11 @@ Community Icons
         margin-left: auto;
         margin-right: auto;
     }
-    
     .card .primary-heading {
         font-size: 3.5em;
     }
 }
+
 @media only screen and (max-width: 626px) {
     .card {
         margin-top: 100px;
@@ -5499,11 +5682,11 @@ Community Icons
         margin-left: auto;
         margin-right: auto;
     }
-    
     .card .primary-heading {
         font-size: 3em;
     }
 }
+
 @media only screen and (max-width: 480px) {
     .card {
         margin-top: 155px;
@@ -5516,11 +5699,11 @@ Community Icons
         margin-left: auto;
         margin-right: auto;
     }
-    
     .card .primary-heading {
         font-size: 2em;
     }
 }
+
 @media only screen and (max-width: 365px) {
     .card {
         margin-top: 100px;
@@ -5533,7 +5716,6 @@ Community Icons
         margin-left: auto;
         margin-right: auto;
     }
-    
     .card .primary-heading {
         font-size: 2em;
     }
