@@ -28,12 +28,12 @@ if ( $fromName && $fromEmail && $message) {
   $success = mail( $sender, $subject, $msgBody, $headers );
 
   //Set Location After Successsfull Submission
-  header('Location: contact.html?message=Successfull');
+  header('Location: https://' . $_SERVER['HTTP_HOST'] . '?message=Successfull');
 }
 
 else{
 	//Set Location After Unsuccesssfull Submission
-  	header('Location: contact.html?message=Failed');	
+  	header('Location: https://' . $_SERVER['HTTP_HOST'] . '?message=Failed');	
 }
 
 ?>
