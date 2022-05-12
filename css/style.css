@@ -2093,7 +2093,7 @@ body {
     font-family: 'Oxanium';
     font-weight: bold;
     letter-spacing: 2px;
-    color: #000000 !important;
+    color: #000000;
 }
 
 .buttonz.v10 .icon {
@@ -2468,6 +2468,10 @@ footer p {
     align-content: center;
     justify-content: space-around;
     align-items: flex-start;
+}
+
+.single-box#com .buttonz.v10 .label {
+    color: #fff;
 }
 
 .content-wrap {
