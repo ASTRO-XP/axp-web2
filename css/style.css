@@ -16,6 +16,13 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: "Expansiva";
+    src: url("../fonts/Expansiva.otf") format("opentype"), url("../fonts/Expansiva_bold.otf") format("opentype"), url("../fonts/Expansiva_bold_italic.otf") format("opentype"), url("../fonts/Expansiva_italic.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
 * {
     margin: 0px;
     padding: 0px;
@@ -160,7 +167,6 @@ p,
     z-index: 9;
     background-image: url(/images/background/LONG_BG1.jpg);
     background-position-y: bottom;
-    background-size: contain;
 }
 
 .bg-parallax {
@@ -171,7 +177,6 @@ p,
     z-index: -1;
     background-image: url(/images/background/LONG_BG1.jpg);
     background-position-x: center;
-    background-size: contain;
 }
 
 .auto-container {
@@ -223,24 +228,24 @@ figure {
 .btn-style-one {
     position: relative;
     display: inline-block;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 30px;
     color: #FFF;
     font-weight: 700;
-    letter-spacing: 1px;
+    letter-spacing: 3px;
     text-transform: uppercase;
 }
 
 .btn-style-one:hover {
-    color: #544f81bd;
+    color: #000003bd;
 }
 
 .btn-style-one .btn-title {
     position: relative;
     display: block;
     z-index: 1;
-    padding: 18px 56px;
-    background-color: #544f81bd;
+    padding: 0px 12px;
+    background-color: #000000c2;
     transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
     -webkit-transition: all 0.3s ease;
@@ -249,7 +254,7 @@ figure {
 }
 
 .btn-style-one:hover .btn-title {
-    color: #544f81bd;
+    color: #000000;
     -webkit-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
     -moz-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
     -ms-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
@@ -1896,23 +1901,25 @@ img {
 
 .title {
     position: relative;
-    font-size: 16px;
+    font-size: 20px;
     line-height: 1.1em;
     margin: 10px 0px;
-    letter-spacing: px;
+    letter-spacing: 2px;
     font-family: 'Expansiva';
+    text-align: left;
     color: #FFF;
     font-weight: bold;
 }
 
 .sec-title-bld h2 {
-    position: relative;
     display: block;
-    font-size: 21px;
+    font-size: 25px;
     line-height: 1.1em;
     font-family: 'Oxanium';
-    color: rgb(116, 116, 116);
+    color: rgb(255 255 255);
+    text-align: left;
     font-weight: bold;
+    padding-bottom: 10px;
 }
 
 .sec-title.landing h2 {
@@ -3670,9 +3677,8 @@ footer p {
 
 .main-footer {
     position: relative;
-    background-color: #010102c2;
-    /* box-shadow: 0px -2px 2px rgb(34 34 34 / 60%); */
-    box-shadow: 0 0 10px 10px #02001478;
+    background-color: #010102db;
+    box-shadow: 0 0 100px 100px #010102db;
 }
 
 .main-footer:before {
@@ -3686,12 +3692,11 @@ footer p {
 
 .main-footer .widgets-section {
     position: relative;
-    padding: 24px 0px 5px;
 }
 
 .main-footer .footer-widget {
     position: relative;
-    margin-bottom: 10pxpx;
+    margin-bottom: 10px;
 }
 
 .main-footer .footer-title {
@@ -3729,7 +3734,7 @@ footer p {
 }
 
 .main-footer .links-widget .widget-content {
-    padding-left: 50px;
+    padding-left: 240px;
 }
 
 .main-footer .links-widget .list li {
@@ -3739,7 +3744,7 @@ footer p {
 
 .main-footer .logo-widget .list li a {
     position: relative;
-    color: #848484;
+    color: #afafaf;
     font-size: 16px;
     font-family: 'Oxanium';
     transition: all 0.3s ease;
@@ -3747,6 +3752,10 @@ footer p {
     -webkit-transition: all 0.3s ease;
     -ms-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
+}
+
+.main-footer .logo-widget .list li a:hover {
+    color: #544f81bd;
 }
 
 .main-footer .links-widget .list li a:hover {
@@ -4209,7 +4218,7 @@ footer p {
 
 .default-form .form-group {
     position: relative;
-    margin-bottom: 30px;
+    margin-bottom: 12px;
 }
 
 .default-form input[type="text"],
@@ -4222,10 +4231,9 @@ footer p {
 .default-form textarea {
     display: block;
     width: 100%;
-    line-height: 28px;
-    height: 80px;
-    font-size: 15px;
-    padding: 10px 30px;
+    height: 37px;
+    font-size: 12px;
+    padding: 0px 8px;
     background: #1b1a1a;
     color: #FFF;
     font-weight: 400;
@@ -4234,16 +4242,15 @@ footer p {
     -webkit-transition: all 500ms ease;
     -ms-transition: all 500ms ease;
     -o-transition: all 500ms ease;
-    font-family: "Strasua", sans-serif;
+    font-family: "Oxanium", sans-serif
 }
 
 .default-form textarea {
-    height: 260px;
+    height: 106px;
     resize: none;
-    font-size: 16px;
+    font-size: 12px;
     font-weight: 400;
-    padding: 20px 30px;
-    font-family: "Strasua", sans-serif;
+    font-family: "Oxanium", sans-serif;
 }
 
 .default-form input[type="text"]:focus,
@@ -4265,10 +4272,8 @@ footer p {
 
 .default-form label.error {
     text-transform: capitalize;
-    padding-top: 10px;
     display: block;
-    line-height: 20px;
-    font-size: 15px;
+    font-size: 12px;
     font-weight: 500;
     color: #FFF;
 }
@@ -5597,21 +5602,40 @@ Community Icons
     margin-top: 100px;
     margin-bottom: 100px;
     height: auto;
-    padding-bottom: 50px;
-    width: 1200px;
     border-radius: 30px;
-    background-color: #1C1E2A;
-    margin-left: auto;
-    margin-right: auto;
+    background-color: #0b0f26cf;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.indent p {
+    margin-left: 65px;
+}
+
+.list li.current a {
+    color: #544f81bd !important;
 }
 
 .card .primary-heading {
     text-align: center;
-    font-family: Strasua;
     font-weight: 700;
     color: #FFF;
-    padding-top: 50px;
-    font-size: 4em;
+    padding-top: 15px;
+}
+
+.card li {
+    font-family: 'Oxanium', Geneva, Tahoma, sans-serif;
+    color: white;
+    display: list-item;
+    list-style: upper-roman;
+    margin-left: 20px;
+    padding-left: 20px;
+}
+
+.card ol {
+    list-style: lower-roman;
 }
 
 .paragraph {
@@ -5623,100 +5647,4 @@ Community Icons
     font-size: 1.5em;
     line-height: 1.3em;
     font-weight: 500;
-}
-
-@media only screen and (max-width: 1218px) {
-    .card {
-        margin-top: 100px;
-        margin-bottom: 100px;
-        height: auto;
-        padding-bottom: 50px;
-        width: 1000px;
-        border-radius: 30px;
-        background-color: #1C1E2A;
-        margin-left: auto;
-        margin-right: auto;
-    }
-}
-
-@media only screen and (max-width: 1012px) {
-    .card {
-        margin-top: 100px;
-        margin-bottom: 100px;
-        height: auto;
-        padding-bottom: 50px;
-        width: 800px;
-        border-radius: 30px;
-        background-color: #1C1E2A;
-        margin-left: auto;
-        margin-right: auto;
-    }
-}
-
-@media only screen and (max-width: 832px) {
-    .card {
-        margin-top: 100px;
-        margin-bottom: 100px;
-        height: auto;
-        padding-bottom: 50px;
-        width: 600px;
-        border-radius: 30px;
-        background-color: #1C1E2A;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .card .primary-heading {
-        font-size: 3.5em;
-    }
-}
-
-@media only screen and (max-width: 626px) {
-    .card {
-        margin-top: 100px;
-        margin-bottom: 100px;
-        height: auto;
-        padding-bottom: 50px;
-        width: 450px;
-        border-radius: 30px;
-        background-color: #1C1E2A;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .card .primary-heading {
-        font-size: 3em;
-    }
-}
-
-@media only screen and (max-width: 480px) {
-    .card {
-        margin-top: 155px;
-        margin-bottom: 100px;
-        height: auto;
-        padding-bottom: 50px;
-        width: 350px;
-        border-radius: 30px;
-        background-color: #1C1E2A;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .card .primary-heading {
-        font-size: 2em;
-    }
-}
-
-@media only screen and (max-width: 365px) {
-    .card {
-        margin-top: 100px;
-        margin-bottom: 100px;
-        height: auto;
-        padding-bottom: 50px;
-        width: 290px;
-        border-radius: 30px;
-        background-color: #1C1E2A;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .card .primary-heading {
-        font-size: 2em;
-    }
 }

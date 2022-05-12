@@ -296,11 +296,6 @@
         font-size: 36px;
         margin-bottom: 30px;
     }
-    .btn-style-one .btn-title,
-    .comment-form .form-group .btn-title {
-        padding: 12px 45px;
-        font-size: 15px;
-    }
     .default-portfolio-item .overlay-inner h3,
     .gallery-block .inner-box .image .overlay-box h2 {
         font-size: 30px;
@@ -692,7 +687,7 @@
         padding-top: 15px;
     }
     .main-footer .footer-bottom .scroll-to-top {
-        top: -205px;
+        top: -655px;
     }
     .main-footer .footer-bottom .copyright {
         font-size: 12px;
