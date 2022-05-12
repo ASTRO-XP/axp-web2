@@ -33,7 +33,7 @@ if ( $fromName && $fromEmail && $message) {
 
 else{
 	//Set Location After Unsuccesssfull Submission
-  	header('Location: https://' . $_SERVER['HTTP_HOST'] . '?message=Failed');	
+  	header('Location: https://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'] . '?message=Failed');	
 }
 
 ?>
