@@ -185,6 +185,10 @@
 }
 
 @media only screen and (max-width: 1023px) {
+    .faq-section .sec-title h2 {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
     .navigation .img-logo-1 {
         visibility: hidden;
         display: none;
@@ -303,10 +307,8 @@
     }
     .questions-section .inner-container .question-block {
         padding: 0px 15px;
-        margin-bottom: 50px !important;
     }
     .questions-section .question-block .inner-box {
-        padding-bottom: 50px;
         border-bottom: 1px solid #302f2f;
     }
     .facts-section .lower-boxed .counter-column .inner-column {
@@ -392,18 +394,24 @@
     }
     .question-block-two,
     .question-block-two.alternate {
-        margin-bottom: 50px !important;
-        padding-left: 0px;
-        padding-bottom: 50px !important;
-        border-bottom: 1px solid #302f2f !important;
+        margin-bottom: 50px;
+        margin-left: 20px;
+        margin-right: 20px;
+        text-align: left;
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
-    .faq-section .inner-container .question-block-two:last-child {
-        border: none !important;
-        padding-bottom: 0 !important;
-        margin-bottom: 0 !important;
+    .faq-section .sec-title h2 {
+        font-size: 26px;
+    }
+    .faq-section .sec-title {
+        top: 35px;
     }
     .question-block-two .inner-box {
         padding-right: 0;
+    }
+    .faq-section .inner-container {
+        top: 50px;
     }
 }
 
@@ -573,7 +581,6 @@
         position: relative;
         left: 0;
         top: 0px;
-        margin: 0 0 30px;
     }
     .sec-title h2 {
         font-size: 30px;

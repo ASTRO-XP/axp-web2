@@ -181,6 +181,16 @@ p,
     background-position-x: center;
 }
 
+.fixedpar {
+    position: fixed;
+    margin: 0 auto;
+    height: 10000px;
+    width: 100%;
+    z-index: -1;
+    background-image: url(/images/background/LONG_BG3.jpg);
+    background-position-x: center;
+}
+
 .auto-container {
     position: static;
     max-width: 1200px;
@@ -4441,27 +4451,25 @@ footer p {
 
 ***/
 
+.faq-section .sec-title {
+    top: -50px;
+}
+
 .faq-section {
     position: relative;
-    padding: 100px 0px 100px;
     background-color: #0101028c;
     box-shadow: 0 0 10px 10px #02001478;
 }
 
 .faq-section .inner-container {
     position: relative;
+    padding-bottom: 150px;
 }
 
 .faq-section .column {
     position: relative;
     float: left;
     padding: 0px;
-}
-
-.faq-section .column .question-block-two:last-child {
-    margin-bottom: 0px;
-    padding-bottom: 0px;
-    border-bottom: none;
 }
 
 
