@@ -761,9 +761,8 @@
         font-size: 16px;
     }
     .bg-parallax {
-        background-image: url(/images/background/LONG_BG2.jpg);
+        background-image: url(/images/background/LONG_BG3.jpg);
         background-position-x: center;
-        background-size: contain;
         position: fixed;
     }
     .auto-container-rm {
