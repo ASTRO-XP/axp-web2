@@ -157,9 +157,6 @@
     .holov-container {
         height: 75vh !important;
     }
-    .auto-container.fl {
-        bottom: 0;
-    }
     .holov-image1 img {
         width: 650px;
         top: 0px;
@@ -183,15 +180,25 @@
         left: 0px;
     }
 }
-@media only screen and (max-height: 900){
-    .auto-container-fl{
-        
-    top: -325px;
+@media only screen and (max-height: 1000px){
+    .auto-container.fl{
+        top: -434px;
     }
 }
+@media only screen and (max-height: 900px){
+    .auto-container.fl{
+        top: -292px;
+    }
+}
+@media only screen and (max-height: 850px){
+    .auto-container.fl{
+        top: -262px;
+    }
+}
+
 @media only screen and (max-height: 768px){
     .auto-container.fl{
-        top: -310px;
+        top: -370px;
     }
     .holov-container{
         height: 100vh !important;
