@@ -185,6 +185,12 @@
         top: -434px;
     }
 }
+
+@media only screen and (max-height: 950px){
+    .auto-container.fl{
+        top: -340px;
+    }
+}
 @media only screen and (max-height: 900px){
     .auto-container.fl{
         top: -292px;
