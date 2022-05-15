@@ -127,7 +127,7 @@
         height: 75vh !important;
     }
     .auto-container.fl {
-        top: -375px;
+        top: -455px;
     }
     .holov-image1 img {
         width: 650px;
@@ -158,7 +158,7 @@
         height: 75vh !important;
     }
     .auto-container.fl {
-        top: -361px;
+        bottom: 0;
     }
     .holov-image1 img {
         width: 650px;
@@ -183,6 +183,22 @@
         left: 0px;
     }
 }
+@media only screen and (max-height: 900){
+    .auto-container-fl{
+        
+    top: -325px;
+    }
+}
+@media only screen and (max-height: 768px){
+    .auto-container.fl{
+        top: -310px;
+    }
+    .holov-container{
+        height: 100vh !important;
+    }
+}
+
+
 
 @media only screen and (max-width: 1023px) {
     .faq-section .sec-title h2 {
@@ -761,9 +777,8 @@
         font-size: 16px;
     }
     .bg-parallax {
-        background-image: url(/images/background/LONG_BG2.jpg);
+        background-image: url(/images/background/LONG_BG3.jpg);
         background-position-x: center;
-        background-size: contain;
         position: fixed;
     }
     .auto-container-rm {
