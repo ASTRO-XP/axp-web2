@@ -1,4 +1,5 @@
 <?php
+if(!empty($_POST['website'])) die();
 // Define some constants
 define( "RECIPIENT_NAME", "Astro XP Inquiries" );
 define( "RECIPIENT_EMAIL", "inquiries@astroxp.io" );
@@ -12,7 +13,7 @@ $message = isset( $_POST['message'] ) ? preg_replace( "/(From:|To:|BCC:|CC:|Subj
 // If all values exist, send the email
 if ( $fromName && $fromEmail && $message) {
   $sender = RECIPIENT_NAME . " <" . RECIPIENT_EMAIL . ">";
-  $from = $fromName.' <'.$fromEmail.'>';
+  $from = filter_var($fromName, FILTER_SANITIZE_STRING).' <'.filter_var($fromEmail, FILTER_SANITIZE_EMAIL).'>';
   $subject = "Astro XP Inquiries - Astronian: " . $fromName . ""; 
 
     $headers .= "From: ". $from . "\r\n";

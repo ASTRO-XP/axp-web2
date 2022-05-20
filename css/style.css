@@ -174,11 +174,15 @@ p,
 .bg-parallax {
     position: absolute;
     margin: 0 auto;
-    height: 10000px;
+    height: 8500px;
     width: 100%;
     z-index: -1;
     background-image: url(/images/background/LONG_BG3.jpg);
     background-position-x: center;
+}
+
+form #website {
+    display: none;
 }
 
 .fixedpar {
