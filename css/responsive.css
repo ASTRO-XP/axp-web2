@@ -1,9 +1,3 @@
-@media only screen and (max-width: 7000px) {
-    .page-wrapper {
-        overflow: hidden;
-    }
-}
-
 @media only screen and (max-width: 1600px) {
     .banner-carousel .content-box h2 {
         font-size: 100px;
@@ -60,6 +54,9 @@
 }
 
 @media only screen and (max-width: 1307px) {
+    .bg-parallax {
+        height: 7583px;
+    }
     .auto-container.fl {
         top: 0px !important;
     }
@@ -82,6 +79,9 @@
 }
 
 @media only screen and (max-width: 1206px) {
+    .auto-container {
+        max-width: 1020px;
+    }
     .holov-image1 img {
         width: 400px;
     }
