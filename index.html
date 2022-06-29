@@ -12,6 +12,7 @@
     <link href="css/gamemode.css" rel="stylesheet">
     <link rel="shortcut icon" href="images/logos/AstroXP_Logo_Only.png" type="image/x-icon">
     <link rel="icon" href="images/logos/AstroXP_Logo_Only.png" type="image/x-icon">
+
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no">
     <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
@@ -348,22 +349,41 @@
                 </div>
             </section>
             <section class="features-section" id="community">
-                <div class="auto-container">
-                    <div class="sec-title centered" id="com">
-                        <img src="/images/background/divider_whole.png">
-                        <div class=" single-box" id="com">
-                            <h2>Join our Discord</h2>
-                            <div class="container-dsc">
-                                <div class="buttonz v10">
-                                    <a href="https://discord.gg/astroxpofficial" target="_blank">
-                                        <span class="label">Enter</span>
-                                    </a>
-                                    <span class="icon">
+                <div class="sec-title centered" id="com">
+                    <img src="/images/background/divider_whole.png">
+                    <div class="single-box" id="com">
+                        <h2>Join our Discord</h2>
+                        <div class="container-dsc">
+                            <div class="buttonz v10">
+                                <a href="https://discord.gg/astroxpofficial" target="_blank">
+                                    <span class="label">Enter</span>
+                                </a>
+                                <span class="icon">
                                         <span></span>
-                                    </span>
-                                </div>
+                                </span>
                             </div>
+                        </div>
+                    </div>
+                    <div class="single-box newsletter" id="newsletter">
+                        <div class="content" id="mc_embed_signup">
+                            <h3>Ready to be a part of our journey?</h3>
+                            <p>Register now to be the first to know about ASTRO XP's beta invites, land sales and development updates, giveaways, events and more!</p>
+                            <form method="post" action="https://astroxp.us13.list-manage.com/subscribe/post?u=0d236738b116407a92a2be924&amp;id=a5538b095c" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                                <div id="mc_embed_signup_scroll">
+                                    <div class="mc-field-group">
+                                        <div class="inline">
+                                            <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Enter your e-mail">
+                                            <button class="theme-btn btn-style-one" type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe"><span class="btn-title">Register</span></button>
+                                        </div>
+                                    </div>
+                                    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_0d236738b116407a92a2be924_a5538b095c" tabindex="-1" value=""></div>
+                                </div>
+                            </form>
 
+                            <div id="mce-responses" class="clear foot inline">
+                                <div class="response" id="mce-error-response" style="display:none"></div>
+                                <div class="response" id="mce-success-response" style="display:none"></div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -482,6 +502,27 @@
         <script src="js/game-modes.js"></script>
         <script src="js/coreteam.js"></script>
         <script src="js/nav.js"></script>
+        <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+        <script type='text/javascript'>
+            (function($) {
+                window.fnames = new Array();
+                window.ftypes = new Array();
+                fnames[0] = 'EMAIL';
+                ftypes[0] = 'email';
+                fnames[1] = 'FNAME';
+                ftypes[1] = 'text';
+                fnames[2] = 'LNAME';
+                ftypes[2] = 'text';
+                fnames[3] = 'ADDRESS';
+                ftypes[3] = 'address';
+                fnames[4] = 'PHONE';
+                ftypes[4] = 'phone';
+                fnames[5] = 'BIRTHDAY';
+                ftypes[5] = 'birthday';
+            }(jQuery));
+            var $mcj = jQuery.noConflict(true);
+        </script>
+
 </body>
 
 </html>

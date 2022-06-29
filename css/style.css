@@ -172,10 +172,21 @@ p,
     z-index: 9;
 }
 
+div.table {
+    display: table;
+    margin: 4px;
+    padding: 1px;
+}
+
+div.t {
+    display: table-cell;
+    width: 100%;
+}
+
 .bg-parallax {
     position: absolute;
     margin: 0 auto;
-    height: 9000px;
+    height: 8800px;
     width: 100%;
     z-index: -1;
     background-image: url(/images/background/LONG_BG3.jpg);
@@ -733,7 +744,7 @@ img {
     display: block;
     width: 100%;
     z-index: 99999;
-    background-color: #101118;
+    background-color: #ffffff00;
 }
 
 .main-header .header-top {
@@ -812,7 +823,7 @@ img {
 
 .main-header .header-upper {
     position: relative;
-    background-color: #000000;
+    background-color: #ffffff00;
 }
 
 .main-header .header-upper .logo-outer {
@@ -1522,7 +1533,7 @@ img {
     width: 100%;
     padding: 0px 0px;
     z-index: -1;
-    background: #000000;
+    background: #140724;
     -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
     -moz-box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
     -ms-box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
@@ -2490,15 +2501,38 @@ footer p {
 .sec-title.centered#com {
     top: 0px !important;
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    max-width: 1920px;
+    align-items: center;
     align-content: center;
-    justify-content: space-around;
-    align-items: flex-start;
 }
 
 .single-box#com .buttonz.v10 .label {
     color: #fff;
+}
+
+#newsletter div.content {
+    max-width: 600px;
+}
+
+.single-box#newsletter {
+    background-image: url(/images/background/testbgnewsletter.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: repeat-x;
+    display: flex;
+    overflow: hidden;
+    padding: 50px 25px 25px;
+    width: 100%;
+    height: 310px;
+    border-radius: 0px !important;
+    margin: 10px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
 }
 
 .content-wrap {
@@ -2607,6 +2641,40 @@ footer p {
     transform: translate(0, 0) scale(1.3, 1.7);
     opacity: 0.6;
     transition: transform 0.4s cubic-bezier(0, 1, 0, 1.5);
+}
+
+#mc-embedded-subscribe {
+    clear: both;
+    width: auto;
+    display: block;
+    margin: 0 !important;
+}
+
+
+/* Style the form - display items horizontally */
+
+.inline {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+input.email {
+    display: block;
+    height: 30px;
+    width: 200px;
+    padding-left: 10px;
+    font-size: 12px;
+    background: #1b1a1a;
+    color: #FFF;
+    font-weight: 400;
+    border: 1px solid rgba(255, 255, 255, 0);
+    transition: all 500ms ease;
+    -webkit-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    font-family: "Oxanium", sans-serif;
 }
 
 
@@ -4039,6 +4107,61 @@ footer p {
 
 ***/
 
+#mc_embed_signup #mce-success-response {
+    color: #ffffff;
+    display: none;
+}
+
+#mc_embed_signup div.response {
+    font-weight: normal;
+    bottom: 0;
+    z-index: 1;
+}
+
+#mc_embed_signup div#mce-responses {
+    float: left;
+    top: -1.4em;
+    padding: 0em 0.5em 0em 0.5em;
+    overflow: hidden;
+    width: 90%;
+    margin: 0 5%;
+    clear: both;
+}
+
+#mc_embed_signup .mc-field-group {
+    clear: left;
+    position: relative;
+    width: auto !important;
+    padding-bottom: 0 !important;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#mc_embed_signup form {
+    display: block;
+    position: relative;
+    text-align: left;
+    padding: 0 !important;
+}
+
+#mc_embed_signup #mc-embedded-subscribe-form div.mce_inline_error {
+    display: inline-block;
+    margin: 0!important;
+    padding: 3px !important;
+    background-color: rgba(255, 255, 255, 0.85);
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: normal;
+    z-index: 1;
+    color: #e85c41;
+}
+
 .call-to-action-section {
     position: relative;
     text-align: center;
@@ -4168,6 +4291,26 @@ footer p {
     font-weight: 700;
     margin-top: 50px;
     text-transform: uppercase;
+}
+
+.newsletter h3 {
+    font-size: 25px;
+    font-family: 'Oxanium';
+    color: rgb(255 255 255);
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.newsletter p {
+    margin-top: 10px;
+    position: relative;
+    font-family: 'Oxanium';
+    color: #dddddd;
+    text-align: center;
+    line-height: 1.2;
+    letter-spacing: 2px;
+    font-size: 14px;
+    margin-bottom: 29px;
 }
 
 
