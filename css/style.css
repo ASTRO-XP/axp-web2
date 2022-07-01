@@ -92,6 +92,15 @@ button {
     cursor: pointer;
 }
 
+i.fa-medium {
+    display: none;
+}
+
+img.social-icon {
+    color: white;
+    width: auto;
+}
+
 .btn {
     box-sizing: border-box;
     -webkit-appearance: none;
@@ -189,7 +198,7 @@ div.t {
     height: 8800px;
     width: 100%;
     z-index: -1;
-    background-image: url(/images/background/LONG_BG3.jpg);
+    background-image: url(/images/background/LONG_BG3-min.jpg);
     background-position-x: center;
 }
 
@@ -203,7 +212,7 @@ form #website {
     height: 10000px;
     width: 100%;
     z-index: -1;
-    background-image: url(/images/background/LONG_BG3.jpg);
+    background-image: url(/images/background/LONG_BG3-min.jpg);
     background-position-x: center;
 }
 
@@ -736,7 +745,7 @@ img {
 
 .banner-bg {
     position: relative;
-    background-image: url(../images/background/LONG_BG3.jpg);
+    background-image: url(../images/background/LONG_BG3-min.jpg);
 }
 
 .main-header {
@@ -1115,7 +1124,7 @@ img {
     align-items: center;
     padding: 10px 12px;
     line-height: 5px;
-    font-weight: 700;
+    font-weight: 500;
     font-size: 12px;
     text-transform: capitalize;
     color: #FFF;
@@ -1587,6 +1596,15 @@ img {
     margin-top: 10px;
 }
 
+.features-section#community {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+}
+
 .sticky-header .main-menu .navigation>li>a {
     line-height: 5px;
     font-size: 16px;
@@ -1708,7 +1726,7 @@ img {
     height: 100%;
     max-height: 100%;
     overflow-y: auto;
-    background: #1c1e2a;
+    background: #140724;
     padding: 0px 0px;
     z-index: 5;
     opacity: 0;
@@ -2514,19 +2532,22 @@ footer p {
 }
 
 #newsletter div.content {
-    max-width: 600px;
+    max-width: 380px;
+    /* background-image: url(/images/newsletter/content-bg.png);
+    background-size: cover;
+    background-position: center; */
 }
 
 .single-box#newsletter {
-    background-image: url(/images/background/testbgnewsletter.jpg);
-    background-size: contain;
+    background-image: url(/images/newsletter/newsletter-bg.jpg);
+    background-size: cover;
     background-position: center;
     background-repeat: repeat-x;
     display: flex;
     overflow: hidden;
     padding: 50px 25px 25px;
-    width: 100%;
-    height: 310px;
+    width: 1920px;
+    height: 360px;
     border-radius: 0px !important;
     margin: 10px;
     flex-direction: row;
@@ -3776,8 +3797,8 @@ input.email {
 
 .main-footer {
     position: relative;
-    background-color: #010102db;
-    box-shadow: 0 0 100px 100px #010102db;
+    background-color: #140724;
+    box-shadow: 0 0 100px 100px #140724;
 }
 
 .main-footer:before {
@@ -3800,7 +3821,6 @@ input.email {
 
 .main-footer .footer-title {
     position: relative;
-    margin-bottom: 30px;
 }
 
 .main-footer .footer-title h2 {
@@ -4110,6 +4130,8 @@ input.email {
 #mc_embed_signup #mce-success-response {
     color: #ffffff;
     display: none;
+    text-shadow: -1px 1px #000000;
+    backdrop-filter: blur(1px);
 }
 
 #mc_embed_signup div.response {
@@ -4299,18 +4321,23 @@ input.email {
     color: rgb(255 255 255);
     font-weight: bold;
     padding-bottom: 10px;
+    text-shadow: -2px 2px #000000;
+    backdrop-filter: blur(1px);
 }
 
 .newsletter p {
     margin-top: 10px;
     position: relative;
     font-family: 'Oxanium';
-    color: #dddddd;
+    color: #ffffff;
     text-align: center;
     line-height: 1.2;
     letter-spacing: 2px;
+    font-weight: 500;
     font-size: 14px;
+    text-shadow: -1px 1px #000000;
     margin-bottom: 29px;
+    backdrop-filter: blur(1px);
 }
 
 
