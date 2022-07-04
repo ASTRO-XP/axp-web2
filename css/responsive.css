@@ -762,6 +762,18 @@
 }
 
 @media only screen and (max-width: 599px) {
+    .sec-title-bld h2,
+    .title {
+        text-align: center;
+    }
+    #newsletter div.content {
+        max-width: 434px;
+        background-image: url(/images/newsletter/content-bg.png);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        padding: 85px 20px 1px;
+    }
     #links-ft {
         display: none;
     }

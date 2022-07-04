@@ -1005,6 +1005,16 @@ img {
     transform: rotate(45deg);
 }
 
+.arrow-d#spanex {
+    display: inline-block;
+    position: relative;
+    bottom: -5px;
+    left: -42px;
+    transition: 0.4s ease;
+    text-align: center;
+    transform: rotate(45deg);
+}
+
 .arrow-d:before,
 .arrow-d:after {
     position: absolute;
@@ -1027,7 +1037,8 @@ img {
     transform: rotate(45deg) translate(-5px, -5px);
 }
 
-.dropdown.active .arrow-d#spancom {
+.dropdown.active .arrow-d#spancom,
+.dropdown.active .arrow-d#spanex {
     transform: rotate(45deg) translate(-5px, -5px);
 }
 
@@ -1035,7 +1046,8 @@ img {
     transform: translate(10px, 0);
 }
 
-.dropdown.active .arrow-d#spancom:before {
+.dropdown.active .arrow-d#spancom:before,
+.dropdown.active .arrow-d#spanex:before {
     transform: translate(10px, 0);
 }
 
@@ -1043,7 +1055,8 @@ img {
     transform: rotate(90deg) translate(10px, 0);
 }
 
-.dropdown.active .arrow-d#spancom:after {
+.dropdown.active .arrow-d#spancom:after,
+.dropdown.active .arrow-d#spanex:after {
     transform: rotate(90deg) translate(10px, 0);
 }
 
@@ -1958,10 +1971,10 @@ img {
     position: relative;
     font-size: 20px;
     line-height: 1.1em;
-    margin: 10px 0px;
+    margin: 0px 0px 10px 0px;
     letter-spacing: 2px;
     font-family: 'Expansiva';
-    text-align: left;
+    text-align: right;
     color: #FFF;
     font-weight: bold;
 }
@@ -1972,7 +1985,7 @@ img {
     line-height: 1.1em;
     font-family: 'Oxanium';
     color: rgb(255 255 255);
-    text-align: left;
+    text-align: right;
     font-weight: bold;
     padding-bottom: 10px;
 }
@@ -2532,10 +2545,11 @@ footer p {
 }
 
 #newsletter div.content {
-    max-width: 380px;
-    /* background-image: url(/images/newsletter/content-bg.png);
+    max-width: 460px;
+    background-image: url(/images/newsletter/content-bg.png);
     background-size: cover;
-    background-position: center; */
+    background-position: center;
+    padding: 82px 25px 2px;
 }
 
 .single-box#newsletter {
@@ -2545,7 +2559,6 @@ footer p {
     background-repeat: repeat-x;
     display: flex;
     overflow: hidden;
-    padding: 50px 25px 25px;
     width: 1920px;
     height: 360px;
     border-radius: 0px !important;
@@ -4163,6 +4176,14 @@ input.email {
     align-items: center;
 }
 
+.mc-field-group input.email {
+    background: #26003c;
+}
+
+.mc-field-group .btn-style-one .btn-title {
+    background: #26003c;
+}
+
 #mc_embed_signup form {
     display: block;
     position: relative;
@@ -4172,7 +4193,7 @@ input.email {
 
 #mc_embed_signup #mc-embedded-subscribe-form div.mce_inline_error {
     display: inline-block;
-    margin: 0!important;
+    margin: 5px 0 0;
     padding: 3px !important;
     background-color: rgba(255, 255, 255, 0.85);
     -webkit-border-radius: 3px;
@@ -4321,8 +4342,6 @@ input.email {
     color: rgb(255 255 255);
     font-weight: bold;
     padding-bottom: 10px;
-    text-shadow: -2px 2px #000000;
-    backdrop-filter: blur(1px);
 }
 
 .newsletter p {
@@ -4332,12 +4351,11 @@ input.email {
     color: #ffffff;
     text-align: center;
     line-height: 1.2;
+    padding: 0 30px;
     letter-spacing: 2px;
     font-weight: 500;
-    font-size: 14px;
-    text-shadow: -1px 1px #000000;
+    font-size: 14px !important;
     margin-bottom: 29px;
-    backdrop-filter: blur(1px);
 }
 
 
@@ -4634,7 +4652,7 @@ input.email {
 .faq-section {
     position: relative;
     background-color: #0101028c;
-    box-shadow: 0 0 10px 10px #02001478;
+    box-shadow: 10px 10px 30px 30px #00000078;
 }
 
 .faq-section .inner-container {
