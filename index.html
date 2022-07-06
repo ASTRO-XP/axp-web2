@@ -12,6 +12,7 @@
     <link href="css/gamemode.css" rel="stylesheet">
     <link rel="shortcut icon" href="images/logos/AstroXP_Logo_Only.png" type="image/x-icon">
     <link rel="icon" href="images/logos/AstroXP_Logo_Only.png" type="image/x-icon">
+
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no">
     <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
@@ -20,9 +21,9 @@
 
 <body>
     <div class="page-wrapper">
-        <div class="preloader">
+        <!-- <div class="preloader">
             <div class="icon"></div>
-        </div>
+        </div> -->
 
         <div class="bg-parallax rellax" data-rellax-speed="10">
         </div>
@@ -51,13 +52,20 @@
                                         <li><a href="#tokenomics">TOKENOMICS</a></li>
                                         <li><a href="#coreteam">TEAM</a></li>
                                         <li><a href="#roadmap">ROADMAP</a></li>
-                                        <li><a href="https://drive.google.com/file/d/11oEQNsbZiHMrc7j1-IWCsz8owNkXF5jy/view" target="_blank">WHITEPAPER</a></li>
+                                        <li class="dropdown exdrp" id="exdrop"><a href="#">EXPLORE<span class="arrow-d" id="spanex"></span></a>
+                                            <ul>
+                                                <li><a href="faq.html" target="_blank">FAQs</i></a></li>
+                                                <li><a href="https://drive.google.com/file/d/11oEQNsbZiHMrc7j1-IWCsz8owNkXF5jy/view" target="_blank">WHITEPAPER</a></li>
+                                                <li><a href="https://medium.com/@ASTRO_XP" target="_blank">NEWSLETTER</a></li>
+                                            </ul>
+                                        </li>
                                         <li class="dropdown cmdrp" id="comdrop"><a href="#community">COMMUNITY<span class="arrow-d" id="spancom"></span></a>
                                             <ul>
                                                 <li><a href="https://discord.gg/astroxpofficial" target="_blank">DISCORD<i class="fab fa-discord social-icon"></i></a></li>
                                                 <li><a href="https://www.facebook.com/astroxpofficial" target="_blank">FACEBOOK<i class="fab fa-facebook-f social-icon"></i></a></li>
                                                 <li><a href="https://twitter.com/AstroXPOfficial" target="_blank">TWITTER<i class="fab fa-twitter social-icon"></i></a></li>
                                                 <li><a href="https://t.me/AstroXP_Official" target="_blank">TELEGRAM<i class="fab fa-telegram social-icon"></i></a></li>
+                                                <li><a href="https://medium.com/@ASTRO_XP" target="_blank">MEDIUM<svg style="color: white" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-medium" viewBox="0 0 16 16"> <path d="M9.025 8c0 2.485-2.02 4.5-4.513 4.5A4.506 4.506 0 0 1 0 8c0-2.486 2.02-4.5 4.512-4.5A4.506 4.506 0 0 1 9.025 8zm4.95 0c0 2.34-1.01 4.236-2.256 4.236-1.246 0-2.256-1.897-2.256-4.236 0-2.34 1.01-4.236 2.256-4.236 1.246 0 2.256 1.897 2.256 4.236zM16 8c0 2.096-.355 3.795-.794 3.795-.438 0-.793-1.7-.793-3.795 0-2.096.355-3.795.794-3.795.438 0 .793 1.699.793 3.795z" fill="white"></path> </svg></img></a></li>
                                             </ul>
                                         </li>
                                     </ul>
@@ -93,6 +101,8 @@
                             <li><a href="https://discord.gg/astroxpofficial" target="_blank"><span class="fab fa-discord"></span></a>
                             </li>
                             <li><a href="https://t.me/AstroXP_Official" target="_blank"><span class="fab fa-telegram"></span></a>
+                            </li>
+                            <li><a href="#" target="_blank"><svg style="color: white" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-medium" viewBox="0 0 16 16"> <path d="M9.025 8c0 2.485-2.02 4.5-4.513 4.5A4.506 4.506 0 0 1 0 8c0-2.486 2.02-4.5 4.512-4.5A4.506 4.506 0 0 1 9.025 8zm4.95 0c0 2.34-1.01 4.236-2.256 4.236-1.246 0-2.256-1.897-2.256-4.236 0-2.34 1.01-4.236 2.256-4.236 1.246 0 2.256 1.897 2.256 4.236zM16 8c0 2.096-.355 3.795-.794 3.795-.438 0-.793-1.7-.793-3.795 0-2.096.355-3.795.794-3.795.438 0 .793 1.699.793 3.795z" fill="white"></path> </svg></a>
                             </li>
                         </ul>
                     </div>
@@ -348,22 +358,41 @@
                 </div>
             </section>
             <section class="features-section" id="community">
-                <div class="auto-container">
-                    <div class="sec-title centered" id="com">
-                        <img src="/images/background/divider_whole.png">
-                        <div class=" single-box" id="com">
-                            <h2>Join our Discord</h2>
-                            <div class="container-dsc">
-                                <div class="buttonz v10">
-                                    <a href="https://discord.gg/astroxpofficial" target="_blank">
-                                        <span class="label">Enter</span>
-                                    </a>
-                                    <span class="icon">
+                <div class="sec-title centered" id="com">
+                    <img src="/images/background/divider_whole.png">
+                    <div class="single-box" id="com">
+                        <h2>Join our Discord</h2>
+                        <div class="container-dsc">
+                            <div class="buttonz v10">
+                                <a href="https://discord.gg/astroxpofficial" target="_blank">
+                                    <span class="label">Enter</span>
+                                </a>
+                                <span class="icon">
                                         <span></span>
-                                    </span>
-                                </div>
+                                </span>
                             </div>
+                        </div>
+                    </div>
+                    <div class="single-box newsletter" id="newsletter">
+                        <div class="content" id="mc_embed_signup">
+                            <h3>The ASTRO XPerience</h3>
+                            <p>Be the first to receive news on airdrops, events, freebies, raffles, closed beta, and other exclusive stuff.</p>
+                            <form method="post" action="https://astroxp.us10.list-manage.com/subscribe/post?u=b95e7bfe3a71c9c66049504b8&amp;id=f2f269cf08" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                                <div id="mc_embed_signup_scroll">
+                                    <div class="mc-field-group">
+                                        <div class="inline">
+                                            <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Enter your e-mail">
+                                            <button class="theme-btn btn-style-one" type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe"><span class="btn-title">Register</span></button>
+                                        </div>
+                                    </div>
+                                    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_0d236738b116407a92a2be924_a5538b095c" tabindex="-1" value=""></div>
+                                </div>
+                            </form>
 
+                            <div id="mce-responses" class="clear foot inline">
+                                <div class="response" id="mce-error-response" style="display:none"></div>
+                                <div class="response" id="mce-success-response" style="display:none">test</div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -398,8 +427,8 @@
                                                 <div class="inner-column wow fadeInLeft" data-wow-delay="0ms">
                                                     <!-- Sec Title -->
                                                     <div class="sec-title-bld">
-                                                        <div class="title">Build With Us</div>
-                                                        <h2>Let's create the Metaverse together</h2>
+                                                        <!-- <div class="title">Build With Us</div> -->
+                                                        <h2>Let's build the Metaverse together</h2>
                                                     </div>
                                                 </div>
 
@@ -458,6 +487,7 @@
                                         class="fab fa-discord"></span></a></li>
                                     <li><a href="https://t.me/AstroXP_Official" target="_blank"><span
                                         class="fab fa-telegram"></span></a></li>
+                                    <li><a href="https://medium.com/@ASTRO_XP" target="_blank"><svg style="color: white" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-medium" viewBox="0 0 16 16"> <path d="M9.025 8c0 2.485-2.02 4.5-4.513 4.5A4.506 4.506 0 0 1 0 8c0-2.486 2.02-4.5 4.512-4.5A4.506 4.506 0 0 1 9.025 8zm4.95 0c0 2.34-1.01 4.236-2.256 4.236-1.246 0-2.256-1.897-2.256-4.236 0-2.34 1.01-4.236 2.256-4.236 1.246 0 2.256 1.897 2.256 4.236zM16 8c0 2.096-.355 3.795-.794 3.795-.438 0-.793-1.7-.793-3.795 0-2.096.355-3.795.794-3.795.438 0 .793 1.699.793 3.795z" fill="white"></path> </svg></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -469,19 +499,40 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js" integrity="sha512-uto9mlQzrs59VwILcLiRYeLKPPbS/bT71da/OEBYEwcdNUk8jYIy+D176RYoop1Da+f9mvkYrmj5MCLZWEtQuA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
         <script src="js/popper.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
-        <script src="js/owl.js"></script>
-        <script src="js/appear.js"></script>
+        <script src="js/owl.min.js"></script>
+        <script src="js/appear.min.js"></script>
         <script src="js/wow.js"></script>
         <script src="js/validate.js"></script>
         <script src="js/scrollbar.js"></script>
         <script src="js/slick.min.js"></script>
         <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js"></script>
-        <script src="js/rellax.js"></script>
-        <script src="js/parallax.js"></script>
-        <script src="js/script.js"></script>
-        <script src="js/game-modes.js"></script>
-        <script src="js/coreteam.js"></script>
+        <script src="js/rellax.min.js"></script>
+        <script src="js/parallax.min.js"></script>
+        <script src="js/script.min.js"></script>
+        <script src="js/game-modes.min.js"></script>
+        <script src="js/coreteam.min.js"></script>
         <script src="js/nav.js"></script>
+        <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+        <script type='text/javascript'>
+            (function($) {
+                window.fnames = new Array();
+                window.ftypes = new Array();
+                fnames[0] = 'EMAIL';
+                ftypes[0] = 'email';
+                fnames[1] = 'FNAME';
+                ftypes[1] = 'text';
+                fnames[2] = 'LNAME';
+                ftypes[2] = 'text';
+                fnames[3] = 'ADDRESS';
+                ftypes[3] = 'address';
+                fnames[4] = 'PHONE';
+                ftypes[4] = 'phone';
+                fnames[5] = 'BIRTHDAY';
+                ftypes[5] = 'birthday';
+            }(jQuery));
+            var $mcj = jQuery.noConflict(true);
+        </script>
+
 </body>
 
 </html>

@@ -1,8 +1,8 @@
 $(document).ready(function() {
-    $(".tmdrp").mouseenter(function() {
+    $(".exdrp").mouseenter(function() {
         this.className += ' active';
     });
-    $(".tmdrp").mouseleave(function() {
+    $(".exdrp").mouseleave(function() {
         this.className = this.className.replace(' active', '');
     });
 
@@ -13,10 +13,10 @@ $(document).ready(function() {
         this.className = this.className.replace(' active', '');
     });
 
-    $(".team-stk-drop").mouseenter(function() {
+    $(".ex-stk-drop").mouseenter(function() {
         this.className += ' active';
     });
-    $(".team-stk-drop").mouseleave(function() {
+    $(".ex-stk-drop").mouseleave(function() {
         this.className = this.className.replace(' active', '');
     });
 

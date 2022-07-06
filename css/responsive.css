@@ -55,7 +55,10 @@
 
 @media only screen and (max-width: 1307px) {
     .bg-parallax {
-        height: 7583px;
+        height: 2681px;
+        background-image: url(/images/background/LONG_BG3-min.jpg);
+        background-position-x: center;
+        position: fixed;
     }
     .auto-container.fl {
         top: 0px !important;
@@ -125,6 +128,37 @@
 @media only screen and (max-height: 1370px) {
     .holov-container {
         height: 75vh !important;
+    }
+    .auto-container.fl {
+        top: -455px;
+    }
+    .holov-image1 img {
+        width: 650px;
+        top: 0px;
+        left: 0px;
+    }
+    .holov-image2 img {
+        width: 650px;
+        top: 0px;
+        left: 0px;
+    }
+    .holov-image3 img {
+        width: 650px;
+        top: -80px;
+        left: 0px;
+        z-index: 2;
+    }
+    .holov-image4 img {
+        width: 650px;
+        top: -60px;
+        z-index: 2;
+        left: 0px;
+    }
+}
+
+@media only screen and (max-height: 1440px) {
+    .holov-container {
+        height: 52vh !important;
     }
     .auto-container.fl {
         top: -455px;
@@ -374,7 +408,7 @@
     }
     .main-footer .footer-bottom {
         text-align: center;
-        padding-top: 60px;
+        padding-top: 2px;
     }
     .main-footer .footer-bottom .column {
         width: 100%;
@@ -692,6 +726,11 @@
 }
 
 @media only screen and (min-width: 768px) {
+    .question-block .inner-box,
+    .main-footer .links-widget .widget-content,
+    .question-block-two .inner-box {
+        padding-left: 0;
+    }
     .holovs {
         padding-left: 20px;
         padding-right: 20px;
@@ -754,6 +793,19 @@
 }
 
 @media only screen and (max-width: 599px) {
+    .sec-title-bld h2,
+    .title {
+        text-align: center;
+        padding-left: 0px;
+    }
+    #newsletter div.content {
+        max-width: 434px;
+        background-image: url(/images/newsletter/content-bg.png);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        padding: 85px 20px 1px;
+    }
     #links-ft {
         display: none;
     }
@@ -791,7 +843,7 @@
         font-size: 16px;
     }
     .bg-parallax {
-        background-image: url(/images/background/LONG_BG3.jpg);
+        background-image: url(/images/background/LONG_BG3-min.jpg);
         background-position-x: center;
         position: fixed;
     }
