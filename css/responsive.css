@@ -156,6 +156,37 @@
     }
 }
 
+@media only screen and (max-height: 1440px) {
+    .holov-container {
+        height: 52vh !important;
+    }
+    .auto-container.fl {
+        top: -455px;
+    }
+    .holov-image1 img {
+        width: 650px;
+        top: 0px;
+        left: 0px;
+    }
+    .holov-image2 img {
+        width: 650px;
+        top: 0px;
+        left: 0px;
+    }
+    .holov-image3 img {
+        width: 650px;
+        top: -80px;
+        left: 0px;
+        z-index: 2;
+    }
+    .holov-image4 img {
+        width: 650px;
+        top: -60px;
+        z-index: 2;
+        left: 0px;
+    }
+}
+
 @media only screen and (max-height: 1200px) {
     .holov-container {
         height: 75vh !important;
@@ -765,6 +796,7 @@
     .sec-title-bld h2,
     .title {
         text-align: center;
+        padding-left: 0px;
     }
     #newsletter div.content {
         max-width: 434px;

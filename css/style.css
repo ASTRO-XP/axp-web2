@@ -281,8 +281,10 @@ figure {
     position: relative;
     display: block;
     z-index: 1;
+    font-family: 'Oxanium';
+    font-size: 12px;
     padding: 0px 12px;
-    background-color: #000000c2;
+    background-color: #26003c;
     transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
     -webkit-transition: all 0.3s ease;
@@ -1984,6 +1986,7 @@ img {
     font-size: 25px;
     line-height: 1.1em;
     font-family: 'Oxanium';
+    padding-left: 200px;
     color: rgb(255 255 255);
     text-align: right;
     font-weight: bold;
@@ -4141,9 +4144,13 @@ input.email {
 ***/
 
 #mc_embed_signup #mce-success-response {
-    color: #ffffff;
+    color: #6de2ff;
     display: none;
     text-shadow: -1px 1px #000000;
+    margin-top: 10px;
+    font-family: 'Oxanium';
+    font-weight: 600;
+    text-transform: uppercase;
     backdrop-filter: blur(1px);
 }
 
@@ -4182,6 +4189,7 @@ input.email {
 
 .mc-field-group .btn-style-one .btn-title {
     background: #180229;
+    font-size: 12px;
 }
 
 #mc_embed_signup form {
@@ -4195,14 +4203,15 @@ input.email {
     display: inline-block;
     margin: 5px 0 0;
     padding: 3px !important;
-    background-color: rgba(255, 255, 255, 0.85);
+    background-color: rgb(34, 14, 54);
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     border-radius: 3px;
     font-size: 14px;
-    font-weight: normal;
+    font-family: 'Oxanium';
+    font-weight: bold;
     z-index: 1;
-    color: #e85c41;
+    color: #ff0000;
 }
 
 .call-to-action-section {
@@ -4453,7 +4462,7 @@ input.email {
     height: 37px;
     font-size: 12px;
     padding: 0px 8px;
-    background: #1b1a1a;
+    background: #2d0046;
     color: #FFF;
     font-weight: 400;
     border: 1px solid rgba(255, 255, 255, 0);
