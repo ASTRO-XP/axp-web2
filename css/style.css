@@ -2741,8 +2741,10 @@ input.email {
 
 .default-portfolio-item .image-box {
     position: relative;
-    display: block;
+    display: flex;
     margin-bottom: 0px;
+    flex-direction: column;
+    align-items: center;
 }
 
 .default-portfolio-item .image-box img {
