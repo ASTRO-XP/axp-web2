@@ -2743,8 +2743,11 @@ input.email {
     position: relative;
     display: flex;
     margin-bottom: 0px;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
+    align-content: center;
+    flex-wrap: nowrap;
+    justify-content: center;
 }
 
 .default-portfolio-item .image-box img {
