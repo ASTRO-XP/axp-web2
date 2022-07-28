@@ -30,7 +30,9 @@ function isScrolledIntoView(elem) {
 $(window).scroll(function() {
     if (isScrolledIntoView('iframe')) {
         player.playVideo();
+        console.log("Play");
     } else {
         player.stopVideo();
+        console.log("Stop");
     }
 });

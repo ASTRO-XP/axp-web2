@@ -1606,6 +1606,11 @@ img {
     justify-content: space-between;
 }
 
+.features-section#features {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
 .features-section#eon-center .sec-title h3 {
     font-family: 'Expansiva';
     margin-top: 10px;
