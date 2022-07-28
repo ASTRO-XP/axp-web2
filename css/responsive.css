@@ -566,6 +566,10 @@
 }
 
 @media only screen and (max-width: 821px) {
+    .content h2,
+    .features-section p {
+        text-align: center;
+    }
     .holov-image1 img {
         top: 159px !important;
         left: -188px !important;
